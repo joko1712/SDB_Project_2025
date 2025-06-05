@@ -1,0 +1,119 @@
+HammerDB CLI v5.0
+Copyright © HammerDB Ltd hosted by tpc.org 2019-2025
+Type "help" for a list of commands
+Initialized Jobs on-disk database /tmp/hammer.DB using existing tables (3,387,392 bytes)
+
+📋 Running dict export for tpcc_vu5_wh5_mc100_bp256M_lb8
+
+
+🚀 Starting TPCC benchmark...
+Database set to MariaDB
+Value host.docker.internal for connection:maria_host is the same as existing value host.docker.internal, no change made
+Value 3306 for connection:maria_port is the same as existing value 3306, no change made
+Value root for tpcc:maria_user is the same as existing value root, no change made
+Value root for tpcc:maria_pass is the same as existing value root, no change made
+Value tpcc_vu5_wh5_mc100_bp256M_lb8 for tpcc:maria_dbase is the same as existing value tpcc_vu5_wh5_mc100_bp256M_lb8, no change made
+Changed tpcc:maria_count_ware from 10 to 5 for MariaDB
+Value timed for tpcc:maria_driver is the same as existing value timed, no change made
+Value 2 for tpcc:maria_rampup is the same as existing value 2, no change made
+Value 3 for tpcc:maria_duration is the same as existing value 3, no change made
+Value 10 for tpcc:maria_async_client is the same as existing value 10, no change made
+Script loaded, Type "print script" to view
+Vuser 1 created MONITOR - WAIT IDLE
+Vuser 2 created - WAIT IDLE
+Vuser 3 created - WAIT IDLE
+Vuser 4 created - WAIT IDLE
+Vuser 5 created - WAIT IDLE
+Vuser 6 created - WAIT IDLE
+6 Virtual Users Created with Monitor VU
+Vuser 1:RUNNING
+Vuser 1:Ssl_cipher 
+Vuser 1:DBVersion:10.11.13
+Vuser 1:Beginning rampup time of 2 minutes
+Vuser 2:RUNNING
+Vuser 2:Ssl_cipher 
+Vuser 2:Processing 10000000 transactions with output suppressed...
+Vuser 3:RUNNING
+Vuser 3:Ssl_cipher 
+Vuser 3:Processing 10000000 transactions with output suppressed...
+Vuser 4:RUNNING
+Vuser 4:Ssl_cipher 
+Vuser 4:Processing 10000000 transactions with output suppressed...
+Vuser 5:RUNNING
+Vuser 5:Ssl_cipher 
+Vuser 5:Processing 10000000 transactions with output suppressed...
+Vuser 6:RUNNING
+Vuser 6:Ssl_cipher 
+Vuser 6:Processing 10000000 transactions with output suppressed...
+Vuser 1:Rampup 1 minutes complete ...
+Vuser 1:Rampup 2 minutes complete ...
+Vuser 1:Rampup complete, Taking start Transaction Count.
+Vuser 1:Timing test period of 3 in minutes
+Vuser 1:1 ...,
+Vuser 1:2 ...,
+Vuser 1:3 ...,
+Vuser 1:Test complete, Taking end Transaction Count.
+Vuser 1:5 Active Virtual Users configured
+Vuser 1:TEST RESULT : System achieved 47991 NOPM from 111504 MariaDB TPM
+Vuser 1:FINISHED SUCCESS
+Vuser 2:FINISHED SUCCESS
+Vuser 3:FINISHED SUCCESS
+Vuser 4:FINISHED SUCCESS
+Vuser 6:FINISHED SUCCESS
+Vuser 5:FINISHED SUCCESS
+ALL VIRTUAL USERS COMPLETE
+[2Khammerdb>vudestroy success
+✅ Benchmark run complete.
+
+
+Usage: metset [agent_hostname|agent_id] value
+
+
+Starting Local Metrics Agent on hammerdb-ubuntu
+after#306
+
+CPU Metrics are not running on hammerdb-ubuntu
+
+
+Dictionary Settings for MariaDB
+connection {
+ maria_host               = host.docker.internal
+ maria_port               = 3306
+ maria_socket             = /tmp/mariadb.sock
+ maria_ssl                = false
+ maria_ssl_two_way        = false
+ maria_ssl_linux_capath   = /etc/mysql/certs
+ maria_ssl_windows_capath = C:\mysql\certs
+ maria_ssl_ca             = ca-cert.pem
+ maria_ssl_cert           = client-cert.pem
+ maria_ssl_key            = client-key.pem
+ maria_ssl_cipher         = server
+}
+tpcc       {
+ maria_count_ware       = 5
+ maria_num_vu           = 1
+ maria_user             = root
+ maria_pass             = root
+ maria_dbase            = tpcc_vu5_wh5_mc100_bp256M_lb8
+ maria_storage_engine   = innodb
+ maria_partition        = false
+ maria_prepared         = false
+ maria_no_stored_procs  = false
+ maria_history_pk       = false
+ maria_total_iterations = 10000000
+ maria_raiseerror       = false
+ maria_keyandthink      = false
+ maria_driver           = timed
+ maria_rampup           = 2
+ maria_duration         = 3
+ maria_allwarehouse     = false
+ maria_timeprofile      = false
+ maria_async_scale      = false
+ maria_async_client     = 10
+ maria_async_verbose    = false
+ maria_async_delay      = 1000
+ maria_connect_pool     = false
+ maria_purge            = false
+}
+
+

@@ -1,0 +1,82 @@
+HammerDB CLI v5.0
+Copyright © HammerDB Ltd hosted by tpc.org 2019-2025
+Type "help" for a list of commands
+Initialized Jobs on-disk database /tmp/hammer.DB using existing tables (1,581,056 bytes)
+📆 Creating TPCC schema for Oracle...
+Database set to Oracle
+Benchmark set to TPC-C for Oracle
+Dictionary "connection" for Oracle exists but key "ora_host" doesn't, key "ora_host" cannot be found in any Oracle dictionary
+Type "print dict" for valid dictionaries and keys for Oracle
+Dictionary "connection" for Oracle exists but key "ora_port" doesn't, key "ora_port" cannot be found in any Oracle dictionary
+Type "print dict" for valid dictionaries and keys for Oracle
+Dictionary "connection" for Oracle exists but key "ora_service_name" doesn't, key "ora_service_name" cannot be found in any Oracle dictionary
+Type "print dict" for valid dictionaries and keys for Oracle
+Dictionary "tpcc" for Oracle exists but key "ora_user" doesn't, key "ora_user" cannot be found in any Oracle dictionary
+Type "print dict" for valid dictionaries and keys for Oracle
+Dictionary "tpcc" for Oracle exists but key "ora_pass" doesn't, key "ora_pass" cannot be found in any Oracle dictionary
+Type "print dict" for valid dictionaries and keys for Oracle
+Dictionary "tpcc" for Oracle exists but key "ora_two_task" doesn't, key "ora_two_task" cannot be found in any Oracle dictionary
+Type "print dict" for valid dictionaries and keys for Oracle
+Dictionary "tpcc" for Oracle exists but key "ora_count_ware" doesn't, key "ora_count_ware" cannot be found in any Oracle dictionary
+Type "print dict" for valid dictionaries and keys for Oracle
+Dictionary "tpcc" for Oracle exists but key "ora_partition" doesn't, key "ora_partition" cannot be found in any Oracle dictionary
+Type "print dict" for valid dictionaries and keys for Oracle
+Dictionary "tpcc" for Oracle exists but key "ora_no_logon" doesn't, key "ora_no_logon" cannot be found in any Oracle dictionary
+Type "print dict" for valid dictionaries and keys for Oracle
+Dictionary "tpcc" for Oracle exists but key "ora_direct_load" doesn't, key "ora_direct_load" cannot be found in any Oracle dictionary
+Type "print dict" for valid dictionaries and keys for Oracle
+Dictionary "tpcc" for Oracle exists but key "ora_dba_user" doesn't, key "ora_dba_user" cannot be found in any Oracle dictionary
+Type "print dict" for valid dictionaries and keys for Oracle
+Dictionary "tpcc" for Oracle exists but key "ora_dba_pass" doesn't, key "ora_dba_pass" cannot be found in any Oracle dictionary
+Type "print dict" for valid dictionaries and keys for Oracle
+Dictionary "tpcc" for Oracle exists but key "ora_dba_sid" doesn't, key "ora_dba_sid" cannot be found in any Oracle dictionary
+Type "print dict" for valid dictionaries and keys for Oracle
+Dictionary "tpcc" for Oracle exists but key "ora_dba_conn_type" doesn't, key "ora_dba_conn_type" cannot be found in any Oracle dictionary
+Type "print dict" for valid dictionaries and keys for Oracle
+Dictionary "tpcc" for Oracle exists but key "ora_dba_os_auth" doesn't, key "ora_dba_os_auth" cannot be found in any Oracle dictionary
+Type "print dict" for valid dictionaries and keys for Oracle
+Dictionary "tpcc" for Oracle exists but key "ora_instance" doesn't, key "ora_instance" cannot be found in any Oracle dictionary
+Type "print dict" for valid dictionaries and keys for Oracle
+Dictionary "tpcc" for Oracle exists but key "ora_storage_tech" doesn't, key "ora_storage_tech" cannot be found in any Oracle dictionary
+Type "print dict" for valid dictionaries and keys for Oracle
+Script cleared
+Building 1 Warehouses(s) with 1 Virtual User
+Ready to create a 1 Warehouse Oracle TPROC-C schema
+in database ORACLE under user TPCC in tablespace USERS?
+Enter yes or no: replied yes
+Vuser 1 created - WAIT IDLE
+Vuser 1:RUNNING
+Error in Virtual User 1: Failed to load Oratcl - 
+Vuser 1:FINISHED FAILED
+ALL VIRTUAL USERS COMPLETE
+✅ Schema creation issued for Oracle. Check logs to confirm success.
+🚀 Starting TPCC benchmark...
+Database set to Oracle
+Dictionary "connection" for Oracle exists but key "ora_host" doesn't, key "ora_host" cannot be found in any Oracle dictionary
+Type "print dict" for valid dictionaries and keys for Oracle
+Dictionary "connection" for Oracle exists but key "ora_port" doesn't, key "ora_port" cannot be found in any Oracle dictionary
+Type "print dict" for valid dictionaries and keys for Oracle
+Dictionary "connection" for Oracle exists but key "ora_service_name" doesn't, key "ora_service_name" cannot be found in any Oracle dictionary
+Type "print dict" for valid dictionaries and keys for Oracle
+Dictionary "tpcc" for Oracle exists but key "ora_user" doesn't, key "ora_user" cannot be found in any Oracle dictionary
+Type "print dict" for valid dictionaries and keys for Oracle
+Dictionary "tpcc" for Oracle exists but key "ora_pass" doesn't, key "ora_pass" cannot be found in any Oracle dictionary
+Type "print dict" for valid dictionaries and keys for Oracle
+Dictionary "tpcc" for Oracle exists but key "ora_dbase" doesn't, key "ora_dbase" cannot be found in any Oracle dictionary
+Type "print dict" for valid dictionaries and keys for Oracle
+Dictionary "tpcc" for Oracle exists but key "ora_count_ware" doesn't, key "ora_count_ware" cannot be found in any Oracle dictionary
+Type "print dict" for valid dictionaries and keys for Oracle
+Value timed for tpcc:ora_driver is the same as existing value timed, no change made
+Dictionary "tpcc" for Oracle exists but key "ora_rampup" doesn't, key "ora_rampup" cannot be found in any Oracle dictionary
+Type "print dict" for valid dictionaries and keys for Oracle
+Dictionary "tpcc" for Oracle exists but key "ora_duration" doesn't, key "ora_duration" cannot be found in any Oracle dictionary
+Type "print dict" for valid dictionaries and keys for Oracle
+Dictionary "tpcc" for Oracle exists but key "ora_async_client" doesn't, key "ora_async_client" cannot be found in any Oracle dictionary
+Type "print dict" for valid dictionaries and keys for Oracle
+Error: Virtual Users exist, destroy with vudestroy before changing settings
+Script loaded, Type "print script" to view
+Error: Virtual Users exist, destroy with vudestroy before creating
+Vuser 1:RUNNING
+Error in Virtual User 1: Failed to load Oratcl - 
+Vuser 1:FINISHED FAILED
+ALL VIRTUAL USERS COMPLETE

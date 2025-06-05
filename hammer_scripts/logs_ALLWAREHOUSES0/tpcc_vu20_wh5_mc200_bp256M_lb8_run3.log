@@ -1,0 +1,339 @@
+HammerDB CLI v5.0
+Copyright © HammerDB Ltd hosted by tpc.org 2019-2025
+Type "help" for a list of commands
+Initialized Jobs on-disk database /tmp/hammer.DB using existing tables (4,296,704 bytes)
+
+🚀 Starting benchmark run 3 for tpcc_vu20_wh5_mc200_bp256M_lb8
+
+
+🚀 Starting TPCC benchmark...
+Database set to MariaDB
+Value host.docker.internal for connection:maria_host is the same as existing value host.docker.internal, no change made
+Value 3306 for connection:maria_port is the same as existing value 3306, no change made
+Value root for tpcc:maria_user is the same as existing value root, no change made
+Value root for tpcc:maria_pass is the same as existing value root, no change made
+Value tpcc_vu20_wh5_mc200_bp256M_lb8 for tpcc:maria_dbase is the same as existing value tpcc_vu20_wh5_mc200_bp256M_lb8, no change made
+Value 5 for tpcc:maria_count_ware is the same as existing value 5, no change made
+Value timed for tpcc:maria_driver is the same as existing value timed, no change made
+Value 2 for tpcc:maria_rampup is the same as existing value 2, no change made
+Value 3 for tpcc:maria_duration is the same as existing value 3, no change made
+Value 10 for tpcc:maria_async_client is the same as existing value 10, no change made
+Script loaded, Type "print script" to view
+Vuser 1 created MONITOR - WAIT IDLE
+Vuser 2 created - WAIT IDLE
+Vuser 3 created - WAIT IDLE
+Vuser 4 created - WAIT IDLE
+Vuser 5 created - WAIT IDLE
+Vuser 6 created - WAIT IDLE
+Vuser 7 created - WAIT IDLE
+Vuser 8 created - WAIT IDLE
+Vuser 9 created - WAIT IDLE
+Vuser 10 created - WAIT IDLE
+Vuser 11 created - WAIT IDLE
+Vuser 12 created - WAIT IDLE
+Vuser 13 created - WAIT IDLE
+Vuser 14 created - WAIT IDLE
+Vuser 15 created - WAIT IDLE
+Vuser 16 created - WAIT IDLE
+Vuser 17 created - WAIT IDLE
+Vuser 18 created - WAIT IDLE
+Vuser 19 created - WAIT IDLE
+Vuser 20 created - WAIT IDLE
+Vuser 21 created - WAIT IDLE
+21 Virtual Users Created with Monitor VU
+Vuser 1:RUNNING
+Vuser 1:Ssl_cipher 
+Vuser 1:DBVersion:10.11.13
+Vuser 1:Beginning rampup time of 2 minutes
+Vuser 2:RUNNING
+Vuser 2:Ssl_cipher 
+Vuser 2:Processing 10000000 transactions with output suppressed...
+Vuser 3:RUNNING
+Vuser 3:Ssl_cipher 
+Vuser 3:Processing 10000000 transactions with output suppressed...
+Vuser 4:RUNNING
+Vuser 4:Ssl_cipher 
+Vuser 4:Processing 10000000 transactions with output suppressed...
+Vuser 5:RUNNING
+Vuser 5:Ssl_cipher 
+Vuser 5:Processing 10000000 transactions with output suppressed...
+Vuser 6:RUNNING
+Vuser 6:Ssl_cipher 
+Vuser 6:Processing 10000000 transactions with output suppressed...
+Vuser 7:RUNNING
+Vuser 7:Ssl_cipher 
+Vuser 7:Processing 10000000 transactions with output suppressed...
+Vuser 8:RUNNING
+Vuser 8:Ssl_cipher 
+Vuser 8:Processing 10000000 transactions with output suppressed...
+Vuser 9:RUNNING
+Vuser 9:Ssl_cipher 
+Vuser 9:Processing 10000000 transactions with output suppressed...
+Vuser 10:RUNNING
+Vuser 10:Ssl_cipher 
+Vuser 10:Processing 10000000 transactions with output suppressed...
+Vuser 11:RUNNING
+Vuser 11:Ssl_cipher 
+Vuser 11:Processing 10000000 transactions with output suppressed...
+Vuser 12:RUNNING
+Vuser 12:Ssl_cipher 
+Vuser 12:Processing 10000000 transactions with output suppressed...
+Vuser 13:RUNNING
+Vuser 13:Ssl_cipher 
+Vuser 13:Processing 10000000 transactions with output suppressed...
+Vuser 14:RUNNING
+Vuser 14:Ssl_cipher 
+Vuser 14:Processing 10000000 transactions with output suppressed...
+Vuser 15:RUNNING
+Vuser 15:Ssl_cipher 
+Vuser 15:Processing 10000000 transactions with output suppressed...
+Vuser 16:RUNNING
+Vuser 16:Ssl_cipher 
+Vuser 16:Processing 10000000 transactions with output suppressed...
+Vuser 17:RUNNING
+Vuser 17:Ssl_cipher 
+Vuser 17:Processing 10000000 transactions with output suppressed...
+Vuser 18:RUNNING
+Vuser 18:Ssl_cipher 
+Vuser 18:Processing 10000000 transactions with output suppressed...
+Vuser 19:RUNNING
+Vuser 19:Ssl_cipher 
+Vuser 19:Processing 10000000 transactions with output suppressed...
+Vuser 20:RUNNING
+Vuser 20:Ssl_cipher 
+Vuser 20:Processing 10000000 transactions with output suppressed...
+Vuser 21:RUNNING
+Vuser 21:Ssl_cipher 
+Vuser 21:Processing 10000000 transactions with output suppressed...
+Vuser 1:Rampup 1 minutes complete ...
+Vuser 1:Rampup 2 minutes complete ...
+Vuser 1:Rampup complete, Taking start Transaction Count.
+Vuser 1:Timing test period of 3 in minutes
+Vuser 1:1 ...,
+Vuser 1:2 ...,
+Vuser 1:3 ...,
+Vuser 1:Test complete, Taking end Transaction Count.
+Vuser 1:20 Active Virtual Users configured
+Vuser 1:TEST RESULT : System achieved 58926 NOPM from 137019 MariaDB TPM
+Vuser 1:FINISHED SUCCESS
+Vuser 8:FINISHED SUCCESS
+Vuser 19:FINISHED SUCCESS
+Vuser 7:FINISHED SUCCESS
+Vuser 15:FINISHED SUCCESS
+Vuser 11:FINISHED SUCCESS
+Vuser 3:FINISHED SUCCESS
+Vuser 4:FINISHED SUCCESS
+Vuser 10:FINISHED SUCCESS
+Vuser 6:FINISHED SUCCESS
+Vuser 18:FINISHED SUCCESS
+Vuser 17:FINISHED SUCCESS
+Vuser 9:FINISHED SUCCESS
+Vuser 14:FINISHED SUCCESS
+Vuser 13:FINISHED SUCCESS
+Vuser 2:FINISHED SUCCESS
+Vuser 16:FINISHED SUCCESS
+Vuser 21:FINISHED SUCCESS
+Vuser 12:FINISHED SUCCESS
+Vuser 5:FINISHED SUCCESS
+Vuser 20:FINISHED SUCCESS
+ALL VIRTUAL USERS COMPLETE
+[2Khammerdb>vudestroy success
+✅ Benchmark run complete.
+
+
+CPU Metrics are not running on hammerdb-ubuntu
+
+
+Transaction Counter Started
+
+
+No Virtual Users found to destroy
+
+
+Vuser 1 created MONITOR - WAIT IDLE
+Vuser 2 created - WAIT IDLE
+Vuser 3 created - WAIT IDLE
+Vuser 4 created - WAIT IDLE
+Vuser 5 created - WAIT IDLE
+Vuser 6 created - WAIT IDLE
+Vuser 7 created - WAIT IDLE
+Vuser 8 created - WAIT IDLE
+Vuser 9 created - WAIT IDLE
+Vuser 10 created - WAIT IDLE
+Vuser 11 created - WAIT IDLE
+Vuser 12 created - WAIT IDLE
+Vuser 13 created - WAIT IDLE
+Vuser 14 created - WAIT IDLE
+Vuser 15 created - WAIT IDLE
+Vuser 16 created - WAIT IDLE
+Vuser 17 created - WAIT IDLE
+Vuser 18 created - WAIT IDLE
+Vuser 19 created - WAIT IDLE
+Vuser 20 created - WAIT IDLE
+Vuser 21 created - WAIT IDLE
+21 Virtual Users Created with Monitor VU
+
+
+1  = WAIT IDLE
+2  = WAIT IDLE
+3  = WAIT IDLE
+4  = WAIT IDLE
+5  = WAIT IDLE
+6  = WAIT IDLE
+7  = WAIT IDLE
+8  = WAIT IDLE
+9  = WAIT IDLE
+10 = WAIT IDLE
+11 = WAIT IDLE
+12 = WAIT IDLE
+13 = WAIT IDLE
+14 = WAIT IDLE
+15 = WAIT IDLE
+16 = WAIT IDLE
+17 = WAIT IDLE
+18 = WAIT IDLE
+19 = WAIT IDLE
+20 = WAIT IDLE
+21 = WAIT IDLE
+
+
+
+0 MariaDB tpm
+Vuser 1:RUNNING
+Vuser 1:Ssl_cipher 
+Vuser 1:DBVersion:10.11.13
+Vuser 1:Beginning rampup time of 2 minutes
+Vuser 2:RUNNING
+Vuser 2:Ssl_cipher 
+Vuser 2:Processing 10000000 transactions with output suppressed...
+Vuser 3:RUNNING
+Vuser 3:Ssl_cipher 
+Vuser 3:Processing 10000000 transactions with output suppressed...
+Vuser 4:RUNNING
+Vuser 4:Ssl_cipher 
+Vuser 4:Processing 10000000 transactions with output suppressed...
+Vuser 5:RUNNING
+Vuser 5:Ssl_cipher 
+Vuser 5:Processing 10000000 transactions with output suppressed...
+Vuser 6:RUNNING
+Vuser 6:Ssl_cipher 
+Vuser 6:Processing 10000000 transactions with output suppressed...
+Vuser 7:RUNNING
+Vuser 7:Ssl_cipher 
+Vuser 7:Processing 10000000 transactions with output suppressed...
+Vuser 8:RUNNING
+Vuser 8:Ssl_cipher 
+Vuser 8:Processing 10000000 transactions with output suppressed...
+Vuser 9:RUNNING
+Vuser 9:Ssl_cipher 
+Vuser 9:Processing 10000000 transactions with output suppressed...
+Vuser 10:RUNNING
+Vuser 10:Ssl_cipher 
+Vuser 10:Processing 10000000 transactions with output suppressed...
+Vuser 11:RUNNING
+Vuser 11:Ssl_cipher 
+Vuser 11:Processing 10000000 transactions with output suppressed...
+Vuser 12:RUNNING
+Vuser 12:Ssl_cipher 
+Vuser 12:Processing 10000000 transactions with output suppressed...
+Vuser 13:RUNNING
+Vuser 13:Ssl_cipher 
+Vuser 13:Processing 10000000 transactions with output suppressed...
+Vuser 14:RUNNING
+Vuser 14:Ssl_cipher 
+Vuser 14:Processing 10000000 transactions with output suppressed...
+Vuser 15:RUNNING
+Vuser 15:Ssl_cipher 
+Vuser 15:Processing 10000000 transactions with output suppressed...
+Vuser 16:RUNNING
+Vuser 16:Ssl_cipher 
+Vuser 16:Processing 10000000 transactions with output suppressed...
+Vuser 17:RUNNING
+Vuser 17:Ssl_cipher 
+Vuser 17:Processing 10000000 transactions with output suppressed...
+Vuser 18:RUNNING
+Vuser 18:Ssl_cipher 
+Vuser 18:Processing 10000000 transactions with output suppressed...
+Vuser 19:RUNNING
+Vuser 19:Ssl_cipher 
+Vuser 19:Processing 10000000 transactions with output suppressed...
+Vuser 20:RUNNING
+Vuser 20:Ssl_cipher 
+Vuser 20:Processing 10000000 transactions with output suppressed...
+114342 MariaDB tpm
+Vuser 21:RUNNING
+Vuser 21:Ssl_cipher 
+Vuser 21:Processing 10000000 transactions with output suppressed...
+136080 MariaDB tpm
+108870 MariaDB tpm
+111336 MariaDB tpm
+100530 MariaDB tpm
+95802 MariaDB tpm
+Vuser 1:Rampup 1 minutes complete ...
+115668 MariaDB tpm
+110034 MariaDB tpm
+97878 MariaDB tpm
+110604 MariaDB tpm
+113280 MariaDB tpm
+Vuser 1:Rampup 2 minutes complete ...
+Vuser 1:Rampup complete, Taking start Transaction Count.
+Vuser 1:Timing test period of 3 in minutes
+96186 MariaDB tpm
+98268 MariaDB tpm
+108378 MariaDB tpm
+99282 MariaDB tpm
+111180 MariaDB tpm
+98208 MariaDB tpm
+Vuser 1:1 ...,
+99054 MariaDB tpm
+104100 MariaDB tpm
+105330 MariaDB tpm
+120174 MariaDB tpm
+108090 MariaDB tpm
+94146 MariaDB tpm
+Vuser 1:2 ...,
+109980 MariaDB tpm
+94980 MariaDB tpm
+110076 MariaDB tpm
+107448 MariaDB tpm
+109554 MariaDB tpm
+100620 MariaDB tpm
+Vuser 1:3 ...,
+Vuser 1:Test complete, Taking end Transaction Count.
+Vuser 1:20 Active Virtual Users configured
+Vuser 1:TEST RESULT : System achieved 44849 NOPM from 104134 MariaDB TPM
+Vuser 1:FINISHED SUCCESS
+Vuser 21:FINISHED SUCCESS
+Vuser 16:FINISHED SUCCESS
+97416 MariaDB tpm
+Vuser 17:FINISHED SUCCESS
+Vuser 10:FINISHED SUCCESS
+Vuser 8:FINISHED SUCCESS
+Vuser 3:FINISHED SUCCESS
+Vuser 9:FINISHED SUCCESS
+Vuser 2:FINISHED SUCCESS
+Vuser 19:FINISHED SUCCESS
+Vuser 13:FINISHED SUCCESS
+Vuser 12:FINISHED SUCCESS
+Vuser 20:FINISHED SUCCESS
+Vuser 15:FINISHED SUCCESS
+Vuser 7:FINISHED SUCCESS
+Vuser 6:FINISHED SUCCESS
+Vuser 11:FINISHED SUCCESS
+Vuser 5:FINISHED SUCCESS
+Vuser 18:FINISHED SUCCESS
+Vuser 14:FINISHED SUCCESS
+Vuser 4:FINISHED SUCCESS
+ALL VIRTUAL USERS COMPLETE
+[2Khammerdb>Benchmark Run jobid=68402482BD1703E263939383
+
+Transaction Counter thread running with threadid:tid0x7fffaf7fe6c0
+
+
+Transaction Counter thread running with threadid:tid0x7fffaf7fe6c0
+Stopping Transaction Counter
+
+
+No Metrics Agent detected on id: localhost:10000
+
+

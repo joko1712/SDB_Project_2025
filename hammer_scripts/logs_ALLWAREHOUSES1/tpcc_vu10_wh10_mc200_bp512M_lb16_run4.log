@@ -1,0 +1,229 @@
+HammerDB CLI v5.0
+Copyright © HammerDB Ltd hosted by tpc.org 2019-2025
+Type "help" for a list of commands
+Initialized Jobs on-disk database /tmp/hammer.DB using existing tables (5,505,024 bytes)
+
+🚀 Starting benchmark run 4 for tpcc_vu10_wh10_mc200_bp512M_lb16
+
+
+🚀 Starting TPCC benchmark...
+Database set to MariaDB
+Value host.docker.internal for connection:maria_host is the same as existing value host.docker.internal, no change made
+Value 3306 for connection:maria_port is the same as existing value 3306, no change made
+Value root for tpcc:maria_user is the same as existing value root, no change made
+Value root for tpcc:maria_pass is the same as existing value root, no change made
+Value tpcc_vu10_wh10_mc200_bp512M_lb16 for tpcc:maria_dbase is the same as existing value tpcc_vu10_wh10_mc200_bp512M_lb16, no change made
+Value 10 for tpcc:maria_count_ware is the same as existing value 10, no change made
+Value timed for tpcc:maria_driver is the same as existing value timed, no change made
+Value 2 for tpcc:maria_rampup is the same as existing value 2, no change made
+Value 3 for tpcc:maria_duration is the same as existing value 3, no change made
+Value 10 for tpcc:maria_async_client is the same as existing value 10, no change made
+Script loaded, Type "print script" to view
+Vuser 1 created MONITOR - WAIT IDLE
+Vuser 2 created - WAIT IDLE
+Vuser 3 created - WAIT IDLE
+Vuser 4 created - WAIT IDLE
+Vuser 5 created - WAIT IDLE
+Vuser 6 created - WAIT IDLE
+Vuser 7 created - WAIT IDLE
+Vuser 8 created - WAIT IDLE
+Vuser 9 created - WAIT IDLE
+Vuser 10 created - WAIT IDLE
+Vuser 11 created - WAIT IDLE
+11 Virtual Users Created with Monitor VU
+Vuser 1:RUNNING
+Vuser 1:Ssl_cipher 
+Vuser 1:DBVersion:10.11.13
+Vuser 1:Beginning rampup time of 2 minutes
+Vuser 2:RUNNING
+Vuser 2:Ssl_cipher 
+Vuser 2:Processing 10000000 transactions with output suppressed...
+Vuser 3:RUNNING
+Vuser 3:Ssl_cipher 
+Vuser 3:Processing 10000000 transactions with output suppressed...
+Vuser 4:RUNNING
+Vuser 4:Ssl_cipher 
+Vuser 4:Processing 10000000 transactions with output suppressed...
+Vuser 5:RUNNING
+Vuser 5:Ssl_cipher 
+Vuser 5:Processing 10000000 transactions with output suppressed...
+Vuser 6:RUNNING
+Vuser 6:Ssl_cipher 
+Vuser 6:Processing 10000000 transactions with output suppressed...
+Vuser 7:RUNNING
+Vuser 7:Ssl_cipher 
+Vuser 7:Processing 10000000 transactions with output suppressed...
+Vuser 8:RUNNING
+Vuser 8:Ssl_cipher 
+Vuser 8:Processing 10000000 transactions with output suppressed...
+Vuser 9:RUNNING
+Vuser 9:Ssl_cipher 
+Vuser 9:Processing 10000000 transactions with output suppressed...
+Vuser 10:RUNNING
+Vuser 10:Ssl_cipher 
+Vuser 10:Processing 10000000 transactions with output suppressed...
+Vuser 11:RUNNING
+Vuser 11:Ssl_cipher 
+Vuser 11:Processing 10000000 transactions with output suppressed...
+Vuser 1:Rampup 1 minutes complete ...
+Vuser 1:Rampup 2 minutes complete ...
+Vuser 1:Rampup complete, Taking start Transaction Count.
+Vuser 1:Timing test period of 3 in minutes
+Vuser 1:1 ...,
+Vuser 1:2 ...,
+Vuser 1:3 ...,
+Vuser 1:Test complete, Taking end Transaction Count.
+Vuser 1:10 Active Virtual Users configured
+Vuser 1:TEST RESULT : System achieved 52001 NOPM from 120659 MariaDB TPM
+Vuser 1:FINISHED SUCCESS
+Vuser 3:FINISHED SUCCESS
+Vuser 8:FINISHED SUCCESS
+Vuser 2:FINISHED SUCCESS
+Vuser 11:FINISHED SUCCESS
+Vuser 6:FINISHED SUCCESS
+Vuser 9:FINISHED SUCCESS
+Vuser 4:FINISHED SUCCESS
+Vuser 7:FINISHED SUCCESS
+Vuser 10:FINISHED SUCCESS
+Vuser 5:FINISHED SUCCESS
+ALL VIRTUAL USERS COMPLETE
+[2Khammerdb>vudestroy success
+✅ Benchmark run complete.
+
+
+CPU Metrics are not running on hammerdb-ubuntu
+
+
+Transaction Counter Started
+
+
+No Virtual Users found to destroy
+
+
+Vuser 1 created MONITOR - WAIT IDLE
+Vuser 2 created - WAIT IDLE
+Vuser 3 created - WAIT IDLE
+Vuser 4 created - WAIT IDLE
+Vuser 5 created - WAIT IDLE
+Vuser 6 created - WAIT IDLE
+Vuser 7 created - WAIT IDLE
+Vuser 8 created - WAIT IDLE
+Vuser 9 created - WAIT IDLE
+Vuser 10 created - WAIT IDLE
+Vuser 11 created - WAIT IDLE
+11 Virtual Users Created with Monitor VU
+
+
+1  = WAIT IDLE
+2  = WAIT IDLE
+3  = WAIT IDLE
+4  = WAIT IDLE
+5  = WAIT IDLE
+6  = WAIT IDLE
+7  = WAIT IDLE
+8  = WAIT IDLE
+9  = WAIT IDLE
+10 = WAIT IDLE
+11 = WAIT IDLE
+
+
+
+0 MariaDB tpm
+Vuser 1:RUNNING
+Vuser 1:Ssl_cipher 
+Vuser 1:DBVersion:10.11.13
+Vuser 1:Beginning rampup time of 2 minutes
+Vuser 2:RUNNING
+Vuser 2:Ssl_cipher 
+Vuser 2:Processing 10000000 transactions with output suppressed...
+Vuser 3:RUNNING
+Vuser 3:Ssl_cipher 
+Vuser 3:Processing 10000000 transactions with output suppressed...
+Vuser 4:RUNNING
+Vuser 4:Ssl_cipher 
+Vuser 4:Processing 10000000 transactions with output suppressed...
+Vuser 5:RUNNING
+Vuser 5:Ssl_cipher 
+Vuser 5:Processing 10000000 transactions with output suppressed...
+Vuser 6:RUNNING
+Vuser 6:Ssl_cipher 
+Vuser 6:Processing 10000000 transactions with output suppressed...
+Vuser 7:RUNNING
+Vuser 7:Ssl_cipher 
+Vuser 7:Processing 10000000 transactions with output suppressed...
+Vuser 8:RUNNING
+Vuser 8:Ssl_cipher 
+Vuser 8:Processing 10000000 transactions with output suppressed...
+Vuser 9:RUNNING
+Vuser 9:Ssl_cipher 
+Vuser 9:Processing 10000000 transactions with output suppressed...
+Vuser 10:RUNNING
+Vuser 10:Ssl_cipher 
+Vuser 10:Processing 10000000 transactions with output suppressed...
+Vuser 11:RUNNING
+Vuser 11:Ssl_cipher 
+Vuser 11:Processing 10000000 transactions with output suppressed...
+94248 MariaDB tpm
+122028 MariaDB tpm
+110616 MariaDB tpm
+95184 MariaDB tpm
+97008 MariaDB tpm
+Vuser 1:Rampup 1 minutes complete ...
+92172 MariaDB tpm
+95586 MariaDB tpm
+98994 MariaDB tpm
+88206 MariaDB tpm
+92700 MariaDB tpm
+95094 MariaDB tpm
+Vuser 1:Rampup 2 minutes complete ...
+Vuser 1:Rampup complete, Taking start Transaction Count.
+Vuser 1:Timing test period of 3 in minutes
+95148 MariaDB tpm
+95430 MariaDB tpm
+98580 MariaDB tpm
+91284 MariaDB tpm
+92166 MariaDB tpm
+93612 MariaDB tpm
+Vuser 1:1 ...,
+91908 MariaDB tpm
+94764 MariaDB tpm
+97008 MariaDB tpm
+94746 MariaDB tpm
+94278 MariaDB tpm
+90378 MariaDB tpm
+Vuser 1:2 ...,
+98316 MariaDB tpm
+96750 MariaDB tpm
+99486 MariaDB tpm
+94206 MariaDB tpm
+92304 MariaDB tpm
+96576 MariaDB tpm
+Vuser 1:3 ...,
+Vuser 1:Test complete, Taking end Transaction Count.
+Vuser 1:10 Active Virtual Users configured
+Vuser 1:TEST RESULT : System achieved 40545 NOPM from 94660 MariaDB TPM
+Vuser 1:FINISHED SUCCESS
+Vuser 9:FINISHED SUCCESS
+Vuser 4:FINISHED SUCCESS
+94134 MariaDB tpm
+Vuser 11:FINISHED SUCCESS
+Vuser 10:FINISHED SUCCESS
+Vuser 8:FINISHED SUCCESS
+Vuser 5:FINISHED SUCCESS
+Vuser 7:FINISHED SUCCESS
+Vuser 2:FINISHED SUCCESS
+Vuser 6:FINISHED SUCCESS
+Vuser 3:FINISHED SUCCESS
+ALL VIRTUAL USERS COMPLETE
+[2Khammerdb>Benchmark Run jobid=68406E21207203E273231373
+
+Transaction Counter thread running with threadid:tid0x7fffeffff6c0
+
+
+Transaction Counter thread running with threadid:tid0x7fffeffff6c0
+Stopping Transaction Counter
+
+
+No Metrics Agent detected on id: localhost:10000
+
+

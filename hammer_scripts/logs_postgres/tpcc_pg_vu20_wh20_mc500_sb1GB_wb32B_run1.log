@@ -1,0 +1,167 @@
+HammerDB CLI v5.0
+Copyright © HammerDB Ltd hosted by tpc.org 2019-2025
+Type "help" for a list of commands
+Initialized Jobs on-disk database /tmp/hammer.DB using existing tables (1,818,624 bytes)
+🚀 Starting TPCC benchmark for PostgreSQL...
+Database set to PostgreSQL
+Benchmark set to TPC-C for PostgreSQL
+Value host.docker.internal for connection:pg_host is the same as existing value host.docker.internal, no change made
+Value 5432 for connection:pg_port is the same as existing value 5432, no change made
+Value postgres for tpcc:pg_user is the same as existing value postgres, no change made
+Value root for tpcc:pg_pass is the same as existing value root, no change made
+Value tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B for tpcc:pg_dbase is the same as existing value tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B, no change made
+Value timed for tpcc:pg_driver is the same as existing value timed, no change made
+Changed tpcc:pg_count_ware from 10 to 20 for PostgreSQL
+Value 2 for tpcc:pg_rampup is the same as existing value 2, no change made
+Value 3 for tpcc:pg_duration is the same as existing value 3, no change made
+Changed tpcc:pg_async_client from 10 to 20 for PostgreSQL
+Script loaded, Type "print script" to view
+Vuser 1 created MONITOR - WAIT IDLE
+Vuser 2 created - WAIT IDLE
+Vuser 3 created - WAIT IDLE
+Vuser 4 created - WAIT IDLE
+Vuser 5 created - WAIT IDLE
+Vuser 6 created - WAIT IDLE
+Vuser 7 created - WAIT IDLE
+Vuser 8 created - WAIT IDLE
+Vuser 9 created - WAIT IDLE
+Vuser 10 created - WAIT IDLE
+Vuser 11 created - WAIT IDLE
+Vuser 12 created - WAIT IDLE
+Vuser 13 created - WAIT IDLE
+Vuser 14 created - WAIT IDLE
+Vuser 15 created - WAIT IDLE
+Vuser 16 created - WAIT IDLE
+Vuser 17 created - WAIT IDLE
+Vuser 18 created - WAIT IDLE
+Vuser 19 created - WAIT IDLE
+Vuser 20 created - WAIT IDLE
+Vuser 21 created - WAIT IDLE
+21 Virtual Users Created with Monitor VU
+Vuser 1:RUNNING
+Vuser 1:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: database tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B does not exist
+Error in Virtual User 1: Connection to database failed
+connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  database "tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B" does not exist
+
+Vuser 1:FINISHED FAILED
+Vuser 2:RUNNING
+Vuser 2:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: database tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B does not exist
+Error in Virtual User 2: Connection to database failed
+connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  database "tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B" does not exist
+
+Vuser 2:FINISHED FAILED
+Vuser 3:RUNNING
+Vuser 3:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: database tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B does not exist
+Error in Virtual User 3: Connection to database failed
+connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  database "tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B" does not exist
+
+Vuser 3:FINISHED FAILED
+Vuser 4:RUNNING
+Vuser 4:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: database tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B does not exist
+Error in Virtual User 4: Connection to database failed
+connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  database "tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B" does not exist
+
+Vuser 4:FINISHED FAILED
+Vuser 5:RUNNING
+Vuser 5:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: database tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B does not exist
+Error in Virtual User 5: Connection to database failed
+connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  database "tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B" does not exist
+
+Vuser 5:FINISHED FAILED
+Vuser 6:RUNNING
+Vuser 6:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: database tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B does not exist
+Error in Virtual User 6: Connection to database failed
+connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  database "tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B" does not exist
+
+Vuser 6:FINISHED FAILED
+Vuser 7:RUNNING
+Vuser 7:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: database tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B does not exist
+Error in Virtual User 7: Connection to database failed
+connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  database "tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B" does not exist
+
+Vuser 7:FINISHED FAILED
+Vuser 8:RUNNING
+Vuser 8:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: database tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B does not exist
+Error in Virtual User 8: Connection to database failed
+connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  database "tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B" does not exist
+
+Vuser 8:FINISHED FAILED
+Vuser 9:RUNNING
+Vuser 9:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: database tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B does not exist
+Error in Virtual User 9: Connection to database failed
+connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  database "tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B" does not exist
+
+Vuser 9:FINISHED FAILED
+Vuser 10:RUNNING
+Vuser 10:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: database tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B does not exist
+Error in Virtual User 10: Connection to database failed
+connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  database "tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B" does not exist
+
+Vuser 10:FINISHED FAILED
+Vuser 11:RUNNING
+Vuser 11:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: database tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B does not exist
+Error in Virtual User 11: Connection to database failed
+connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  database "tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B" does not exist
+
+Vuser 11:FINISHED FAILED
+Vuser 12:RUNNING
+Vuser 12:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: database tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B does not exist
+Error in Virtual User 12: Connection to database failed
+connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  database "tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B" does not exist
+
+Vuser 12:FINISHED FAILED
+Vuser 13:RUNNING
+Vuser 13:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: database tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B does not exist
+Error in Virtual User 13: Connection to database failed
+connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  database "tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B" does not exist
+
+Vuser 13:FINISHED FAILED
+Vuser 14:RUNNING
+Vuser 14:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: database tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B does not exist
+Error in Virtual User 14: Connection to database failed
+connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  database "tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B" does not exist
+
+Vuser 14:FINISHED FAILED
+Vuser 15:RUNNING
+Vuser 15:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: database tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B does not exist
+Error in Virtual User 15: Connection to database failed
+connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  database "tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B" does not exist
+
+Vuser 15:FINISHED FAILED
+Vuser 16:RUNNING
+Vuser 16:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: database tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B does not exist
+Error in Virtual User 16: Connection to database failed
+connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  database "tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B" does not exist
+
+Vuser 16:FINISHED FAILED
+Vuser 17:RUNNING
+Vuser 17:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: database tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B does not exist
+Error in Virtual User 17: Connection to database failed
+connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  database "tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B" does not exist
+
+Vuser 17:FINISHED FAILED
+Vuser 18:RUNNING
+Vuser 18:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: database tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B does not exist
+Error in Virtual User 18: Connection to database failed
+connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  database "tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B" does not exist
+
+Vuser 18:FINISHED FAILED
+Vuser 19:RUNNING
+Vuser 19:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: database tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B does not exist
+Error in Virtual User 19: Connection to database failed
+connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  database "tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B" does not exist
+
+Vuser 19:FINISHED FAILED
+Vuser 20:RUNNING
+Vuser 20:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: database tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B does not exist
+Error in Virtual User 20: Connection to database failed
+connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  database "tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B" does not exist
+
+Vuser 20:FINISHED FAILED
+Vuser 21:RUNNING
+Vuser 21:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: database tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B does not exist
+Error in Virtual User 21: Connection to database failed
+connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  database "tpcc_pg_vu20_wh20_mc500_sb1GB_wb32B" does not exist
+
+Vuser 21:FINISHED FAILED
+ALL VIRTUAL USERS COMPLETE
