@@ -1,0 +1,109 @@
+import os
+import re
+import csv
+
+test_case_map = {
+    (5, 5, 100, '256M', '8M'): (1, 'Small'),
+    (10, 10, 200, '512M', '16M'): (2, 'Medium'),
+    (20, 20, 500, '1G', '32M'): (3, 'Large'),
+    (50, 20, 500, '2G', '64M'): (4, 'Max CPU'),
+    (20, 5, 200, '256M', '8M'): (5, 'I/O Test'),
+    (10, 10, 200, '2G', '64M'): (6, 'Memory'),
+    (5, 20, 100, '128M', '8M'): (7, 'Latency'),
+    (100, 50, 1000, '4G', '128M'): (8, 'Stress'),
+}
+
+def parse_test_case_id(filename):
+    basename = os.path.splitext(filename)[0]
+    match = re.search(r'.*vu(\d+)_wh(\d+)_mc(\d+)_bp([0-9]+[MGmg])_lb([0-9]+)([MGmg]?)', basename)
+    if match:
+        vu = int(match.group(1))
+        wh = int(match.group(2))
+        mc = int(match.group(3))
+        bp = match.group(4).upper()
+        lb_value = match.group(5)
+        lb_unit = match.group(6).upper() or 'M'
+        lb = f"{lb_value}{lb_unit}"
+
+        key = (vu, wh, mc, bp, lb)
+        if key not in test_case_map:
+            print(f"No match for key: {key}")
+        return test_case_map.get(key, (None, None))
+    return (None, None)
+
+
+def clean_dict_file(file_path):
+    with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
+        lines = f.readlines()
+
+    for i, line in enumerate(lines):
+        if line.strip().startswith('Dictionary Settings for '):
+            cleaned_lines = lines[i:]
+            break
+    else:
+        print(f"No 'Dictionary Settings found in: {file_path}")
+        return
+
+    with open(file_path, 'w', encoding='utf-8') as f:
+        f.writelines(cleaned_lines)
+
+    print(f"✅ Cleaned: {file_path}")
+
+
+def extract_all_logs_to_csv(folder_path):
+    log_files = [f for f in os.listdir(folder_path) if f.endswith('.log')]
+    summary_rows = []
+
+    for filename in os.listdir(folder_path):
+        if filename.endswith('_dict.txt'):
+            clean_dict_file(os.path.join(folder_path, filename))
+
+    for log_file in log_files:
+        log_path = os.path.join(folder_path, log_file)
+        csv_path = os.path.splitext(log_path)[0] + '.csv'
+
+        tpm_values = []
+        final_tpm = None
+        final_nopm = None
+
+        with open(log_path, 'r', encoding='utf-8', errors='ignore') as f:
+            for line in f:
+                tpm_match = re.search(r'(\d+)\s+MariaDB tpm', line)
+                if tpm_match:
+                    tpm_values.append(int(tpm_match.group(1)))
+
+                final_match = re.search(
+                    r'TEST RESULT\s*:\s*System achieved\s+(\d+)\s+NOPM\s+from\s+(\d+)\s+MariaDB TPM',
+                    line)
+                if final_match:
+                    final_nopm = int(final_match.group(1))
+                    final_tpm = int(final_match.group(2))
+
+        test_id, test_name = parse_test_case_id(log_file)
+        if test_id is None:
+            print(f"Could not detect test case for: {log_file}")
+
+        with open(csv_path, 'w', newline='') as csvfile:
+            writer = csv.writer(csvfile)
+            writer.writerow(['timestep', 'tpm', 'final_tpm', 'final_nopm'])
+            for i, tpm in enumerate(tpm_values):
+                writer.writerow([i + 1, tpm, final_tpm, final_nopm])
+
+        summary_rows.append([
+            log_file,
+            test_id,
+            test_name,
+            final_tpm,
+            final_nopm,
+            len(tpm_values),
+            str(tpm_values)
+        ])
+        print(f"Extracted {len(tpm_values)} TPM from {log_file} (Test {test_id}: {test_name})")
+
+    summary_path = os.path.join(folder_path, "summary.csv")
+    with open(summary_path, 'w', newline='') as summary_file:
+        writer = csv.writer(summary_file)
+        writer.writerow(['filename', 'test_id', 'test_name', 'final_tpm', 'final_nopm', 'num_timesteps', 'tpm_values'])
+        writer.writerows(summary_rows)
+
+    print(f"\nSummary written to: {summary_path}")
