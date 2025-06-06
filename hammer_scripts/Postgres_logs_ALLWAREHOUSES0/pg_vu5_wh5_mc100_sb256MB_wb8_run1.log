@@ -1,0 +1,163 @@
+HammerDB CLI v5.0
+Copyright © HammerDB Ltd hosted by tpc.org 2019-2025
+Type "help" for a list of commands
+Initialized Jobs on-disk database /tmp/hammer.DB using existing tables (9,302,016 bytes)
+
+🚀 Starting benchmark run 1 for pg_vu5_wh5_mc100_sb256MB_wb8
+
+
+🚀 Running TPCC benchmark for PostgreSQL...
+Database set to PostgreSQL
+Benchmark set to TPC-C for PostgreSQL
+Value host.docker.internal for connection:pg_host is the same as existing value host.docker.internal, no change made
+Value 5432 for connection:pg_port is the same as existing value 5432, no change made
+Value tpcc for tpcc:pg_user is the same as existing value tpcc, no change made
+Value root for tpcc:pg_pass is the same as existing value root, no change made
+Value tpcc for tpcc:pg_dbase is the same as existing value tpcc, no change made
+Value 5 for tpcc:pg_count_ware is the same as existing value 5, no change made
+Value timed for tpcc:pg_driver is the same as existing value timed, no change made
+Value 2 for tpcc:pg_rampup is the same as existing value 2, no change made
+Value 3 for tpcc:pg_duration is the same as existing value 3, no change made
+Value 10 for tpcc:pg_async_client is the same as existing value 10, no change made
+Script loaded, Type "print script" to view
+Vuser 1 created MONITOR - WAIT IDLE
+Vuser 2 created - WAIT IDLE
+Vuser 3 created - WAIT IDLE
+Vuser 4 created - WAIT IDLE
+Vuser 5 created - WAIT IDLE
+Vuser 6 created - WAIT IDLE
+6 Virtual Users Created with Monitor VU
+Vuser 1:RUNNING
+Vuser 1:DBVersion:16.9 (Debian 16.9-1.pgdg120+1)
+Vuser 1:Beginning rampup time of 2 minutes
+Vuser 2:RUNNING
+Vuser 2:Processing 10000000 transactions with output suppressed...
+Vuser 3:RUNNING
+Vuser 3:Processing 10000000 transactions with output suppressed...
+Vuser 4:RUNNING
+Vuser 4:Processing 10000000 transactions with output suppressed...
+Vuser 5:RUNNING
+Vuser 5:Processing 10000000 transactions with output suppressed...
+Vuser 6:RUNNING
+Vuser 6:Processing 10000000 transactions with output suppressed...
+Vuser 1:Rampup 1 minutes complete ...
+Vuser 1:Rampup 2 minutes complete ...
+Vuser 1:Rampup complete, Taking start Transaction Count.
+Vuser 1:Timing test period of 3 in minutes
+Vuser 1:1 ...,
+Vuser 1:2 ...,
+Vuser 1:3 ...,
+Vuser 1:Test complete, Taking end Transaction Count.
+Vuser 1:5 Active Virtual Users configured
+Vuser 1:TEST RESULT : System achieved 88756 NOPM from 203799 PostgreSQL TPM
+Vuser 1:FINISHED SUCCESS
+Vuser 2:FINISHED SUCCESS
+Vuser 6:FINISHED SUCCESS
+Vuser 3:FINISHED SUCCESS
+Vuser 4:FINISHED SUCCESS
+Vuser 5:FINISHED SUCCESS
+ALL VIRTUAL USERS COMPLETE
+[2Khammerdb>vudestroy success
+✅ PostgreSQL benchmark run complete.
+
+
+CPU Metrics are not running on hammerdb-ubuntu
+
+
+Transaction Counter Started
+
+
+No Virtual Users found to destroy
+
+
+Vuser 1 created MONITOR - WAIT IDLE
+Vuser 2 created - WAIT IDLE
+Vuser 3 created - WAIT IDLE
+Vuser 4 created - WAIT IDLE
+Vuser 5 created - WAIT IDLE
+Vuser 6 created - WAIT IDLE
+6 Virtual Users Created with Monitor VU
+
+
+1 = WAIT IDLE
+2 = WAIT IDLE
+3 = WAIT IDLE
+4 = WAIT IDLE
+5 = WAIT IDLE
+6 = WAIT IDLE
+
+
+
+0 PostgreSQL tpm
+Vuser 1:RUNNING
+Vuser 1:DBVersion:16.9 (Debian 16.9-1.pgdg120+1)
+Vuser 1:Beginning rampup time of 2 minutes
+Vuser 2:RUNNING
+Vuser 2:Processing 10000000 transactions with output suppressed...
+Vuser 3:RUNNING
+Vuser 3:Processing 10000000 transactions with output suppressed...
+Vuser 4:RUNNING
+Vuser 4:Processing 10000000 transactions with output suppressed...
+Vuser 5:RUNNING
+Vuser 5:Processing 10000000 transactions with output suppressed...
+Vuser 6:RUNNING
+Vuser 6:Processing 10000000 transactions with output suppressed...
+148950 PostgreSQL tpm
+193260 PostgreSQL tpm
+177672 PostgreSQL tpm
+194274 PostgreSQL tpm
+188766 PostgreSQL tpm
+Vuser 1:Rampup 1 minutes complete ...
+156030 PostgreSQL tpm
+188430 PostgreSQL tpm
+174276 PostgreSQL tpm
+168642 PostgreSQL tpm
+188490 PostgreSQL tpm
+176856 PostgreSQL tpm
+Vuser 1:Rampup 2 minutes complete ...
+Vuser 1:Rampup complete, Taking start Transaction Count.
+Vuser 1:Timing test period of 3 in minutes
+152016 PostgreSQL tpm
+179706 PostgreSQL tpm
+166602 PostgreSQL tpm
+185208 PostgreSQL tpm
+201654 PostgreSQL tpm
+204888 PostgreSQL tpm
+Vuser 1:1 ...,
+159180 PostgreSQL tpm
+100326 PostgreSQL tpm
+112368 PostgreSQL tpm
+104292 PostgreSQL tpm
+121920 PostgreSQL tpm
+191052 PostgreSQL tpm
+Vuser 1:2 ...,
+186264 PostgreSQL tpm
+192774 PostgreSQL tpm
+187614 PostgreSQL tpm
+184548 PostgreSQL tpm
+174798 PostgreSQL tpm
+179184 PostgreSQL tpm
+Vuser 1:3 ...,
+Vuser 1:Test complete, Taking end Transaction Count.
+Vuser 1:5 Active Virtual Users configured
+Vuser 1:TEST RESULT : System achieved 72398 NOPM from 166824 PostgreSQL TPM
+Vuser 3:FINISHED SUCCESS
+Vuser 1:FINISHED SUCCESS
+Vuser 5:FINISHED SUCCESS
+166974 PostgreSQL tpm
+Vuser 2:FINISHED SUCCESS
+Vuser 6:FINISHED SUCCESS
+Vuser 4:FINISHED SUCCESS
+ALL VIRTUAL USERS COMPLETE
+[2Khammerdb>Benchmark Run jobid=6841E904B5D503E273930383
+
+Transaction Counter thread running with threadid:tid0x7fffeffff6c0
+
+
+Transaction Counter thread running with threadid:tid0x7fffeffff6c0
+Stopping Transaction Counter
+
+
+No Metrics Agent detected on id: localhost:10000
+
+
