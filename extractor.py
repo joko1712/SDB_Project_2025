@@ -15,20 +15,35 @@ test_case_map = {
 
 def parse_test_case_id(filename):
     basename = os.path.splitext(filename)[0]
-    match = re.search(r'.*vu(\d+)_wh(\d+)_mc(\d+)_bp([0-9]+[MGmg])_lb([0-9]+)([MGmg]?)', basename)
-    if match:
-        vu = int(match.group(1))
-        wh = int(match.group(2))
-        mc = int(match.group(3))
-        bp = match.group(4).upper()
-        lb_value = match.group(5)
-        lb_unit = match.group(6).upper() or 'M'
-        lb = f"{lb_value}{lb_unit}"
 
+    maria_match = re.search(r'vu(\d+)_wh(\d+)_mc(\d+)_bp([0-9]+[MGmg])_lb([0-9]+)([MGmg]?)', basename)
+    if maria_match:
+        vu = int(maria_match.group(1))
+        wh = int(maria_match.group(2))
+        mc = int(maria_match.group(3))
+        bp = maria_match.group(4).upper()
+        lb = f"{maria_match.group(5)}{(maria_match.group(6) or 'M').upper()}"
         key = (vu, wh, mc, bp, lb)
         if key not in test_case_map:
-            print(f"No match for key: {key}")
+            print(f"⚠️ No match for MariaDB key: {key}")
         return test_case_map.get(key, (None, None))
+
+    pg_match = re.search(r'vu(\d+)_wh(\d+)_mc(\d+)_sb([0-9]+)([MGmg][Bb]?)_wb([0-9]+)([MGmg]?)', basename)
+    if pg_match:
+        vu = int(pg_match.group(1))
+        wh = int(pg_match.group(2))
+        mc = int(pg_match.group(3))
+        sb_val = pg_match.group(4)
+        sb_unit = pg_match.group(5).upper().replace('B', '')  
+        bp = f"{sb_val}{sb_unit}"
+        wb_val = pg_match.group(6)
+        wb_unit = (pg_match.group(7) or 'M').upper()
+        lb = f"{wb_val}{wb_unit}"
+        key = (vu, wh, mc, bp, lb)
+        if key not in test_case_map:
+            print(f"⚠️ No match for PostgreSQL key: {key}")
+        return test_case_map.get(key, (None, None))
+
     return (None, None)
 
 
@@ -68,12 +83,12 @@ def extract_all_logs_to_csv(folder_path):
 
         with open(log_path, 'r', encoding='utf-8', errors='ignore') as f:
             for line in f:
-                tpm_match = re.search(r'(\d+)\s+MariaDB tpm', line)
+                tpm_match = re.search(r'(\d+)\s+(MariaDB|PostgreSQL) tpm', line)
                 if tpm_match:
                     tpm_values.append(int(tpm_match.group(1)))
 
                 final_match = re.search(
-                    r'TEST RESULT\s*:\s*System achieved\s+(\d+)\s+NOPM\s+from\s+(\d+)\s+MariaDB TPM',
+                    r'TEST RESULT\s*:\s*System achieved\s+(\d+)\s+NOPM\s+from\s+(\d+)\s+(MariaDB|PostgreSQL) TPM',
                     line)
                 if final_match:
                     final_nopm = int(final_match.group(1))
