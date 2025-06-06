@@ -1,0 +1,41 @@
+{
+  "connection": {
+    "maria_host": "127.0.0.1",
+    "maria_port": "3306",
+    "maria_socket": "null",
+    "maria_ssl": "false",
+    "maria_ssl_two_way": "false",
+    "maria_ssl_linux_capath": "/etc/mysql/certs",
+    "maria_ssl_windows_capath": "C:\\mysql\\certs",
+    "maria_ssl_ca": "ca-cert.pem",
+    "maria_ssl_cert": "client-cert.pem",
+    "maria_ssl_key": "client-key.pem",
+    "maria_ssl_cipher": "server"
+  },
+  "tpcc": {
+    "maria_count_ware": "10",
+    "maria_num_vu": "4",
+    "maria_user": "root",
+    "maria_pass": "root",
+    "maria_dbase": "tpcc",
+    "maria_storage_engine": "innodb",
+    "maria_partition": "false",
+    "maria_prepared": "false",
+    "maria_no_stored_procs": "false",
+    "maria_history_pk": "false",
+    "maria_total_iterations": "1000000",
+    "maria_raiseerror": "false",
+    "maria_keyandthink": "false",
+    "maria_driver": "timed",
+    "maria_rampup": "4",
+    "maria_duration": "10",
+    "maria_allwarehouse": "false",
+    "maria_timeprofile": "false",
+    "maria_async_scale": "false",
+    "maria_async_client": "10",
+    "maria_async_verbose": "false",
+    "maria_async_delay": "1000",
+    "maria_connect_pool": "false",
+    "maria_purge": "false"
+  }
+}
