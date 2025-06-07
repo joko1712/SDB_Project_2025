@@ -11,7 +11,19 @@ test_case_map = {
     (10, 10, 200, '2G', '64M'): (6, 'Memory'),
     (5, 20, 100, '128M', '8M'): (7, 'Latency'),
     (100, 50, 1000, '4G', '128M'): (8, 'Stress'),
-}
+    (50, 50, 500, '2G', '64M'): (41, 'Max CPU1 - Best MariaDB'),
+    (50, 100, 500, '2G', '64M'): (42, 'Max CPU2 - Best MariaDB'),
+    (60, 20, 500, '2G', '64M'): (43, 'Max CPU3 - Best MariaDB'),
+    (100, 20, 500, '2G', '64M'): (44, 'Max CPU4 - Best MariaDB'),
+    (50, 20, 500, '4G', '64M'): (45, 'Max CPU5 - Best MariaDB'),
+    (50, 30, 500, '2G', '128M'): (46, 'Max CPU6 - Best MariaDB'),
+    (100, 100, 1000, '4G', '128M'): (81, 'Stress1 - Best PostgreSQL'),
+    (100, 150, 1000, '4G', '128M'): (82, 'Stress2 - Best PostgreSQL'),
+    (150, 50, 1000, '4G', '128M'): (83, 'Stress3 - Best PostgreSQL'),
+    (200, 50, 1000, '4G', '128M'): (84, 'Stress4 - Best PostgreSQL'),
+    (100, 50, 1000, '8G', '128M'): (85, 'Stress5 - Best PostgreSQL'),
+    (100, 50, 1000, '4G', '256M'): (86, 'Stress6 - Best PostgreSQL'),    
+    }
 
 def parse_test_case_id(filename):
     basename = os.path.splitext(filename)[0]

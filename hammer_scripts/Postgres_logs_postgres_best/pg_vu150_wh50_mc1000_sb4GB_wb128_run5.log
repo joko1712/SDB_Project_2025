@@ -1,2483 +1,0 @@
-HammerDB CLI v5.0
-Copyright © HammerDB Ltd hosted by tpc.org 2019-2025
-Type "help" for a list of commands
-Initialized Jobs on-disk database /tmp/hammer.DB using existing tables (17,809,408 bytes)
-
-🚀 Starting benchmark run 5 for pg_vu150_wh50_mc1000_sb4GB_wb128
-
-
-🚀 Running TPCC benchmark for PostgreSQL...
-Database set to PostgreSQL
-Benchmark set to TPC-C for PostgreSQL
-Value host.docker.internal for connection:pg_host is the same as existing value host.docker.internal, no change made
-Value 5432 for connection:pg_port is the same as existing value 5432, no change made
-Value tpcc for tpcc:pg_user is the same as existing value tpcc, no change made
-Value root for tpcc:pg_pass is the same as existing value root, no change made
-Value tpcc for tpcc:pg_dbase is the same as existing value tpcc, no change made
-Value 50 for tpcc:pg_count_ware is the same as existing value 50, no change made
-Value timed for tpcc:pg_driver is the same as existing value timed, no change made
-Value 2 for tpcc:pg_rampup is the same as existing value 2, no change made
-Value 3 for tpcc:pg_duration is the same as existing value 3, no change made
-Value 10 for tpcc:pg_async_client is the same as existing value 10, no change made
-Script loaded, Type "print script" to view
-Vuser 1 created MONITOR - WAIT IDLE
-Vuser 2 created - WAIT IDLE
-Vuser 3 created - WAIT IDLE
-Vuser 4 created - WAIT IDLE
-Vuser 5 created - WAIT IDLE
-Vuser 6 created - WAIT IDLE
-Vuser 7 created - WAIT IDLE
-Vuser 8 created - WAIT IDLE
-Vuser 9 created - WAIT IDLE
-Vuser 10 created - WAIT IDLE
-Vuser 11 created - WAIT IDLE
-Vuser 12 created - WAIT IDLE
-Vuser 13 created - WAIT IDLE
-Vuser 14 created - WAIT IDLE
-Vuser 15 created - WAIT IDLE
-Vuser 16 created - WAIT IDLE
-Vuser 17 created - WAIT IDLE
-Vuser 18 created - WAIT IDLE
-Vuser 19 created - WAIT IDLE
-Vuser 20 created - WAIT IDLE
-Vuser 21 created - WAIT IDLE
-Vuser 22 created - WAIT IDLE
-Vuser 23 created - WAIT IDLE
-Vuser 24 created - WAIT IDLE
-Vuser 25 created - WAIT IDLE
-Vuser 26 created - WAIT IDLE
-Vuser 27 created - WAIT IDLE
-Vuser 28 created - WAIT IDLE
-Vuser 29 created - WAIT IDLE
-Vuser 30 created - WAIT IDLE
-Vuser 31 created - WAIT IDLE
-Vuser 32 created - WAIT IDLE
-Vuser 33 created - WAIT IDLE
-Vuser 34 created - WAIT IDLE
-Vuser 35 created - WAIT IDLE
-Vuser 36 created - WAIT IDLE
-Vuser 37 created - WAIT IDLE
-Vuser 38 created - WAIT IDLE
-Vuser 39 created - WAIT IDLE
-Vuser 40 created - WAIT IDLE
-Vuser 41 created - WAIT IDLE
-Vuser 42 created - WAIT IDLE
-Vuser 43 created - WAIT IDLE
-Vuser 44 created - WAIT IDLE
-Vuser 45 created - WAIT IDLE
-Vuser 46 created - WAIT IDLE
-Vuser 47 created - WAIT IDLE
-Vuser 48 created - WAIT IDLE
-Vuser 49 created - WAIT IDLE
-Vuser 50 created - WAIT IDLE
-Vuser 51 created - WAIT IDLE
-Vuser 52 created - WAIT IDLE
-Vuser 53 created - WAIT IDLE
-Vuser 54 created - WAIT IDLE
-Vuser 55 created - WAIT IDLE
-Vuser 56 created - WAIT IDLE
-Vuser 57 created - WAIT IDLE
-Vuser 58 created - WAIT IDLE
-Vuser 59 created - WAIT IDLE
-Vuser 60 created - WAIT IDLE
-Vuser 61 created - WAIT IDLE
-Vuser 62 created - WAIT IDLE
-Vuser 63 created - WAIT IDLE
-Vuser 64 created - WAIT IDLE
-Vuser 65 created - WAIT IDLE
-Vuser 66 created - WAIT IDLE
-Vuser 67 created - WAIT IDLE
-Vuser 68 created - WAIT IDLE
-Vuser 69 created - WAIT IDLE
-Vuser 70 created - WAIT IDLE
-Vuser 71 created - WAIT IDLE
-Vuser 72 created - WAIT IDLE
-Vuser 73 created - WAIT IDLE
-Vuser 74 created - WAIT IDLE
-Vuser 75 created - WAIT IDLE
-Vuser 76 created - WAIT IDLE
-Vuser 77 created - WAIT IDLE
-Vuser 78 created - WAIT IDLE
-Vuser 79 created - WAIT IDLE
-Vuser 80 created - WAIT IDLE
-Vuser 81 created - WAIT IDLE
-Vuser 82 created - WAIT IDLE
-Vuser 83 created - WAIT IDLE
-Vuser 84 created - WAIT IDLE
-Vuser 85 created - WAIT IDLE
-Vuser 86 created - WAIT IDLE
-Vuser 87 created - WAIT IDLE
-Vuser 88 created - WAIT IDLE
-Vuser 89 created - WAIT IDLE
-Vuser 90 created - WAIT IDLE
-Vuser 91 created - WAIT IDLE
-Vuser 92 created - WAIT IDLE
-Vuser 93 created - WAIT IDLE
-Vuser 94 created - WAIT IDLE
-Vuser 95 created - WAIT IDLE
-Vuser 96 created - WAIT IDLE
-Vuser 97 created - WAIT IDLE
-Vuser 98 created - WAIT IDLE
-Vuser 99 created - WAIT IDLE
-Vuser 100 created - WAIT IDLE
-Vuser 101 created - WAIT IDLE
-Vuser 102 created - WAIT IDLE
-Vuser 103 created - WAIT IDLE
-Vuser 104 created - WAIT IDLE
-Vuser 105 created - WAIT IDLE
-Vuser 106 created - WAIT IDLE
-Vuser 107 created - WAIT IDLE
-Vuser 108 created - WAIT IDLE
-Vuser 109 created - WAIT IDLE
-Vuser 110 created - WAIT IDLE
-Vuser 111 created - WAIT IDLE
-Vuser 112 created - WAIT IDLE
-Vuser 113 created - WAIT IDLE
-Vuser 114 created - WAIT IDLE
-Vuser 115 created - WAIT IDLE
-Vuser 116 created - WAIT IDLE
-Vuser 117 created - WAIT IDLE
-Vuser 118 created - WAIT IDLE
-Vuser 119 created - WAIT IDLE
-Vuser 120 created - WAIT IDLE
-Vuser 121 created - WAIT IDLE
-Vuser 122 created - WAIT IDLE
-Vuser 123 created - WAIT IDLE
-Vuser 124 created - WAIT IDLE
-Vuser 125 created - WAIT IDLE
-Vuser 126 created - WAIT IDLE
-Vuser 127 created - WAIT IDLE
-Vuser 128 created - WAIT IDLE
-Vuser 129 created - WAIT IDLE
-Vuser 130 created - WAIT IDLE
-Vuser 131 created - WAIT IDLE
-Vuser 132 created - WAIT IDLE
-Vuser 133 created - WAIT IDLE
-Vuser 134 created - WAIT IDLE
-Vuser 135 created - WAIT IDLE
-Vuser 136 created - WAIT IDLE
-Vuser 137 created - WAIT IDLE
-Vuser 138 created - WAIT IDLE
-Vuser 139 created - WAIT IDLE
-Vuser 140 created - WAIT IDLE
-Vuser 141 created - WAIT IDLE
-Vuser 142 created - WAIT IDLE
-Vuser 143 created - WAIT IDLE
-Vuser 144 created - WAIT IDLE
-Vuser 145 created - WAIT IDLE
-Vuser 146 created - WAIT IDLE
-Vuser 147 created - WAIT IDLE
-Vuser 148 created - WAIT IDLE
-Vuser 149 created - WAIT IDLE
-Vuser 150 created - WAIT IDLE
-Vuser 151 created - WAIT IDLE
-151 Virtual Users Created with Monitor VU
-Vuser 1:RUNNING
-Vuser 1:DBVersion:16.9 (Debian 16.9-1.pgdg120+1)
-Vuser 1:Beginning rampup time of 2 minutes
-Vuser 2:RUNNING
-Vuser 2:Processing 10000000 transactions with output suppressed...
-Vuser 3:RUNNING
-Vuser 3:Processing 10000000 transactions with output suppressed...
-Vuser 4:RUNNING
-Vuser 4:Processing 10000000 transactions with output suppressed...
-Vuser 5:RUNNING
-Vuser 5:Processing 10000000 transactions with output suppressed...
-Vuser 6:RUNNING
-Vuser 6:Processing 10000000 transactions with output suppressed...
-Vuser 7:RUNNING
-Vuser 7:Processing 10000000 transactions with output suppressed...
-Vuser 8:RUNNING
-Vuser 8:Processing 10000000 transactions with output suppressed...
-Vuser 9:RUNNING
-Vuser 9:Processing 10000000 transactions with output suppressed...
-Vuser 10:RUNNING
-Vuser 10:Processing 10000000 transactions with output suppressed...
-Vuser 11:RUNNING
-Vuser 11:Processing 10000000 transactions with output suppressed...
-Vuser 12:RUNNING
-Vuser 12:Processing 10000000 transactions with output suppressed...
-Vuser 13:RUNNING
-Vuser 13:Processing 10000000 transactions with output suppressed...
-Vuser 14:RUNNING
-Vuser 14:Processing 10000000 transactions with output suppressed...
-Vuser 15:RUNNING
-Vuser 15:Processing 10000000 transactions with output suppressed...
-Vuser 16:RUNNING
-Vuser 16:Processing 10000000 transactions with output suppressed...
-Vuser 17:RUNNING
-Vuser 17:Processing 10000000 transactions with output suppressed...
-Vuser 18:RUNNING
-Vuser 18:Processing 10000000 transactions with output suppressed...
-Vuser 19:RUNNING
-Vuser 19:Processing 10000000 transactions with output suppressed...
-Vuser 20:RUNNING
-Vuser 20:Processing 10000000 transactions with output suppressed...
-Vuser 21:RUNNING
-Vuser 21:Processing 10000000 transactions with output suppressed...
-Vuser 22:RUNNING
-Vuser 22:Processing 10000000 transactions with output suppressed...
-Vuser 23:RUNNING
-Vuser 23:Processing 10000000 transactions with output suppressed...
-Vuser 24:RUNNING
-Vuser 24:Processing 10000000 transactions with output suppressed...
-Vuser 25:RUNNING
-Vuser 25:Processing 10000000 transactions with output suppressed...
-Vuser 26:RUNNING
-Vuser 26:Processing 10000000 transactions with output suppressed...
-Vuser 27:RUNNING
-Vuser 27:Processing 10000000 transactions with output suppressed...
-Vuser 28:RUNNING
-Vuser 28:Processing 10000000 transactions with output suppressed...
-Vuser 29:RUNNING
-Vuser 29:Processing 10000000 transactions with output suppressed...
-Vuser 30:RUNNING
-Vuser 30:Processing 10000000 transactions with output suppressed...
-Vuser 31:RUNNING
-Vuser 31:Processing 10000000 transactions with output suppressed...
-Vuser 32:RUNNING
-Vuser 32:Processing 10000000 transactions with output suppressed...
-Vuser 33:RUNNING
-Vuser 33:Processing 10000000 transactions with output suppressed...
-Vuser 34:RUNNING
-Vuser 34:Processing 10000000 transactions with output suppressed...
-Vuser 35:RUNNING
-Vuser 35:Processing 10000000 transactions with output suppressed...
-Vuser 36:RUNNING
-Vuser 36:Processing 10000000 transactions with output suppressed...
-Vuser 37:RUNNING
-Vuser 37:Processing 10000000 transactions with output suppressed...
-Vuser 38:RUNNING
-Vuser 38:Processing 10000000 transactions with output suppressed...
-Vuser 39:RUNNING
-Vuser 39:Processing 10000000 transactions with output suppressed...
-Vuser 40:RUNNING
-Vuser 40:Processing 10000000 transactions with output suppressed...
-Vuser 41:RUNNING
-Vuser 41:Processing 10000000 transactions with output suppressed...
-Vuser 42:RUNNING
-Vuser 42:Processing 10000000 transactions with output suppressed...
-Vuser 43:RUNNING
-Vuser 43:Processing 10000000 transactions with output suppressed...
-Vuser 44:RUNNING
-Vuser 44:Processing 10000000 transactions with output suppressed...
-Vuser 45:RUNNING
-Vuser 45:Processing 10000000 transactions with output suppressed...
-Vuser 46:RUNNING
-Vuser 46:Processing 10000000 transactions with output suppressed...
-Vuser 47:RUNNING
-Vuser 47:Processing 10000000 transactions with output suppressed...
-Vuser 48:RUNNING
-Vuser 48:Processing 10000000 transactions with output suppressed...
-Vuser 49:RUNNING
-Vuser 49:Processing 10000000 transactions with output suppressed...
-Vuser 50:RUNNING
-Vuser 50:Processing 10000000 transactions with output suppressed...
-Vuser 51:RUNNING
-Vuser 51:Processing 10000000 transactions with output suppressed...
-Vuser 52:RUNNING
-Vuser 52:Processing 10000000 transactions with output suppressed...
-Vuser 53:RUNNING
-Vuser 53:Processing 10000000 transactions with output suppressed...
-Vuser 54:RUNNING
-Vuser 54:Processing 10000000 transactions with output suppressed...
-Vuser 55:RUNNING
-Vuser 55:Processing 10000000 transactions with output suppressed...
-Vuser 56:RUNNING
-Vuser 56:Processing 10000000 transactions with output suppressed...
-Vuser 57:RUNNING
-Vuser 57:Processing 10000000 transactions with output suppressed...
-Vuser 58:RUNNING
-Vuser 58:Processing 10000000 transactions with output suppressed...
-Vuser 59:RUNNING
-Vuser 59:Processing 10000000 transactions with output suppressed...
-Vuser 60:RUNNING
-Vuser 60:Processing 10000000 transactions with output suppressed...
-Vuser 61:RUNNING
-Vuser 61:Processing 10000000 transactions with output suppressed...
-Vuser 62:RUNNING
-Vuser 62:Processing 10000000 transactions with output suppressed...
-Vuser 63:RUNNING
-Vuser 63:Processing 10000000 transactions with output suppressed...
-Vuser 64:RUNNING
-Vuser 64:Processing 10000000 transactions with output suppressed...
-Vuser 65:RUNNING
-Vuser 65:Processing 10000000 transactions with output suppressed...
-Vuser 66:RUNNING
-Vuser 66:Processing 10000000 transactions with output suppressed...
-Vuser 67:RUNNING
-Vuser 67:Processing 10000000 transactions with output suppressed...
-Vuser 68:RUNNING
-Vuser 68:Processing 10000000 transactions with output suppressed...
-Vuser 69:RUNNING
-Vuser 69:Processing 10000000 transactions with output suppressed...
-Vuser 70:RUNNING
-Vuser 70:Processing 10000000 transactions with output suppressed...
-Vuser 71:RUNNING
-Vuser 71:Processing 10000000 transactions with output suppressed...
-Vuser 72:RUNNING
-Vuser 72:Processing 10000000 transactions with output suppressed...
-Vuser 73:RUNNING
-Vuser 73:Processing 10000000 transactions with output suppressed...
-Vuser 74:RUNNING
-Vuser 74:Processing 10000000 transactions with output suppressed...
-Vuser 75:RUNNING
-Vuser 75:Processing 10000000 transactions with output suppressed...
-Vuser 76:RUNNING
-Vuser 76:Processing 10000000 transactions with output suppressed...
-Vuser 77:RUNNING
-Vuser 78:RUNNING
-Vuser 78:Processing 10000000 transactions with output suppressed...
-Vuser 79:RUNNING
-Vuser 79:Processing 10000000 transactions with output suppressed...
-Vuser 80:RUNNING
-Vuser 81:RUNNING
-Vuser 81:Processing 10000000 transactions with output suppressed...
-Vuser 82:RUNNING
-Vuser 82:Processing 10000000 transactions with output suppressed...
-Vuser 83:RUNNING
-Vuser 83:Processing 10000000 transactions with output suppressed...
-Vuser 84:RUNNING
-Vuser 84:Processing 10000000 transactions with output suppressed...
-Vuser 85:RUNNING
-Vuser 85:Processing 10000000 transactions with output suppressed...
-Vuser 86:RUNNING
-Vuser 86:Processing 10000000 transactions with output suppressed...
-Vuser 87:RUNNING
-Vuser 77:Processing 10000000 transactions with output suppressed...
-Vuser 87:Processing 10000000 transactions with output suppressed...
-Vuser 88:RUNNING
-Vuser 88:Processing 10000000 transactions with output suppressed...
-Vuser 89:RUNNING
-Vuser 89:Processing 10000000 transactions with output suppressed...
-Vuser 80:Processing 10000000 transactions with output suppressed...
-Vuser 90:RUNNING
-Vuser 90:Processing 10000000 transactions with output suppressed...
-Vuser 91:RUNNING
-Vuser 91:Processing 10000000 transactions with output suppressed...
-Vuser 92:RUNNING
-Vuser 92:Processing 10000000 transactions with output suppressed...
-Vuser 93:RUNNING
-Vuser 93:Processing 10000000 transactions with output suppressed...
-Vuser 94:RUNNING
-Vuser 94:Processing 10000000 transactions with output suppressed...
-Vuser 95:RUNNING
-Vuser 95:Processing 10000000 transactions with output suppressed...
-Vuser 96:RUNNING
-Vuser 96:Processing 10000000 transactions with output suppressed...
-Vuser 97:RUNNING
-Vuser 97:Processing 10000000 transactions with output suppressed...
-Vuser 98:RUNNING
-Vuser 98:Processing 10000000 transactions with output suppressed...
-Vuser 99:RUNNING
-Vuser 99:Processing 10000000 transactions with output suppressed...
-Vuser 100:RUNNING
-Vuser 100:Processing 10000000 transactions with output suppressed...
-Vuser 101:RUNNING
-Vuser 101:Processing 10000000 transactions with output suppressed...
-Vuser 102:RUNNING
-Vuser 102:Processing 10000000 transactions with output suppressed...
-Vuser 103:RUNNING
-Vuser 103:Processing 10000000 transactions with output suppressed...
-Vuser 104:RUNNING
-Vuser 104:Processing 10000000 transactions with output suppressed...
-Vuser 105:RUNNING
-Vuser 105:Processing 10000000 transactions with output suppressed...
-Vuser 106:RUNNING
-Vuser 106:Processing 10000000 transactions with output suppressed...
-Vuser 107:RUNNING
-Vuser 107:Processing 10000000 transactions with output suppressed...
-Vuser 108:RUNNING
-Vuser 108:Processing 10000000 transactions with output suppressed...
-Vuser 109:RUNNING
-Vuser 109:Processing 10000000 transactions with output suppressed...
-Vuser 110:RUNNING
-Vuser 110:Processing 10000000 transactions with output suppressed...
-Vuser 111:RUNNING
-Vuser 111:Processing 10000000 transactions with output suppressed...
-Vuser 112:RUNNING
-Vuser 112:Processing 10000000 transactions with output suppressed...
-Vuser 113:RUNNING
-Vuser 113:Processing 10000000 transactions with output suppressed...
-Vuser 114:RUNNING
-Vuser 114:Processing 10000000 transactions with output suppressed...
-Vuser 115:RUNNING
-Vuser 115:Processing 10000000 transactions with output suppressed...
-Vuser 116:RUNNING
-Vuser 116:Processing 10000000 transactions with output suppressed...
-Vuser 117:RUNNING
-Vuser 117:Processing 10000000 transactions with output suppressed...
-Vuser 118:RUNNING
-Vuser 118:Processing 10000000 transactions with output suppressed...
-Vuser 119:RUNNING
-Vuser 119:Processing 10000000 transactions with output suppressed...
-Vuser 120:RUNNING
-Vuser 120:Processing 10000000 transactions with output suppressed...
-Vuser 1:Rampup 1 minutes complete ...
-Vuser 121:RUNNING
-Vuser 121:Processing 10000000 transactions with output suppressed...
-Vuser 122:RUNNING
-Vuser 122:Processing 10000000 transactions with output suppressed...
-Vuser 123:RUNNING
-Vuser 123:Processing 10000000 transactions with output suppressed...
-Vuser 124:RUNNING
-Vuser 124:Processing 10000000 transactions with output suppressed...
-Vuser 125:RUNNING
-Vuser 125:Processing 10000000 transactions with output suppressed...
-Vuser 126:RUNNING
-Vuser 126:Processing 10000000 transactions with output suppressed...
-Vuser 127:RUNNING
-Vuser 127:Processing 10000000 transactions with output suppressed...
-Vuser 128:RUNNING
-Vuser 128:Processing 10000000 transactions with output suppressed...
-Vuser 129:RUNNING
-Vuser 129:Processing 10000000 transactions with output suppressed...
-Vuser 130:RUNNING
-Vuser 130:Processing 10000000 transactions with output suppressed...
-Vuser 131:RUNNING
-Vuser 131:Processing 10000000 transactions with output suppressed...
-Vuser 132:RUNNING
-Vuser 132:Processing 10000000 transactions with output suppressed...
-Vuser 133:RUNNING
-Vuser 133:Processing 10000000 transactions with output suppressed...
-Vuser 134:RUNNING
-Vuser 134:Processing 10000000 transactions with output suppressed...
-Vuser 135:RUNNING
-Vuser 135:Processing 10000000 transactions with output suppressed...
-Vuser 136:RUNNING
-Vuser 136:Processing 10000000 transactions with output suppressed...
-Vuser 137:RUNNING
-Vuser 137:Processing 10000000 transactions with output suppressed...
-Vuser 138:RUNNING
-Vuser 138:Processing 10000000 transactions with output suppressed...
-Vuser 139:RUNNING
-Vuser 139:Processing 10000000 transactions with output suppressed...
-Vuser 140:RUNNING
-Vuser 140:Processing 10000000 transactions with output suppressed...
-Vuser 141:RUNNING
-Vuser 141:Processing 10000000 transactions with output suppressed...
-Vuser 142:RUNNING
-Vuser 142:Processing 10000000 transactions with output suppressed...
-Vuser 143:RUNNING
-Vuser 143:Processing 10000000 transactions with output suppressed...
-Vuser 144:RUNNING
-Vuser 144:Processing 10000000 transactions with output suppressed...
-Vuser 145:RUNNING
-Vuser 145:Processing 10000000 transactions with output suppressed...
-Vuser 146:RUNNING
-Vuser 146:Processing 10000000 transactions with output suppressed...
-Vuser 147:RUNNING
-Vuser 147:Processing 10000000 transactions with output suppressed...
-Vuser 148:RUNNING
-Vuser 148:Processing 10000000 transactions with output suppressed...
-Vuser 149:RUNNING
-Vuser 149:Processing 10000000 transactions with output suppressed...
-Vuser 150:RUNNING
-Vuser 150:Processing 10000000 transactions with output suppressed...
-Vuser 151:RUNNING
-Vuser 151:Processing 10000000 transactions with output suppressed...
-Vuser 1:Rampup 2 minutes complete ...
-Vuser 1:Rampup complete, Taking start Transaction Count.
-Vuser 1:Timing test period of 3 in minutes
-Vuser 69:Delivery Procedure Error set RAISEERROR for Details
-Vuser 97:Payment Procedure Error set RAISEERROR for Details
-Error in Virtual User 97: no connection to the server
-
-Vuser 97:FINISHED FAILED
-Vuser 20:New Order Procedure Error set RAISEERROR for Details
-Error in Virtual User 20: no connection to the server
-
-Vuser 20:FINISHED FAILED
-Vuser 151:New Order Procedure Error set RAISEERROR for Details
-Error in Virtual User 151: no connection to the server
-
-Vuser 151:FINISHED FAILED
-Vuser 150:New Order Procedure Error set RAISEERROR for Details
-Vuser 3:New Order Procedure Error set RAISEERROR for Details
-Error in Virtual User 150: no connection to the server
-
-Vuser 150:FINISHED FAILED
-Vuser 146:Payment Procedure Error set RAISEERROR for Details
-Error in Virtual User 3: no connection to the server
-
-Vuser 3:FINISHED FAILED
-Vuser 149:New Order Procedure Error set RAISEERROR for Details
-Vuser 138:Payment Procedure Error set RAISEERROR for Details
-Error in Virtual User 146: no connection to the server
-
-Vuser 146:FINISHED FAILED
-Error in Virtual User 149: no connection to the server
-
-Vuser 149:FINISHED FAILED
-Error in Virtual User 138: no connection to the server
-
-Vuser 138:FINISHED FAILED
-Vuser 132:New Order Procedure Error set RAISEERROR for Details
-Error in Virtual User 132: no connection to the server
-
-Vuser 132:FINISHED FAILED
-Vuser 136:Payment Procedure Error set RAISEERROR for Details
-Vuser 74:Payment Procedure Error set RAISEERROR for Details
-Vuser 133:Payment Procedure Error set RAISEERROR for Details
-Error in Virtual User 136: no connection to the server
-
-Vuser 136:FINISHED FAILED
-Error in Virtual User 74: no connection to the server
-
-Vuser 74:FINISHED FAILED
-Vuser 142:New Order Procedure Error set RAISEERROR for Details
-Error in Virtual User 133: no connection to the server
-
-Vuser 133:FINISHED FAILED
-Error in Virtual User 142: no connection to the server
-
-Vuser 142:FINISHED FAILED
-Vuser 79:New Order Procedure Error set RAISEERROR for Details
-Vuser 111:Payment Procedure Error set RAISEERROR for Details
-Vuser 70:Payment Procedure Error set RAISEERROR for Details
-Error in Virtual User 79: no connection to the server
-
-Vuser 79:FINISHED FAILED
-Error in Virtual User 111: no connection to the server
-
-Vuser 111:FINISHED FAILED
-Error in Virtual User 70: no connection to the server
-
-Vuser 70:FINISHED FAILED
-Vuser 145:New Order Procedure Error set RAISEERROR for Details
-Vuser 86:New Order Procedure Error set RAISEERROR for Details
-Vuser 134:New Order Procedure Error set RAISEERROR for Details
-Error in Virtual User 145: no connection to the server
-
-Vuser 145:FINISHED FAILED
-Error in Virtual User 86: no connection to the server
-
-Vuser 86:FINISHED FAILED
-Error in Virtual User 134: no connection to the server
-
-Vuser 134:FINISHED FAILED
-Vuser 73:Payment Procedure Error set RAISEERROR for Details
-Vuser 81:Payment Procedure Error set RAISEERROR for Details
-Error in Virtual User 73: no connection to the server
-
-Vuser 73:FINISHED FAILED
-Error in Virtual User 81: no connection to the server
-
-Vuser 81:FINISHED FAILED
-Vuser 43:Payment Procedure Error set RAISEERROR for Details
-Vuser 89:Payment Procedure Error set RAISEERROR for Details
-Vuser 137:New Order Procedure Error set RAISEERROR for Details
-Error in Virtual User 43: no connection to the server
-
-Vuser 43:FINISHED FAILED
-Error in Virtual User 89: no connection to the server
-
-Vuser 89:FINISHED FAILED
-Vuser 34:Payment Procedure Error set RAISEERROR for Details
-Vuser 120:Payment Procedure Error set RAISEERROR for Details
-Error in Virtual User 137: no connection to the server
-
-Vuser 137:FINISHED FAILED
-Vuser 77:Payment Procedure Error set RAISEERROR for Details
-Vuser 121:Payment Procedure Error set RAISEERROR for Details
-Vuser 117:New Order Procedure Error set RAISEERROR for Details
-Vuser 116:Payment Procedure Error set RAISEERROR for Details
-Error in Virtual User 34: no connection to the server
-
-Vuser 34:FINISHED FAILED
-Vuser 56:New Order Procedure Error set RAISEERROR for Details
-Error in Virtual User 120: no connection to the server
-
-Vuser 120:FINISHED FAILED
-Error in Virtual User 77: no connection to the server
-
-Vuser 77:FINISHED FAILED
-Vuser 118:Payment Procedure Error set RAISEERROR for Details
-Vuser 100:Payment Procedure Error set RAISEERROR for Details
-Error in Virtual User 121: no connection to the server
-
-Vuser 121:FINISHED FAILED
-Vuser 130:Payment Procedure Error set RAISEERROR for Details
-Error in Virtual User 117: no connection to the server
-
-Vuser 117:FINISHED FAILED
-Error in Virtual User 116: no connection to the server
-
-Vuser 116:FINISHED FAILED
-Vuser 95:Payment Procedure Error set RAISEERROR for Details
-Vuser 119:Payment Procedure Error set RAISEERROR for Details
-Error in Virtual User 56: no connection to the server
-
-Vuser 56:FINISHED FAILED
-Vuser 127:Payment Procedure Error set RAISEERROR for Details
-Vuser 68:Payment Procedure Error set RAISEERROR for Details
-Error in Virtual User 118: no connection to the server
-
-Vuser 118:FINISHED FAILED
-Error in Virtual User 100: no connection to the server
-
-Vuser 100:FINISHED FAILED
-Vuser 84:Payment Procedure Error set RAISEERROR for Details
-Error in Virtual User 130: no connection to the server
-
-Vuser 130:FINISHED FAILED
-Vuser 147:Delivery Procedure Error set RAISEERROR for Details
-Error in Virtual User 95: no connection to the server
-
-Vuser 95:FINISHED FAILED
-Error in Virtual User 119: no connection to the server
-
-Vuser 119:FINISHED FAILED
-Vuser 62:Delivery Procedure Error set RAISEERROR for Details
-Error in Virtual User 127: no connection to the server
-
-Vuser 127:FINISHED FAILED
-Vuser 87:New Order Procedure Error set RAISEERROR for Details
-Vuser 104:Payment Procedure Error set RAISEERROR for Details
-Error in Virtual User 68: no connection to the server
-
-Vuser 68:FINISHED FAILED
-Vuser 67:Payment Procedure Error set RAISEERROR for Details
-Vuser 94:New Order Procedure Error set RAISEERROR for Details
-Vuser 59:Payment Procedure Error set RAISEERROR for Details
-Vuser 58:New Order Procedure Error set RAISEERROR for Details
-Vuser 128:Payment Procedure Error set RAISEERROR for Details
-Error in Virtual User 84: no connection to the server
-
-Vuser 84:FINISHED FAILED
-Error in Virtual User 147: no connection to the server
-
-Vuser 147:FINISHED FAILED
-Error in Virtual User 62: no connection to the server
-
-Vuser 62:FINISHED FAILED
-Error in Virtual User 104: no connection to the server
-
-Vuser 104:FINISHED FAILED
-Vuser 107:Payment Procedure Error set RAISEERROR for Details
-Vuser 42:Payment Procedure Error set RAISEERROR for Details
-Error in Virtual User 87: no connection to the server
-
-Vuser 87:FINISHED FAILED
-Vuser 5:New Order Procedure Error set RAISEERROR for Details
-Error in Virtual User 67: no connection to the server
-
-Vuser 67:FINISHED FAILED
-Error in Virtual User 94: no connection to the server
-
-Vuser 94:FINISHED FAILED
-Error in Virtual User 59: no connection to the server
-
-Vuser 59:FINISHED FAILED
-Vuser 109:Payment Procedure Error set RAISEERROR for Details
-Error in Virtual User 58: no connection to the server
-
-Vuser 58:FINISHED FAILED
-Vuser 91:New Order Procedure Error set RAISEERROR for Details
-Error in Virtual User 128: no connection to the server
-
-Vuser 128:FINISHED FAILED
-Vuser 139:New Order Procedure Error set RAISEERROR for Details
-Vuser 101:Payment Procedure Error set RAISEERROR for Details
-Error in Virtual User 107: no connection to the server
-
-Vuser 107:FINISHED FAILED
-Vuser 69:Order Status Procedure Error set RAISEERROR for Details
-Vuser 47:Delivery Procedure Error set RAISEERROR for Details
-Vuser 148:Payment Procedure Error set RAISEERROR for Details
-Vuser 44:Payment Procedure Error set RAISEERROR for Details
-Vuser 64:Payment Procedure Error set RAISEERROR for Details
-Error in Virtual User 42: no connection to the server
-
-Vuser 42:FINISHED FAILED
-Error in Virtual User 5: no connection to the server
-
-Vuser 5:FINISHED FAILED
-Vuser 53:New Order Procedure Error set RAISEERROR for Details
-Vuser 144:Payment Procedure Error set RAISEERROR for Details
-Vuser 92:Payment Procedure Error set RAISEERROR for Details
-Vuser 10:Payment Procedure Error set RAISEERROR for Details
-Vuser 33:Payment Procedure Error set RAISEERROR for Details
-Error in Virtual User 109: no connection to the server
-
-Vuser 109:FINISHED FAILED
-Vuser 38:New Order Procedure Error set RAISEERROR for Details
-Error in Virtual User 91: no connection to the server
-
-Vuser 91:FINISHED FAILED
-Vuser 80:Payment Procedure Error set RAISEERROR for Details
-Vuser 48:New Order Procedure Error set RAISEERROR for Details
-Vuser 141:New Order Procedure Error set RAISEERROR for Details
-Vuser 106:Payment Procedure Error set RAISEERROR for Details
-Vuser 143:New Order Procedure Error set RAISEERROR for Details
-Error in Virtual User 139: no connection to the server
-
-Vuser 139:FINISHED FAILED
-Vuser 105:Payment Procedure Error set RAISEERROR for Details
-Error in Virtual User 101: no connection to the server
-
-Vuser 101:FINISHED FAILED
-Vuser 45:New Order Procedure Error set RAISEERROR for Details
-Error in Virtual User 69: no connection to the server
-
-Vuser 69:FINISHED FAILED
-Vuser 55:Payment Procedure Error set RAISEERROR for Details
-Vuser 129:Payment Procedure Error set RAISEERROR for Details
-Vuser 12:Payment Procedure Error set RAISEERROR for Details
-Vuser 110:New Order Procedure Error set RAISEERROR for Details
-Error in Virtual User 47: no connection to the server
-
-Vuser 47:FINISHED FAILED
-Error in Virtual User 148: no connection to the server
-
-Vuser 148:FINISHED FAILED
-Error in Virtual User 44: no connection to the server
-
-Vuser 44:FINISHED FAILED
-Error in Virtual User 64: no connection to the server
-
-Vuser 64:FINISHED FAILED
-Error in Virtual User 53: no connection to the server
-
-Vuser 53:FINISHED FAILED
-Vuser 6:Payment Procedure Error set RAISEERROR for Details
-Vuser 78:New Order Procedure Error set RAISEERROR for Details
-Vuser 57:Payment Procedure Error set RAISEERROR for Details
-Vuser 8:Payment Procedure Error set RAISEERROR for Details
-Vuser 24:New Order Procedure Error set RAISEERROR for Details
-Error in Virtual User 92: no connection to the server
-
-Vuser 92:FINISHED FAILED
-Vuser 2:New Order Procedure Error set RAISEERROR for Details
-Error in Virtual User 10: no connection to the server
-
-Vuser 10:FINISHED FAILED
-Vuser 35:Payment Procedure Error set RAISEERROR for Details
-Vuser 19:New Order Procedure Error set RAISEERROR for Details
-Vuser 71:Payment Procedure Error set RAISEERROR for Details
-Vuser 39:Payment Procedure Error set RAISEERROR for Details
-Vuser 102:Payment Procedure Error set RAISEERROR for Details
-Vuser 52:New Order Procedure Error set RAISEERROR for Details
-Vuser 65:Payment Procedure Error set RAISEERROR for Details
-Vuser 17:Payment Procedure Error set RAISEERROR for Details
-Vuser 72:Payment Procedure Error set RAISEERROR for Details
-Vuser 25:Payment Procedure Error set RAISEERROR for Details
-Vuser 115:Payment Procedure Error set RAISEERROR for Details
-Vuser 30:Payment Procedure Error set RAISEERROR for Details
-Vuser 90:New Order Procedure Error set RAISEERROR for Details
-Error in Virtual User 144: no connection to the server
-
-Vuser 144:FINISHED FAILED
-Vuser 66:Payment Procedure Error set RAISEERROR for Details
-Error in Virtual User 33: no connection to the server
-
-Vuser 33:FINISHED FAILED
-Error in Virtual User 38: no connection to the server
-
-Vuser 38:FINISHED FAILED
-Vuser 4:Payment Procedure Error set RAISEERROR for Details
-Vuser 60:Payment Procedure Error set RAISEERROR for Details
-Vuser 37:Delivery Procedure Error set RAISEERROR for Details
-Vuser 93:Payment Procedure Error set RAISEERROR for Details
-Vuser 98:Payment Procedure Error set RAISEERROR for Details
-Error in Virtual User 80: no connection to the server
-
-Vuser 80:FINISHED FAILED
-Vuser 124:Payment Procedure Error set RAISEERROR for Details
-Vuser 99:Payment Procedure Error set RAISEERROR for Details
-Vuser 29:Payment Procedure Error set RAISEERROR for Details
-Vuser 75:New Order Procedure Error set RAISEERROR for Details
-Vuser 46:Payment Procedure Error set RAISEERROR for Details
-Vuser 21:New Order Procedure Error set RAISEERROR for Details
-Vuser 32:New Order Procedure Error set RAISEERROR for Details
-Vuser 113:Payment Procedure Error set RAISEERROR for Details
-Vuser 26:Delivery Procedure Error set RAISEERROR for Details
-Vuser 15:Payment Procedure Error set RAISEERROR for Details
-Vuser 83:Delivery Procedure Error set RAISEERROR for Details
-Vuser 41:Payment Procedure Error set RAISEERROR for Details
-Vuser 23:New Order Procedure Error set RAISEERROR for Details
-Vuser 85:New Order Procedure Error set RAISEERROR for Details
-Vuser 135:New Order Procedure Error set RAISEERROR for Details
-Vuser 49:New Order Procedure Error set RAISEERROR for Details
-Vuser 122:New Order Procedure Error set RAISEERROR for Details
-Vuser 51:Payment Procedure Error set RAISEERROR for Details
-Vuser 27:New Order Procedure Error set RAISEERROR for Details
-Vuser 82:Payment Procedure Error set RAISEERROR for Details
-Vuser 88:Payment Procedure Error set RAISEERROR for Details
-Vuser 9:Delivery Procedure Error set RAISEERROR for Details
-Vuser 50:Payment Procedure Error set RAISEERROR for Details
-Vuser 31:Payment Procedure Error set RAISEERROR for Details
-Vuser 103:Payment Procedure Error set RAISEERROR for Details
-Vuser 7:Payment Procedure Error set RAISEERROR for Details
-Vuser 131:Payment Procedure Error set RAISEERROR for Details
-Vuser 125:Payment Procedure Error set RAISEERROR for Details
-Vuser 123:Payment Procedure Error set RAISEERROR for Details
-Vuser 16:Payment Procedure Error set RAISEERROR for Details
-Vuser 22:Payment Procedure Error set RAISEERROR for Details
-Vuser 40:Payment Procedure Error set RAISEERROR for Details
-Vuser 13:New Order Procedure Error set RAISEERROR for Details
-Vuser 36:New Order Procedure Error set RAISEERROR for Details
-Vuser 28:Payment Procedure Error set RAISEERROR for Details
-Vuser 140:Payment Procedure Error set RAISEERROR for Details
-Vuser 14:Payment Procedure Error set RAISEERROR for Details
-Vuser 112:Payment Procedure Error set RAISEERROR for Details
-Vuser 108:Payment Procedure Error set RAISEERROR for Details
-Error in Virtual User 48: no connection to the server
-
-Vuser 48:FINISHED FAILED
-Vuser 54:New Order Procedure Error set RAISEERROR for Details
-Vuser 61:New Order Procedure Error set RAISEERROR for Details
-Error in Virtual User 141: no connection to the server
-
-Vuser 141:FINISHED FAILED
-Vuser 96:New Order Procedure Error set RAISEERROR for Details
-Vuser 114:Payment Procedure Error set RAISEERROR for Details
-Vuser 18:New Order Procedure Error set RAISEERROR for Details
-Vuser 126:New Order Procedure Error set RAISEERROR for Details
-Error in Virtual User 106: no connection to the server
-
-Vuser 106:FINISHED FAILED
-Vuser 63:Payment Procedure Error set RAISEERROR for Details
-Vuser 11:Payment Procedure Error set RAISEERROR for Details
-Vuser 76:Payment Procedure Error set RAISEERROR for Details
-Error in Virtual User 143: no connection to the server
-
-Vuser 143:FINISHED FAILED
-Error in Virtual User 105: no connection to the server
-
-Vuser 105:FINISHED FAILED
-Error in Virtual User 45: no connection to the server
-
-Vuser 45:FINISHED FAILED
-Error in Virtual User 55: no connection to the server
-
-Vuser 55:FINISHED FAILED
-Error in Virtual User 129: no connection to the server
-
-Vuser 129:FINISHED FAILED
-Error in Virtual User 12: no connection to the server
-
-Vuser 12:FINISHED FAILED
-Error in Virtual User 110: no connection to the server
-
-Vuser 110:FINISHED FAILED
-Error in Virtual User 6: no connection to the server
-
-Vuser 6:FINISHED FAILED
-Error in Virtual User 78: no connection to the server
-
-Vuser 78:FINISHED FAILED
-Error in Virtual User 57: no connection to the server
-
-Vuser 57:FINISHED FAILED
-Error in Virtual User 8: no connection to the server
-
-Vuser 8:FINISHED FAILED
-Error in Virtual User 24: no connection to the server
-
-Vuser 24:FINISHED FAILED
-Error in Virtual User 2: no connection to the server
-
-Vuser 2:FINISHED FAILED
-Error in Virtual User 35: no connection to the server
-
-Vuser 35:FINISHED FAILED
-Error in Virtual User 19: no connection to the server
-
-Vuser 19:FINISHED FAILED
-Error in Virtual User 71: no connection to the server
-
-Vuser 71:FINISHED FAILED
-Error in Virtual User 39: no connection to the server
-
-Vuser 39:FINISHED FAILED
-Error in Virtual User 102: no connection to the server
-
-Vuser 102:FINISHED FAILED
-Error in Virtual User 52: no connection to the server
-
-Vuser 52:FINISHED FAILED
-Error in Virtual User 65: no connection to the server
-
-Vuser 65:FINISHED FAILED
-Error in Virtual User 17: no connection to the server
-
-Vuser 17:FINISHED FAILED
-Error in Virtual User 72: no connection to the server
-
-Vuser 72:FINISHED FAILED
-Error in Virtual User 25: no connection to the server
-
-Vuser 25:FINISHED FAILED
-Error in Virtual User 115: no connection to the server
-
-Vuser 115:FINISHED FAILED
-Error in Virtual User 30: no connection to the server
-
-Vuser 30:FINISHED FAILED
-Error in Virtual User 90: no connection to the server
-
-Vuser 90:FINISHED FAILED
-Error in Virtual User 66: no connection to the server
-
-Vuser 66:FINISHED FAILED
-Error in Virtual User 4: no connection to the server
-
-Vuser 4:FINISHED FAILED
-Error in Virtual User 60: no connection to the server
-
-Vuser 60:FINISHED FAILED
-Error in Virtual User 37: no connection to the server
-
-Vuser 37:FINISHED FAILED
-Error in Virtual User 93: no connection to the server
-
-Vuser 93:FINISHED FAILED
-Error in Virtual User 98: no connection to the server
-
-Vuser 98:FINISHED FAILED
-Error in Virtual User 124: no connection to the server
-
-Vuser 124:FINISHED FAILED
-Error in Virtual User 99: no connection to the server
-
-Vuser 99:FINISHED FAILED
-Error in Virtual User 29: no connection to the server
-
-Vuser 29:FINISHED FAILED
-Error in Virtual User 75: no connection to the server
-
-Vuser 75:FINISHED FAILED
-Error in Virtual User 46: no connection to the server
-
-Vuser 46:FINISHED FAILED
-Error in Virtual User 21: no connection to the server
-
-Vuser 21:FINISHED FAILED
-Error in Virtual User 32: no connection to the server
-
-Vuser 32:FINISHED FAILED
-Error in Virtual User 113: no connection to the server
-
-Vuser 113:FINISHED FAILED
-Error in Virtual User 26: no connection to the server
-
-Vuser 26:FINISHED FAILED
-Error in Virtual User 15: no connection to the server
-
-Vuser 15:FINISHED FAILED
-Error in Virtual User 83: no connection to the server
-
-Vuser 83:FINISHED FAILED
-Error in Virtual User 41: no connection to the server
-
-Vuser 41:FINISHED FAILED
-Error in Virtual User 23: no connection to the server
-
-Vuser 23:FINISHED FAILED
-Error in Virtual User 85: no connection to the server
-
-Vuser 85:FINISHED FAILED
-Error in Virtual User 135: no connection to the server
-
-Vuser 135:FINISHED FAILED
-Error in Virtual User 49: no connection to the server
-
-Vuser 49:FINISHED FAILED
-Error in Virtual User 122: no connection to the server
-
-Vuser 122:FINISHED FAILED
-Error in Virtual User 51: no connection to the server
-
-Vuser 51:FINISHED FAILED
-Error in Virtual User 27: no connection to the server
-
-Vuser 27:FINISHED FAILED
-Error in Virtual User 82: no connection to the server
-
-Vuser 82:FINISHED FAILED
-Error in Virtual User 88: no connection to the server
-
-Vuser 88:FINISHED FAILED
-Error in Virtual User 9: no connection to the server
-
-Vuser 9:FINISHED FAILED
-Error in Virtual User 50: no connection to the server
-
-Vuser 50:FINISHED FAILED
-Error in Virtual User 31: no connection to the server
-
-Vuser 31:FINISHED FAILED
-Error in Virtual User 103: no connection to the server
-
-Vuser 103:FINISHED FAILED
-Error in Virtual User 7: no connection to the server
-
-Vuser 7:FINISHED FAILED
-Error in Virtual User 131: no connection to the server
-
-Vuser 131:FINISHED FAILED
-Error in Virtual User 125: no connection to the server
-
-Vuser 125:FINISHED FAILED
-Error in Virtual User 123: no connection to the server
-
-Vuser 123:FINISHED FAILED
-Error in Virtual User 16: no connection to the server
-
-Vuser 16:FINISHED FAILED
-Error in Virtual User 22: no connection to the server
-
-Vuser 22:FINISHED FAILED
-Error in Virtual User 40: no connection to the server
-
-Vuser 40:FINISHED FAILED
-Error in Virtual User 13: no connection to the server
-
-Vuser 13:FINISHED FAILED
-Error in Virtual User 36: no connection to the server
-
-Vuser 36:FINISHED FAILED
-Error in Virtual User 28: no connection to the server
-
-Vuser 28:FINISHED FAILED
-Error in Virtual User 112: no connection to the server
-
-Vuser 112:FINISHED FAILED
-Error in Virtual User 108: no connection to the server
-
-Error in Virtual User 14: no connection to the server
-
-Vuser 108:FINISHED FAILED
-Error in Virtual User 140: no connection to the server
-
-Vuser 140:FINISHED FAILED
-Vuser 14:FINISHED FAILED
-Error in Virtual User 54: no connection to the server
-
-Vuser 54:FINISHED FAILED
-Error in Virtual User 61: no connection to the server
-
-Vuser 61:FINISHED FAILED
-Error in Virtual User 96: no connection to the server
-
-Vuser 96:FINISHED FAILED
-Error in Virtual User 114: no connection to the server
-
-Vuser 114:FINISHED FAILED
-Error in Virtual User 18: no connection to the server
-
-Vuser 18:FINISHED FAILED
-Error in Virtual User 126: no connection to the server
-
-Vuser 126:FINISHED FAILED
-Error in Virtual User 63: no connection to the server
-
-Vuser 63:FINISHED FAILED
-Error in Virtual User 11: no connection to the server
-
-Vuser 11:FINISHED FAILED
-Error in Virtual User 76: no connection to the server
-
-Vuser 76:FINISHED FAILED
-Vuser 1:1 ...,
-Vuser 1:2 ...,
-Vuser 1:3 ...,
-Vuser 1:Test complete, Taking end Transaction Count.
-Error in Virtual User 1: server closed the connection unexpectedly
-	This probably means the server terminated abnormally
-	before or while processing the request.
-
-Vuser 1:FINISHED FAILED
-ALL VIRTUAL USERS COMPLETE
-[2Khammerdb>vudestroy success
-✅ PostgreSQL benchmark run complete.
-
-
-CPU Metrics are not running on hammerdb-ubuntu
-
-
-Transaction Counter Started
-
-
-No Virtual Users found to destroy
-
-
-Vuser 1 created MONITOR - WAIT IDLE
-Vuser 2 created - WAIT IDLE
-Vuser 3 created - WAIT IDLE
-Vuser 4 created - WAIT IDLE
-Vuser 5 created - WAIT IDLE
-Vuser 6 created - WAIT IDLE
-Vuser 7 created - WAIT IDLE
-Vuser 8 created - WAIT IDLE
-Vuser 9 created - WAIT IDLE
-Vuser 10 created - WAIT IDLE
-Vuser 11 created - WAIT IDLE
-Vuser 12 created - WAIT IDLE
-Vuser 13 created - WAIT IDLE
-Vuser 14 created - WAIT IDLE
-Vuser 15 created - WAIT IDLE
-Vuser 16 created - WAIT IDLE
-Vuser 17 created - WAIT IDLE
-Vuser 18 created - WAIT IDLE
-Vuser 19 created - WAIT IDLE
-Vuser 20 created - WAIT IDLE
-Vuser 21 created - WAIT IDLE
-Vuser 22 created - WAIT IDLE
-Vuser 23 created - WAIT IDLE
-Vuser 24 created - WAIT IDLE
-Vuser 25 created - WAIT IDLE
-Vuser 26 created - WAIT IDLE
-Vuser 27 created - WAIT IDLE
-Vuser 28 created - WAIT IDLE
-Vuser 29 created - WAIT IDLE
-Vuser 30 created - WAIT IDLE
-Vuser 31 created - WAIT IDLE
-Vuser 32 created - WAIT IDLE
-Vuser 33 created - WAIT IDLE
-Vuser 34 created - WAIT IDLE
-Vuser 35 created - WAIT IDLE
-Vuser 36 created - WAIT IDLE
-Vuser 37 created - WAIT IDLE
-Vuser 38 created - WAIT IDLE
-Vuser 39 created - WAIT IDLE
-Vuser 40 created - WAIT IDLE
-Vuser 41 created - WAIT IDLE
-Vuser 42 created - WAIT IDLE
-Vuser 43 created - WAIT IDLE
-Vuser 44 created - WAIT IDLE
-Vuser 45 created - WAIT IDLE
-Vuser 46 created - WAIT IDLE
-Vuser 47 created - WAIT IDLE
-Vuser 48 created - WAIT IDLE
-Vuser 49 created - WAIT IDLE
-Vuser 50 created - WAIT IDLE
-Vuser 51 created - WAIT IDLE
-Vuser 52 created - WAIT IDLE
-Vuser 53 created - WAIT IDLE
-Vuser 54 created - WAIT IDLE
-Vuser 55 created - WAIT IDLE
-Vuser 56 created - WAIT IDLE
-Vuser 57 created - WAIT IDLE
-Vuser 58 created - WAIT IDLE
-Vuser 59 created - WAIT IDLE
-Vuser 60 created - WAIT IDLE
-Vuser 61 created - WAIT IDLE
-Vuser 62 created - WAIT IDLE
-Vuser 63 created - WAIT IDLE
-Vuser 64 created - WAIT IDLE
-Vuser 65 created - WAIT IDLE
-Vuser 66 created - WAIT IDLE
-Vuser 67 created - WAIT IDLE
-Vuser 68 created - WAIT IDLE
-Vuser 69 created - WAIT IDLE
-Vuser 70 created - WAIT IDLE
-Vuser 71 created - WAIT IDLE
-Vuser 72 created - WAIT IDLE
-Vuser 73 created - WAIT IDLE
-Vuser 74 created - WAIT IDLE
-Vuser 75 created - WAIT IDLE
-Vuser 76 created - WAIT IDLE
-Vuser 77 created - WAIT IDLE
-Vuser 78 created - WAIT IDLE
-Vuser 79 created - WAIT IDLE
-Vuser 80 created - WAIT IDLE
-Vuser 81 created - WAIT IDLE
-Vuser 82 created - WAIT IDLE
-Vuser 83 created - WAIT IDLE
-Vuser 84 created - WAIT IDLE
-Vuser 85 created - WAIT IDLE
-Vuser 86 created - WAIT IDLE
-Vuser 87 created - WAIT IDLE
-Vuser 88 created - WAIT IDLE
-Vuser 89 created - WAIT IDLE
-Vuser 90 created - WAIT IDLE
-Vuser 91 created - WAIT IDLE
-Vuser 92 created - WAIT IDLE
-Vuser 93 created - WAIT IDLE
-Vuser 94 created - WAIT IDLE
-Vuser 95 created - WAIT IDLE
-Vuser 96 created - WAIT IDLE
-Vuser 97 created - WAIT IDLE
-Vuser 98 created - WAIT IDLE
-Vuser 99 created - WAIT IDLE
-Vuser 100 created - WAIT IDLE
-Vuser 101 created - WAIT IDLE
-Vuser 102 created - WAIT IDLE
-Vuser 103 created - WAIT IDLE
-Vuser 104 created - WAIT IDLE
-Vuser 105 created - WAIT IDLE
-Vuser 106 created - WAIT IDLE
-Vuser 107 created - WAIT IDLE
-Vuser 108 created - WAIT IDLE
-Vuser 109 created - WAIT IDLE
-Vuser 110 created - WAIT IDLE
-Vuser 111 created - WAIT IDLE
-Vuser 112 created - WAIT IDLE
-Vuser 113 created - WAIT IDLE
-Vuser 114 created - WAIT IDLE
-Vuser 115 created - WAIT IDLE
-Vuser 116 created - WAIT IDLE
-Vuser 117 created - WAIT IDLE
-Vuser 118 created - WAIT IDLE
-Vuser 119 created - WAIT IDLE
-Vuser 120 created - WAIT IDLE
-Vuser 121 created - WAIT IDLE
-Vuser 122 created - WAIT IDLE
-Vuser 123 created - WAIT IDLE
-Vuser 124 created - WAIT IDLE
-Vuser 125 created - WAIT IDLE
-Vuser 126 created - WAIT IDLE
-Vuser 127 created - WAIT IDLE
-Vuser 128 created - WAIT IDLE
-Vuser 129 created - WAIT IDLE
-Vuser 130 created - WAIT IDLE
-Vuser 131 created - WAIT IDLE
-Vuser 132 created - WAIT IDLE
-Vuser 133 created - WAIT IDLE
-Vuser 134 created - WAIT IDLE
-Vuser 135 created - WAIT IDLE
-Vuser 136 created - WAIT IDLE
-Vuser 137 created - WAIT IDLE
-Vuser 138 created - WAIT IDLE
-Vuser 139 created - WAIT IDLE
-Vuser 140 created - WAIT IDLE
-Vuser 141 created - WAIT IDLE
-Vuser 142 created - WAIT IDLE
-Vuser 143 created - WAIT IDLE
-Vuser 144 created - WAIT IDLE
-Vuser 145 created - WAIT IDLE
-Vuser 146 created - WAIT IDLE
-Vuser 147 created - WAIT IDLE
-Vuser 148 created - WAIT IDLE
-Vuser 149 created - WAIT IDLE
-Vuser 150 created - WAIT IDLE
-Vuser 151 created - WAIT IDLE
-151 Virtual Users Created with Monitor VU
-
-
-1   = WAIT IDLE
-2   = WAIT IDLE
-3   = WAIT IDLE
-4   = WAIT IDLE
-5   = WAIT IDLE
-6   = WAIT IDLE
-7   = WAIT IDLE
-8   = WAIT IDLE
-9   = WAIT IDLE
-10  = WAIT IDLE
-11  = WAIT IDLE
-12  = WAIT IDLE
-13  = WAIT IDLE
-14  = WAIT IDLE
-15  = WAIT IDLE
-16  = WAIT IDLE
-17  = WAIT IDLE
-18  = WAIT IDLE
-19  = WAIT IDLE
-20  = WAIT IDLE
-21  = WAIT IDLE
-22  = WAIT IDLE
-23  = WAIT IDLE
-24  = WAIT IDLE
-25  = WAIT IDLE
-26  = WAIT IDLE
-27  = WAIT IDLE
-28  = WAIT IDLE
-29  = WAIT IDLE
-30  = WAIT IDLE
-31  = WAIT IDLE
-32  = WAIT IDLE
-33  = WAIT IDLE
-34  = WAIT IDLE
-35  = WAIT IDLE
-36  = WAIT IDLE
-37  = WAIT IDLE
-38  = WAIT IDLE
-39  = WAIT IDLE
-40  = WAIT IDLE
-41  = WAIT IDLE
-42  = WAIT IDLE
-43  = WAIT IDLE
-44  = WAIT IDLE
-45  = WAIT IDLE
-46  = WAIT IDLE
-47  = WAIT IDLE
-48  = WAIT IDLE
-49  = WAIT IDLE
-50  = WAIT IDLE
-51  = WAIT IDLE
-52  = WAIT IDLE
-53  = WAIT IDLE
-54  = WAIT IDLE
-55  = WAIT IDLE
-56  = WAIT IDLE
-57  = WAIT IDLE
-58  = WAIT IDLE
-59  = WAIT IDLE
-60  = WAIT IDLE
-61  = WAIT IDLE
-62  = WAIT IDLE
-63  = WAIT IDLE
-64  = WAIT IDLE
-65  = WAIT IDLE
-66  = WAIT IDLE
-67  = WAIT IDLE
-68  = WAIT IDLE
-69  = WAIT IDLE
-70  = WAIT IDLE
-71  = WAIT IDLE
-72  = WAIT IDLE
-73  = WAIT IDLE
-74  = WAIT IDLE
-75  = WAIT IDLE
-76  = WAIT IDLE
-77  = WAIT IDLE
-78  = WAIT IDLE
-79  = WAIT IDLE
-80  = WAIT IDLE
-81  = WAIT IDLE
-82  = WAIT IDLE
-83  = WAIT IDLE
-84  = WAIT IDLE
-85  = WAIT IDLE
-86  = WAIT IDLE
-87  = WAIT IDLE
-88  = WAIT IDLE
-89  = WAIT IDLE
-90  = WAIT IDLE
-91  = WAIT IDLE
-92  = WAIT IDLE
-93  = WAIT IDLE
-94  = WAIT IDLE
-95  = WAIT IDLE
-96  = WAIT IDLE
-97  = WAIT IDLE
-98  = WAIT IDLE
-99  = WAIT IDLE
-100 = WAIT IDLE
-101 = WAIT IDLE
-102 = WAIT IDLE
-103 = WAIT IDLE
-104 = WAIT IDLE
-105 = WAIT IDLE
-106 = WAIT IDLE
-107 = WAIT IDLE
-108 = WAIT IDLE
-109 = WAIT IDLE
-110 = WAIT IDLE
-111 = WAIT IDLE
-112 = WAIT IDLE
-113 = WAIT IDLE
-114 = WAIT IDLE
-115 = WAIT IDLE
-116 = WAIT IDLE
-117 = WAIT IDLE
-118 = WAIT IDLE
-119 = WAIT IDLE
-120 = WAIT IDLE
-121 = WAIT IDLE
-122 = WAIT IDLE
-123 = WAIT IDLE
-124 = WAIT IDLE
-125 = WAIT IDLE
-126 = WAIT IDLE
-127 = WAIT IDLE
-128 = WAIT IDLE
-129 = WAIT IDLE
-130 = WAIT IDLE
-131 = WAIT IDLE
-132 = WAIT IDLE
-133 = WAIT IDLE
-134 = WAIT IDLE
-135 = WAIT IDLE
-136 = WAIT IDLE
-137 = WAIT IDLE
-138 = WAIT IDLE
-139 = WAIT IDLE
-140 = WAIT IDLE
-141 = WAIT IDLE
-142 = WAIT IDLE
-143 = WAIT IDLE
-144 = WAIT IDLE
-145 = WAIT IDLE
-146 = WAIT IDLE
-147 = WAIT IDLE
-148 = WAIT IDLE
-149 = WAIT IDLE
-150 = WAIT IDLE
-151 = WAIT IDLE
-
-
-
-Transaction Counter Error: connection failed:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Vuser 1:RUNNING
-Vuser 1:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Error in Virtual User 1: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  the database system is not yet accepting connections
-DETAIL:  Consistent recovery state has not been yet reached.
-
-Vuser 1:FINISHED FAILED
-Vuser 2:RUNNING
-Vuser 2:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Error in Virtual User 2: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  the database system is not yet accepting connections
-DETAIL:  Consistent recovery state has not been yet reached.
-
-Vuser 2:FINISHED FAILED
-Vuser 3:RUNNING
-Vuser 3:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Error in Virtual User 3: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  the database system is not yet accepting connections
-DETAIL:  Consistent recovery state has not been yet reached.
-
-Vuser 3:FINISHED FAILED
-Vuser 4:RUNNING
-Vuser 4:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Error in Virtual User 4: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  the database system is not yet accepting connections
-DETAIL:  Consistent recovery state has not been yet reached.
-
-Vuser 4:FINISHED FAILED
-Vuser 5:RUNNING
-Vuser 5:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Error in Virtual User 5: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  the database system is not yet accepting connections
-DETAIL:  Consistent recovery state has not been yet reached.
-
-Vuser 5:FINISHED FAILED
-Vuser 6:RUNNING
-Vuser 6:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Error in Virtual User 6: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  the database system is not yet accepting connections
-DETAIL:  Consistent recovery state has not been yet reached.
-
-Vuser 6:FINISHED FAILED
-Vuser 7:RUNNING
-Vuser 7:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Error in Virtual User 7: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  the database system is not yet accepting connections
-DETAIL:  Consistent recovery state has not been yet reached.
-
-Vuser 7:FINISHED FAILED
-Vuser 8:RUNNING
-Vuser 8:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Error in Virtual User 8: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  the database system is not yet accepting connections
-DETAIL:  Consistent recovery state has not been yet reached.
-
-Vuser 8:FINISHED FAILED
-Vuser 9:RUNNING
-Vuser 9:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Error in Virtual User 9: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  the database system is not yet accepting connections
-DETAIL:  Consistent recovery state has not been yet reached.
-
-Vuser 9:FINISHED FAILED
-Vuser 10:RUNNING
-Vuser 10:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Error in Virtual User 10: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  the database system is not yet accepting connections
-DETAIL:  Consistent recovery state has not been yet reached.
-
-Vuser 10:FINISHED FAILED
-Vuser 11:RUNNING
-Vuser 11:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Error in Virtual User 11: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  the database system is not yet accepting connections
-DETAIL:  Consistent recovery state has not been yet reached.
-
-Vuser 11:FINISHED FAILED
-Vuser 12:RUNNING
-Vuser 12:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Error in Virtual User 12: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  the database system is not yet accepting connections
-DETAIL:  Consistent recovery state has not been yet reached.
-
-Vuser 12:FINISHED FAILED
-Vuser 13:RUNNING
-Vuser 13:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Error in Virtual User 13: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  the database system is not yet accepting connections
-DETAIL:  Consistent recovery state has not been yet reached.
-
-Vuser 13:FINISHED FAILED
-Vuser 14:RUNNING
-Vuser 14:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Error in Virtual User 14: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  the database system is not yet accepting connections
-DETAIL:  Consistent recovery state has not been yet reached.
-
-Vuser 14:FINISHED FAILED
-Vuser 15:RUNNING
-Vuser 15:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Error in Virtual User 15: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  the database system is not yet accepting connections
-DETAIL:  Consistent recovery state has not been yet reached.
-
-Vuser 15:FINISHED FAILED
-Vuser 16:RUNNING
-Vuser 16:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Error in Virtual User 16: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  the database system is not yet accepting connections
-DETAIL:  Consistent recovery state has not been yet reached.
-
-Vuser 16:FINISHED FAILED
-Vuser 17:RUNNING
-Vuser 17:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Error in Virtual User 17: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  the database system is not yet accepting connections
-DETAIL:  Consistent recovery state has not been yet reached.
-
-Vuser 17:FINISHED FAILED
-Vuser 18:RUNNING
-Vuser 18:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Error in Virtual User 18: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  the database system is not yet accepting connections
-DETAIL:  Consistent recovery state has not been yet reached.
-
-Vuser 18:FINISHED FAILED
-Vuser 19:RUNNING
-Vuser 19:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Error in Virtual User 19: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  the database system is not yet accepting connections
-DETAIL:  Consistent recovery state has not been yet reached.
-
-Vuser 19:FINISHED FAILED
-Vuser 20:RUNNING
-Vuser 20:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Error in Virtual User 20: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  the database system is not yet accepting connections
-DETAIL:  Consistent recovery state has not been yet reached.
-
-Vuser 20:FINISHED FAILED
-Vuser 21:RUNNING
-Vuser 21:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Error in Virtual User 21: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  the database system is not yet accepting connections
-DETAIL:  Consistent recovery state has not been yet reached.
-
-Vuser 21:FINISHED FAILED
-Vuser 22:RUNNING
-Vuser 22:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Error in Virtual User 22: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  the database system is not yet accepting connections
-DETAIL:  Consistent recovery state has not been yet reached.
-
-Vuser 22:FINISHED FAILED
-Vuser 23:RUNNING
-Vuser 23:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Error in Virtual User 23: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  the database system is not yet accepting connections
-DETAIL:  Consistent recovery state has not been yet reached.
-
-Vuser 23:FINISHED FAILED
-Vuser 24:RUNNING
-Vuser 24:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Error in Virtual User 24: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  the database system is not yet accepting connections
-DETAIL:  Consistent recovery state has not been yet reached.
-
-Vuser 24:FINISHED FAILED
-Vuser 25:RUNNING
-Vuser 25:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Error in Virtual User 25: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  the database system is not yet accepting connections
-DETAIL:  Consistent recovery state has not been yet reached.
-
-Vuser 25:FINISHED FAILED
-Vuser 26:RUNNING
-Vuser 26:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Error in Virtual User 26: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  the database system is not yet accepting connections
-DETAIL:  Consistent recovery state has not been yet reached.
-
-Vuser 26:FINISHED FAILED
-Vuser 27:RUNNING
-Vuser 27:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Error in Virtual User 27: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  the database system is not yet accepting connections
-DETAIL:  Consistent recovery state has not been yet reached.
-
-Vuser 27:FINISHED FAILED
-Vuser 28:RUNNING
-Vuser 28:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: the database system is not yet accepting connections DETAIL: Consistent recovery state has not been yet reached.
-Error in Virtual User 28: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  the database system is not yet accepting connections
-DETAIL:  Consistent recovery state has not been yet reached.
-
-Vuser 28:FINISHED FAILED
-Vuser 29:RUNNING
-Vuser 29:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 29: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 29:FINISHED FAILED
-Vuser 30:RUNNING
-Vuser 30:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 30: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 30:FINISHED FAILED
-Vuser 31:RUNNING
-Vuser 31:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 31: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 31:FINISHED FAILED
-Vuser 32:RUNNING
-Vuser 32:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 32: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 32:FINISHED FAILED
-Vuser 33:RUNNING
-Vuser 33:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 33: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 33:FINISHED FAILED
-Vuser 34:RUNNING
-Vuser 34:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 34: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 34:FINISHED FAILED
-Vuser 35:RUNNING
-Vuser 35:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 35: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 35:FINISHED FAILED
-Vuser 36:RUNNING
-Vuser 36:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 36: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 36:FINISHED FAILED
-Vuser 37:RUNNING
-Vuser 37:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 37: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 37:FINISHED FAILED
-Vuser 38:RUNNING
-Vuser 38:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 38: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 38:FINISHED FAILED
-Vuser 39:RUNNING
-Vuser 39:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 39: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 39:FINISHED FAILED
-Vuser 40:RUNNING
-Vuser 40:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 40: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 40:FINISHED FAILED
-Vuser 41:RUNNING
-Vuser 41:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 41: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 41:FINISHED FAILED
-Vuser 42:RUNNING
-Vuser 42:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 42: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 42:FINISHED FAILED
-Vuser 43:RUNNING
-Vuser 43:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 43: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 43:FINISHED FAILED
-Vuser 44:RUNNING
-Vuser 44:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 44: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 44:FINISHED FAILED
-Vuser 45:RUNNING
-Vuser 45:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 45: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 45:FINISHED FAILED
-Vuser 46:RUNNING
-Vuser 46:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 46: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 46:FINISHED FAILED
-Vuser 47:RUNNING
-Vuser 47:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 47: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 47:FINISHED FAILED
-Vuser 48:RUNNING
-Vuser 48:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 48: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 48:FINISHED FAILED
-Vuser 49:RUNNING
-Vuser 49:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 49: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 49:FINISHED FAILED
-Vuser 50:RUNNING
-Vuser 50:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 50: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 50:FINISHED FAILED
-Vuser 51:RUNNING
-Vuser 51:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 51: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 51:FINISHED FAILED
-Vuser 52:RUNNING
-Vuser 52:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 52: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 52:FINISHED FAILED
-Vuser 53:RUNNING
-Vuser 53:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 53: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 53:FINISHED FAILED
-Vuser 54:RUNNING
-Vuser 54:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 54: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 54:FINISHED FAILED
-Vuser 55:RUNNING
-Vuser 55:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 55: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 55:FINISHED FAILED
-Vuser 56:RUNNING
-Vuser 56:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 56: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 56:FINISHED FAILED
-Vuser 57:RUNNING
-Vuser 57:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 57: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 57:FINISHED FAILED
-Vuser 58:RUNNING
-Vuser 58:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 58: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 58:FINISHED FAILED
-Vuser 59:RUNNING
-Vuser 59:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 59: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 59:FINISHED FAILED
-Vuser 60:RUNNING
-Vuser 60:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 60: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 60:FINISHED FAILED
-Vuser 61:RUNNING
-Vuser 61:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 61: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 61:FINISHED FAILED
-Vuser 62:RUNNING
-Vuser 62:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 62: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 62:FINISHED FAILED
-Vuser 63:RUNNING
-Vuser 63:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 63: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 63:FINISHED FAILED
-Vuser 64:RUNNING
-Vuser 64:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 64: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 64:FINISHED FAILED
-Vuser 65:RUNNING
-Vuser 65:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 65: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 65:FINISHED FAILED
-Vuser 66:RUNNING
-Vuser 66:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 66: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 66:FINISHED FAILED
-Vuser 67:RUNNING
-Vuser 67:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 67: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 67:FINISHED FAILED
-Vuser 68:RUNNING
-Vuser 68:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 68: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 68:FINISHED FAILED
-Vuser 69:RUNNING
-Vuser 69:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 69: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 69:FINISHED FAILED
-Vuser 70:RUNNING
-Vuser 70:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 70: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 70:FINISHED FAILED
-Vuser 71:RUNNING
-Vuser 71:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 71: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 71:FINISHED FAILED
-Vuser 72:RUNNING
-Vuser 72:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 72: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 72:FINISHED FAILED
-Vuser 73:RUNNING
-Vuser 73:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 73: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 73:FINISHED FAILED
-Vuser 74:RUNNING
-Vuser 74:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 74: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 74:FINISHED FAILED
-Vuser 75:RUNNING
-Vuser 75:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 75: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 75:FINISHED FAILED
-Vuser 76:RUNNING
-Vuser 76:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 76: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 76:FINISHED FAILED
-Vuser 77:RUNNING
-Vuser 77:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 77: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 77:FINISHED FAILED
-Vuser 78:RUNNING
-Vuser 78:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 78: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 78:FINISHED FAILED
-Vuser 79:RUNNING
-Vuser 79:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 79: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 79:FINISHED FAILED
-Vuser 80:RUNNING
-Vuser 80:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 80: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 80:FINISHED FAILED
-Vuser 81:RUNNING
-Vuser 81:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 81: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 81:FINISHED FAILED
-Vuser 82:RUNNING
-Vuser 82:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 82: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 82:FINISHED FAILED
-Vuser 83:RUNNING
-Vuser 83:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 83: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 83:FINISHED FAILED
-Vuser 84:RUNNING
-Vuser 84:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 84: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 84:FINISHED FAILED
-Vuser 85:RUNNING
-Vuser 85:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 85: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 85:FINISHED FAILED
-Vuser 86:RUNNING
-Vuser 86:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 86: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 86:FINISHED FAILED
-Vuser 87:RUNNING
-Vuser 87:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 87: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 87:FINISHED FAILED
-Vuser 88:RUNNING
-Vuser 88:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 88: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 88:FINISHED FAILED
-Vuser 89:RUNNING
-Vuser 89:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 89: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 89:FINISHED FAILED
-Vuser 90:RUNNING
-Vuser 90:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 90: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 90:FINISHED FAILED
-Vuser 91:RUNNING
-Vuser 91:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 91: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 91:FINISHED FAILED
-Vuser 92:RUNNING
-Vuser 92:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 92: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 92:FINISHED FAILED
-Vuser 93:RUNNING
-Vuser 93:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 93: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 93:FINISHED FAILED
-Vuser 94:RUNNING
-Vuser 94:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 94: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 94:FINISHED FAILED
-Vuser 95:RUNNING
-Vuser 95:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 95: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 95:FINISHED FAILED
-Vuser 96:RUNNING
-Vuser 96:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 96: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 96:FINISHED FAILED
-Vuser 97:RUNNING
-Vuser 97:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 97: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 97:FINISHED FAILED
-Vuser 98:RUNNING
-Vuser 98:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 98: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 98:FINISHED FAILED
-Vuser 99:RUNNING
-Vuser 99:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 99: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 99:FINISHED FAILED
-Vuser 100:RUNNING
-Vuser 100:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 100: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 100:FINISHED FAILED
-Vuser 101:RUNNING
-Vuser 101:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 101: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 101:FINISHED FAILED
-Vuser 102:RUNNING
-Vuser 102:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 102: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 102:FINISHED FAILED
-Vuser 103:RUNNING
-Vuser 103:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 103: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 103:FINISHED FAILED
-Vuser 104:RUNNING
-Vuser 104:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 104: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 104:FINISHED FAILED
-Vuser 105:RUNNING
-Vuser 105:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 105: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 105:FINISHED FAILED
-Vuser 106:RUNNING
-Vuser 106:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 106: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 106:FINISHED FAILED
-Vuser 107:RUNNING
-Vuser 107:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 107: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 107:FINISHED FAILED
-Vuser 108:RUNNING
-Vuser 108:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 108: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 108:FINISHED FAILED
-Vuser 109:RUNNING
-Vuser 109:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 109: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 109:FINISHED FAILED
-Vuser 110:RUNNING
-Vuser 110:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 110: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 110:FINISHED FAILED
-Vuser 111:RUNNING
-Vuser 111:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 111: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 111:FINISHED FAILED
-Vuser 112:RUNNING
-Vuser 112:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 112: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 112:FINISHED FAILED
-Vuser 113:RUNNING
-Vuser 113:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 113: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 113:FINISHED FAILED
-Vuser 114:RUNNING
-Vuser 114:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 114: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 114:FINISHED FAILED
-Vuser 115:RUNNING
-Vuser 115:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 115: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 115:FINISHED FAILED
-Vuser 116:RUNNING
-Vuser 116:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 116: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 116:FINISHED FAILED
-Vuser 117:RUNNING
-Vuser 117:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 117: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 117:FINISHED FAILED
-Vuser 118:RUNNING
-Vuser 118:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 118: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 118:FINISHED FAILED
-Vuser 119:RUNNING
-Vuser 119:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 119: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 119:FINISHED FAILED
-Vuser 120:RUNNING
-Vuser 120:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 120: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 120:FINISHED FAILED
-Vuser 121:RUNNING
-Vuser 121:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 121: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 121:FINISHED FAILED
-Vuser 122:RUNNING
-Vuser 122:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 122: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 122:FINISHED FAILED
-Vuser 123:RUNNING
-Vuser 123:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 123: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 123:FINISHED FAILED
-Vuser 124:RUNNING
-Vuser 124:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 124: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 124:FINISHED FAILED
-Vuser 125:RUNNING
-Vuser 125:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 125: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 125:FINISHED FAILED
-Vuser 126:RUNNING
-Vuser 126:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 126: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 126:FINISHED FAILED
-Vuser 127:RUNNING
-Vuser 127:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 127: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 127:FINISHED FAILED
-Vuser 128:RUNNING
-Vuser 128:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 128: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 128:FINISHED FAILED
-Vuser 129:RUNNING
-Vuser 129:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 129: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 129:FINISHED FAILED
-Vuser 130:RUNNING
-Vuser 130:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 130: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 130:FINISHED FAILED
-Vuser 131:RUNNING
-Vuser 131:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 131: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 131:FINISHED FAILED
-Vuser 132:RUNNING
-Vuser 132:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 132: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 132:FINISHED FAILED
-Vuser 133:RUNNING
-Vuser 133:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 133: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 133:FINISHED FAILED
-Vuser 134:RUNNING
-Vuser 134:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 134: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 134:FINISHED FAILED
-Vuser 135:RUNNING
-Vuser 135:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 135: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 135:FINISHED FAILED
-Vuser 136:RUNNING
-Vuser 136:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 136: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 136:FINISHED FAILED
-Vuser 137:RUNNING
-Vuser 137:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 137: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 137:FINISHED FAILED
-Vuser 138:RUNNING
-Vuser 138:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 138: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 138:FINISHED FAILED
-Vuser 139:RUNNING
-Vuser 139:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 139: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 139:FINISHED FAILED
-Vuser 140:RUNNING
-Vuser 140:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 140: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 140:FINISHED FAILED
-Vuser 141:RUNNING
-Vuser 141:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 141: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 141:FINISHED FAILED
-Vuser 142:RUNNING
-Vuser 142:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 142: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 142:FINISHED FAILED
-Vuser 143:RUNNING
-Vuser 143:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 143: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 143:FINISHED FAILED
-Vuser 144:RUNNING
-Vuser 144:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 144: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 144:FINISHED FAILED
-Vuser 145:RUNNING
-Vuser 145:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 145: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 145:FINISHED FAILED
-Vuser 146:RUNNING
-Vuser 146:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 146: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 146:FINISHED FAILED
-Vuser 147:RUNNING
-Vuser 147:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 147: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 147:FINISHED FAILED
-Vuser 148:RUNNING
-Vuser 148:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 148: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 148:FINISHED FAILED
-Vuser 149:RUNNING
-Vuser 149:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 149: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 149:FINISHED FAILED
-Vuser 150:RUNNING
-Vuser 150:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 150: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 150:FINISHED FAILED
-Vuser 151:RUNNING
-Vuser 151:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: Connection refused Is the server running on that host and accepting TCP/IP connections?
-Error in Virtual User 151: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-
-Vuser 151:FINISHED FAILED
-ALL VIRTUAL USERS COMPLETE
-[2Khammerdb>Benchmark Run jobid=68444F4B52EC03E233735363
-
-Transaction Counter is not running
-
-
-Transaction Counter is not running
-
-
-No Metrics Agent detected on id: localhost:10000
-
-
