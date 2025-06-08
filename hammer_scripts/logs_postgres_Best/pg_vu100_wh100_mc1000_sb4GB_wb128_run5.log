@@ -1,7 +1,7 @@
 HammerDB CLI v5.0
 Copyright © HammerDB Ltd hosted by tpc.org 2019-2025
 Type "help" for a list of commands
-Initialized Jobs on-disk database /tmp/hammer.DB using existing tables (15,405,056 bytes)
+Initialized Jobs on-disk database /tmp/hammer.DB using existing tables (20,627,456 bytes)
 
 🚀 Starting benchmark run 5 for pg_vu100_wh100_mc1000_sb4GB_wb128
 
@@ -123,611 +123,319 @@ Database set to PostgreSQL
 Vuser 101 created - WAIT IDLE
 101 Virtual Users Created with Monitor VU
 Vuser 1:RUNNING
-Vuser 1:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 1: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 1:FINISHED FAILED
+Vuser 1:DBVersion:16.9 (Debian 16.9-1.pgdg120+1)
+Vuser 1:Beginning rampup time of 2 minutes
 Vuser 2:RUNNING
-Vuser 2:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 2: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 2:FINISHED FAILED
+Vuser 2:Processing 10000000 transactions with output suppressed...
 Vuser 3:RUNNING
-Vuser 3:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 3: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 3:FINISHED FAILED
+Vuser 3:Processing 10000000 transactions with output suppressed...
 Vuser 4:RUNNING
-Vuser 4:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 4: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 4:FINISHED FAILED
+Vuser 4:Processing 10000000 transactions with output suppressed...
 Vuser 5:RUNNING
-Vuser 5:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 5: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 5:FINISHED FAILED
+Vuser 5:Processing 10000000 transactions with output suppressed...
 Vuser 6:RUNNING
-Vuser 6:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 6: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 6:FINISHED FAILED
+Vuser 6:Processing 10000000 transactions with output suppressed...
 Vuser 7:RUNNING
-Vuser 7:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 7: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 7:FINISHED FAILED
+Vuser 7:Processing 10000000 transactions with output suppressed...
 Vuser 8:RUNNING
-Vuser 8:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 8: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 8:FINISHED FAILED
+Vuser 8:Processing 10000000 transactions with output suppressed...
 Vuser 9:RUNNING
-Vuser 9:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 9: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 9:FINISHED FAILED
+Vuser 9:Processing 10000000 transactions with output suppressed...
 Vuser 10:RUNNING
-Vuser 10:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 10: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 10:FINISHED FAILED
+Vuser 10:Processing 10000000 transactions with output suppressed...
 Vuser 11:RUNNING
-Vuser 11:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 11: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 11:FINISHED FAILED
+Vuser 11:Processing 10000000 transactions with output suppressed...
 Vuser 12:RUNNING
-Vuser 12:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 12: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 12:FINISHED FAILED
+Vuser 12:Processing 10000000 transactions with output suppressed...
 Vuser 13:RUNNING
-Vuser 13:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 13: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 13:FINISHED FAILED
+Vuser 13:Processing 10000000 transactions with output suppressed...
 Vuser 14:RUNNING
-Vuser 14:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 14: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 14:FINISHED FAILED
+Vuser 14:Processing 10000000 transactions with output suppressed...
 Vuser 15:RUNNING
-Vuser 15:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 15: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 15:FINISHED FAILED
+Vuser 15:Processing 10000000 transactions with output suppressed...
 Vuser 16:RUNNING
-Vuser 16:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 16: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 16:FINISHED FAILED
+Vuser 16:Processing 10000000 transactions with output suppressed...
 Vuser 17:RUNNING
-Vuser 17:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 17: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 17:FINISHED FAILED
+Vuser 17:Processing 10000000 transactions with output suppressed...
 Vuser 18:RUNNING
-Vuser 18:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 18: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 18:FINISHED FAILED
+Vuser 18:Processing 10000000 transactions with output suppressed...
 Vuser 19:RUNNING
-Vuser 19:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 19: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 19:FINISHED FAILED
+Vuser 19:Processing 10000000 transactions with output suppressed...
 Vuser 20:RUNNING
-Vuser 20:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 20: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 20:FINISHED FAILED
+Vuser 20:Processing 10000000 transactions with output suppressed...
 Vuser 21:RUNNING
-Vuser 21:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 21: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 21:FINISHED FAILED
+Vuser 21:Processing 10000000 transactions with output suppressed...
 Vuser 22:RUNNING
-Vuser 22:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 22: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 22:FINISHED FAILED
+Vuser 22:Processing 10000000 transactions with output suppressed...
 Vuser 23:RUNNING
-Vuser 23:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 23: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 23:FINISHED FAILED
+Vuser 23:Processing 10000000 transactions with output suppressed...
 Vuser 24:RUNNING
-Vuser 24:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 24: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 24:FINISHED FAILED
+Vuser 24:Processing 10000000 transactions with output suppressed...
 Vuser 25:RUNNING
-Vuser 25:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 25: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 25:FINISHED FAILED
+Vuser 25:Processing 10000000 transactions with output suppressed...
 Vuser 26:RUNNING
-Vuser 26:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 26: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 26:FINISHED FAILED
+Vuser 26:Processing 10000000 transactions with output suppressed...
 Vuser 27:RUNNING
-Vuser 27:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 27: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 27:FINISHED FAILED
+Vuser 27:Processing 10000000 transactions with output suppressed...
 Vuser 28:RUNNING
-Vuser 28:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 28: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 28:FINISHED FAILED
+Vuser 28:Processing 10000000 transactions with output suppressed...
 Vuser 29:RUNNING
-Vuser 29:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 29: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 29:FINISHED FAILED
+Vuser 29:Processing 10000000 transactions with output suppressed...
 Vuser 30:RUNNING
-Vuser 30:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 30: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 30:FINISHED FAILED
+Vuser 30:Processing 10000000 transactions with output suppressed...
 Vuser 31:RUNNING
-Vuser 31:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 31: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 31:FINISHED FAILED
+Vuser 31:Processing 10000000 transactions with output suppressed...
 Vuser 32:RUNNING
-Vuser 32:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 32: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 32:FINISHED FAILED
+Vuser 32:Processing 10000000 transactions with output suppressed...
 Vuser 33:RUNNING
-Vuser 33:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 33: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 33:FINISHED FAILED
+Vuser 33:Processing 10000000 transactions with output suppressed...
 Vuser 34:RUNNING
-Vuser 34:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 34: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 34:FINISHED FAILED
+Vuser 34:Processing 10000000 transactions with output suppressed...
 Vuser 35:RUNNING
-Vuser 35:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 35: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 35:FINISHED FAILED
+Vuser 35:Processing 10000000 transactions with output suppressed...
 Vuser 36:RUNNING
-Vuser 36:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 36: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 36:FINISHED FAILED
+Vuser 36:Processing 10000000 transactions with output suppressed...
 Vuser 37:RUNNING
-Vuser 37:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 37: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 37:FINISHED FAILED
+Vuser 37:Processing 10000000 transactions with output suppressed...
 Vuser 38:RUNNING
-Vuser 38:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 38: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 38:FINISHED FAILED
+Vuser 38:Processing 10000000 transactions with output suppressed...
 Vuser 39:RUNNING
-Vuser 39:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 39: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 39:FINISHED FAILED
+Vuser 39:Processing 10000000 transactions with output suppressed...
 Vuser 40:RUNNING
-Vuser 40:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 40: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 40:FINISHED FAILED
+Vuser 40:Processing 10000000 transactions with output suppressed...
 Vuser 41:RUNNING
-Vuser 41:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 41: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 41:FINISHED FAILED
+Vuser 41:Processing 10000000 transactions with output suppressed...
 Vuser 42:RUNNING
-Vuser 42:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 42: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 42:FINISHED FAILED
+Vuser 42:Processing 10000000 transactions with output suppressed...
 Vuser 43:RUNNING
-Vuser 43:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 43: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 43:FINISHED FAILED
+Vuser 43:Processing 10000000 transactions with output suppressed...
 Vuser 44:RUNNING
-Vuser 44:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 44: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 44:FINISHED FAILED
+Vuser 44:Processing 10000000 transactions with output suppressed...
 Vuser 45:RUNNING
-Vuser 45:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 45: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 45:FINISHED FAILED
+Vuser 45:Processing 10000000 transactions with output suppressed...
 Vuser 46:RUNNING
-Vuser 46:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 46: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 46:FINISHED FAILED
+Vuser 46:Processing 10000000 transactions with output suppressed...
 Vuser 47:RUNNING
-Vuser 47:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 47: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 47:FINISHED FAILED
+Vuser 47:Processing 10000000 transactions with output suppressed...
 Vuser 48:RUNNING
-Vuser 48:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 48: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 48:FINISHED FAILED
+Vuser 48:Processing 10000000 transactions with output suppressed...
 Vuser 49:RUNNING
-Vuser 49:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 49: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 49:FINISHED FAILED
+Vuser 49:Processing 10000000 transactions with output suppressed...
 Vuser 50:RUNNING
-Vuser 50:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 50: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 50:FINISHED FAILED
+Vuser 50:Processing 10000000 transactions with output suppressed...
 Vuser 51:RUNNING
-Vuser 51:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 51: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 51:FINISHED FAILED
+Vuser 51:Processing 10000000 transactions with output suppressed...
 Vuser 52:RUNNING
-Vuser 52:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 52: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 52:FINISHED FAILED
+Vuser 52:Processing 10000000 transactions with output suppressed...
 Vuser 53:RUNNING
-Vuser 53:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 53: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 53:FINISHED FAILED
+Vuser 53:Processing 10000000 transactions with output suppressed...
 Vuser 54:RUNNING
-Vuser 54:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 54: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 54:FINISHED FAILED
+Vuser 54:Processing 10000000 transactions with output suppressed...
 Vuser 55:RUNNING
-Vuser 55:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 55: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 55:FINISHED FAILED
+Vuser 55:Processing 10000000 transactions with output suppressed...
 Vuser 56:RUNNING
-Vuser 56:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 56: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 56:FINISHED FAILED
+Vuser 56:Processing 10000000 transactions with output suppressed...
 Vuser 57:RUNNING
-Vuser 57:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 57: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 57:FINISHED FAILED
+Vuser 57:Processing 10000000 transactions with output suppressed...
 Vuser 58:RUNNING
-Vuser 58:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 58: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 58:FINISHED FAILED
+Vuser 58:Processing 10000000 transactions with output suppressed...
 Vuser 59:RUNNING
-Vuser 59:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 59: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 59:FINISHED FAILED
+Vuser 59:Processing 10000000 transactions with output suppressed...
 Vuser 60:RUNNING
-Vuser 60:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 60: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 60:FINISHED FAILED
+Vuser 60:Processing 10000000 transactions with output suppressed...
 Vuser 61:RUNNING
-Vuser 61:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 61: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 61:FINISHED FAILED
+Vuser 61:Processing 10000000 transactions with output suppressed...
 Vuser 62:RUNNING
-Vuser 62:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 62: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 62:FINISHED FAILED
+Vuser 62:Processing 10000000 transactions with output suppressed...
 Vuser 63:RUNNING
-Vuser 63:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 63: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 63:FINISHED FAILED
+Vuser 63:Processing 10000000 transactions with output suppressed...
 Vuser 64:RUNNING
-Vuser 64:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 64: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 64:FINISHED FAILED
+Vuser 64:Processing 10000000 transactions with output suppressed...
 Vuser 65:RUNNING
-Vuser 65:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 65: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 65:FINISHED FAILED
+Vuser 65:Processing 10000000 transactions with output suppressed...
 Vuser 66:RUNNING
-Vuser 66:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 66: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 66:FINISHED FAILED
+Vuser 66:Processing 10000000 transactions with output suppressed...
 Vuser 67:RUNNING
-Vuser 67:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 67: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 67:FINISHED FAILED
+Vuser 67:Processing 10000000 transactions with output suppressed...
 Vuser 68:RUNNING
-Vuser 68:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 68: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 68:FINISHED FAILED
+Vuser 68:Processing 10000000 transactions with output suppressed...
 Vuser 69:RUNNING
-Vuser 69:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 69: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 69:FINISHED FAILED
+Vuser 69:Processing 10000000 transactions with output suppressed...
 Vuser 70:RUNNING
-Vuser 70:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 70: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 70:FINISHED FAILED
+Vuser 70:Processing 10000000 transactions with output suppressed...
 Vuser 71:RUNNING
-Vuser 71:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 71: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 71:FINISHED FAILED
+Vuser 71:Processing 10000000 transactions with output suppressed...
 Vuser 72:RUNNING
-Vuser 72:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 72: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 72:FINISHED FAILED
+Vuser 72:Processing 10000000 transactions with output suppressed...
 Vuser 73:RUNNING
-Vuser 73:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 73: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 73:FINISHED FAILED
+Vuser 73:Processing 10000000 transactions with output suppressed...
 Vuser 74:RUNNING
-Vuser 74:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 74: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 74:FINISHED FAILED
+Vuser 74:Processing 10000000 transactions with output suppressed...
 Vuser 75:RUNNING
-Vuser 75:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 75: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 75:FINISHED FAILED
+Vuser 75:Processing 10000000 transactions with output suppressed...
 Vuser 76:RUNNING
-Vuser 76:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 76: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 76:FINISHED FAILED
+Vuser 76:Processing 10000000 transactions with output suppressed...
 Vuser 77:RUNNING
-Vuser 77:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 77: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 77:FINISHED FAILED
+Vuser 77:Processing 10000000 transactions with output suppressed...
 Vuser 78:RUNNING
-Vuser 78:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 78: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 78:FINISHED FAILED
+Vuser 78:Processing 10000000 transactions with output suppressed...
 Vuser 79:RUNNING
-Vuser 79:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 79: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 79:FINISHED FAILED
+Vuser 79:Processing 10000000 transactions with output suppressed...
 Vuser 80:RUNNING
-Vuser 80:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 80: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 80:FINISHED FAILED
+Vuser 80:Processing 10000000 transactions with output suppressed...
 Vuser 81:RUNNING
-Vuser 81:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 81: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 81:FINISHED FAILED
+Vuser 81:Processing 10000000 transactions with output suppressed...
 Vuser 82:RUNNING
-Vuser 82:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 82: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 82:FINISHED FAILED
+Vuser 82:Processing 10000000 transactions with output suppressed...
 Vuser 83:RUNNING
-Vuser 83:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 83: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 83:FINISHED FAILED
+Vuser 83:Processing 10000000 transactions with output suppressed...
 Vuser 84:RUNNING
-Vuser 84:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 84: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 84:FINISHED FAILED
+Vuser 84:Processing 10000000 transactions with output suppressed...
 Vuser 85:RUNNING
-Vuser 85:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 85: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 85:FINISHED FAILED
+Vuser 85:Processing 10000000 transactions with output suppressed...
 Vuser 86:RUNNING
-Vuser 86:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 86: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 86:FINISHED FAILED
+Vuser 86:Processing 10000000 transactions with output suppressed...
 Vuser 87:RUNNING
-Vuser 87:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 87: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 87:FINISHED FAILED
+Vuser 87:Processing 10000000 transactions with output suppressed...
 Vuser 88:RUNNING
-Vuser 88:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 88: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 88:FINISHED FAILED
+Vuser 88:Processing 10000000 transactions with output suppressed...
 Vuser 89:RUNNING
-Vuser 89:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 89: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 89:FINISHED FAILED
+Vuser 89:Processing 10000000 transactions with output suppressed...
 Vuser 90:RUNNING
-Vuser 90:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 90: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 90:FINISHED FAILED
+Vuser 90:Processing 10000000 transactions with output suppressed...
 Vuser 91:RUNNING
-Vuser 91:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 91: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 91:FINISHED FAILED
 Vuser 92:RUNNING
-Vuser 92:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 92: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 92:FINISHED FAILED
+Vuser 92:Processing 10000000 transactions with output suppressed...
 Vuser 93:RUNNING
-Vuser 93:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 93: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 93:FINISHED FAILED
+Vuser 93:Processing 10000000 transactions with output suppressed...
 Vuser 94:RUNNING
-Vuser 94:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 94: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 94:FINISHED FAILED
+Vuser 94:Processing 10000000 transactions with output suppressed...
 Vuser 95:RUNNING
-Vuser 95:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 95: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 95:FINISHED FAILED
+Vuser 95:Processing 10000000 transactions with output suppressed...
 Vuser 96:RUNNING
-Vuser 96:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 96: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 96:FINISHED FAILED
+Vuser 96:Processing 10000000 transactions with output suppressed...
 Vuser 97:RUNNING
-Vuser 97:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 97: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 97:FINISHED FAILED
+Vuser 97:Processing 10000000 transactions with output suppressed...
 Vuser 98:RUNNING
-Vuser 98:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 98: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 98:FINISHED FAILED
+Vuser 98:Processing 10000000 transactions with output suppressed...
 Vuser 99:RUNNING
-Vuser 99:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 99: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 99:FINISHED FAILED
+Vuser 99:Processing 10000000 transactions with output suppressed...
 Vuser 100:RUNNING
-Vuser 100:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 100: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 100:FINISHED FAILED
+Vuser 100:Processing 10000000 transactions with output suppressed...
 Vuser 101:RUNNING
-Vuser 101:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 101: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 101:FINISHED FAILED
+Vuser 91:Processing 10000000 transactions with output suppressed...
+Vuser 101:Processing 10000000 transactions with output suppressed...
+Vuser 1:Rampup 1 minutes complete ...
+Vuser 1:Rampup 2 minutes complete ...
+Vuser 1:Rampup complete, Taking start Transaction Count.
+Vuser 1:Timing test period of 3 in minutes
+Vuser 1:1 ...,
+Vuser 1:2 ...,
+Vuser 1:3 ...,
+Vuser 1:Test complete, Taking end Transaction Count.
+Vuser 1:100 Active Virtual Users configured
+Vuser 1:TEST RESULT : System achieved 81618 NOPM from 187738 PostgreSQL TPM
+Vuser 38:FINISHED SUCCESS
+Vuser 1:FINISHED SUCCESS
+Vuser 13:FINISHED SUCCESS
+Vuser 87:FINISHED SUCCESS
+Vuser 37:FINISHED SUCCESS
+Vuser 79:FINISHED SUCCESS
+Vuser 40:FINISHED SUCCESS
+Vuser 46:FINISHED SUCCESS
+Vuser 64:FINISHED SUCCESS
+Vuser 74:FINISHED SUCCESS
+Vuser 100:FINISHED SUCCESS
+Vuser 31:FINISHED SUCCESS
+Vuser 53:FINISHED SUCCESS
+Vuser 93:FINISHED SUCCESS
+Vuser 96:FINISHED SUCCESS
+Vuser 39:FINISHED SUCCESS
+Vuser 56:FINISHED SUCCESS
+Vuser 76:FINISHED SUCCESS
+Vuser 98:FINISHED SUCCESS
+Vuser 4:FINISHED SUCCESS
+Vuser 99:FINISHED SUCCESS
+Vuser 95:FINISHED SUCCESS
+Vuser 83:FINISHED SUCCESS
+Vuser 26:FINISHED SUCCESS
+Vuser 20:FINISHED SUCCESS
+Vuser 59:FINISHED SUCCESS
+Vuser 10:FINISHED SUCCESS
+Vuser 41:FINISHED SUCCESS
+Vuser 5:FINISHED SUCCESS
+Vuser 55:FINISHED SUCCESS
+Vuser 11:FINISHED SUCCESS
+Vuser 12:FINISHED SUCCESS
+Vuser 78:FINISHED SUCCESS
+Vuser 90:FINISHED SUCCESS
+Vuser 63:FINISHED SUCCESS
+Vuser 70:FINISHED SUCCESS
+Vuser 65:FINISHED SUCCESS
+Vuser 60:FINISHED SUCCESS
+Vuser 89:FINISHED SUCCESS
+Vuser 94:FINISHED SUCCESS
+Vuser 77:FINISHED SUCCESS
+Vuser 32:FINISHED SUCCESS
+Vuser 73:FINISHED SUCCESS
+Vuser 36:FINISHED SUCCESS
+Vuser 30:FINISHED SUCCESS
+Vuser 86:FINISHED SUCCESS
+Vuser 34:FINISHED SUCCESS
+Vuser 44:FINISHED SUCCESS
+Vuser 35:FINISHED SUCCESS
+Vuser 92:FINISHED SUCCESS
+Vuser 43:FINISHED SUCCESS
+Vuser 47:FINISHED SUCCESS
+Vuser 8:FINISHED SUCCESS
+Vuser 62:FINISHED SUCCESS
+Vuser 19:FINISHED SUCCESS
+Vuser 82:FINISHED SUCCESS
+Vuser 7:FINISHED SUCCESS
+Vuser 71:FINISHED SUCCESS
+Vuser 3:FINISHED SUCCESS
+Vuser 16:FINISHED SUCCESS
+Vuser 80:FINISHED SUCCESS
+Vuser 22:FINISHED SUCCESS
+Vuser 6:FINISHED SUCCESS
+Vuser 2:FINISHED SUCCESS
+Vuser 88:FINISHED SUCCESS
+Vuser 69:FINISHED SUCCESS
+Vuser 84:FINISHED SUCCESS
+Vuser 42:FINISHED SUCCESS
+Vuser 49:FINISHED SUCCESS
+Vuser 21:FINISHED SUCCESS
+Vuser 15:FINISHED SUCCESS
+Vuser 29:FINISHED SUCCESS
+Vuser 14:FINISHED SUCCESS
+Vuser 28:FINISHED SUCCESS
+Vuser 91:FINISHED SUCCESS
+Vuser 54:FINISHED SUCCESS
+Vuser 51:FINISHED SUCCESS
+Vuser 85:FINISHED SUCCESS
+Vuser 48:FINISHED SUCCESS
+Vuser 24:FINISHED SUCCESS
+Vuser 27:FINISHED SUCCESS
+Vuser 81:FINISHED SUCCESS
+Vuser 23:FINISHED SUCCESS
+Vuser 97:FINISHED SUCCESS
+Vuser 61:FINISHED SUCCESS
+Vuser 68:FINISHED SUCCESS
+Vuser 72:FINISHED SUCCESS
+Vuser 18:FINISHED SUCCESS
+Vuser 52:FINISHED SUCCESS
+Vuser 25:FINISHED SUCCESS
+Vuser 17:FINISHED SUCCESS
+Vuser 33:FINISHED SUCCESS
+Vuser 9:FINISHED SUCCESS
+Vuser 50:FINISHED SUCCESS
+Vuser 58:FINISHED SUCCESS
+Vuser 57:FINISHED SUCCESS
+Vuser 66:FINISHED SUCCESS
+Vuser 75:FINISHED SUCCESS
+Vuser 101:FINISHED SUCCESS
+Vuser 67:FINISHED SUCCESS
+Vuser 45:FINISHED SUCCESS
 ALL VIRTUAL USERS COMPLETE
 [2Khammerdb>vudestroy success
 ✅ PostgreSQL benchmark run complete.
@@ -952,623 +660,357 @@ Vuser 1 created MONITOR - WAIT IDLE
 
 0 PostgreSQL tpm
 Vuser 1:RUNNING
-Vuser 1:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 1: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 1:FINISHED FAILED
+Vuser 1:DBVersion:16.9 (Debian 16.9-1.pgdg120+1)
+Vuser 1:Beginning rampup time of 2 minutes
 Vuser 2:RUNNING
-Vuser 2:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 2: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 2:FINISHED FAILED
+Vuser 2:Processing 10000000 transactions with output suppressed...
 Vuser 3:RUNNING
-Vuser 3:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 3: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 3:FINISHED FAILED
+Vuser 3:Processing 10000000 transactions with output suppressed...
 Vuser 4:RUNNING
-Vuser 4:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 4: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 4:FINISHED FAILED
+Vuser 4:Processing 10000000 transactions with output suppressed...
 Vuser 5:RUNNING
-Vuser 5:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 5: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 5:FINISHED FAILED
+Vuser 5:Processing 10000000 transactions with output suppressed...
 Vuser 6:RUNNING
-Vuser 6:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 6: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 6:FINISHED FAILED
+Vuser 6:Processing 10000000 transactions with output suppressed...
 Vuser 7:RUNNING
-Vuser 7:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 7: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 7:FINISHED FAILED
+Vuser 7:Processing 10000000 transactions with output suppressed...
 Vuser 8:RUNNING
-Vuser 8:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 8: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 8:FINISHED FAILED
+Vuser 8:Processing 10000000 transactions with output suppressed...
 Vuser 9:RUNNING
-Vuser 9:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 9: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 9:FINISHED FAILED
+Vuser 9:Processing 10000000 transactions with output suppressed...
 Vuser 10:RUNNING
-Vuser 10:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 10: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 10:FINISHED FAILED
+Vuser 10:Processing 10000000 transactions with output suppressed...
 Vuser 11:RUNNING
-Vuser 11:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 11: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 11:FINISHED FAILED
+Vuser 11:Processing 10000000 transactions with output suppressed...
 Vuser 12:RUNNING
-Vuser 12:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 12: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 12:FINISHED FAILED
+Vuser 12:Processing 10000000 transactions with output suppressed...
 Vuser 13:RUNNING
-Vuser 13:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 13: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 13:FINISHED FAILED
+Vuser 13:Processing 10000000 transactions with output suppressed...
 Vuser 14:RUNNING
-Vuser 14:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 14: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 14:FINISHED FAILED
+Vuser 14:Processing 10000000 transactions with output suppressed...
 Vuser 15:RUNNING
-Vuser 15:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 15: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 15:FINISHED FAILED
+Vuser 15:Processing 10000000 transactions with output suppressed...
 Vuser 16:RUNNING
-Vuser 16:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 16: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 16:FINISHED FAILED
+Vuser 16:Processing 10000000 transactions with output suppressed...
 Vuser 17:RUNNING
-Vuser 17:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 17: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 17:FINISHED FAILED
+Vuser 17:Processing 10000000 transactions with output suppressed...
 Vuser 18:RUNNING
-Vuser 18:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 18: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 18:FINISHED FAILED
+Vuser 18:Processing 10000000 transactions with output suppressed...
 Vuser 19:RUNNING
-Vuser 19:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 19: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 19:FINISHED FAILED
-18 PostgreSQL tpm
+Vuser 19:Processing 10000000 transactions with output suppressed...
+59178 PostgreSQL tpm
 Vuser 20:RUNNING
-Vuser 20:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 20: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 20:FINISHED FAILED
+Vuser 20:Processing 10000000 transactions with output suppressed...
 Vuser 21:RUNNING
-Vuser 21:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 21: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 21:FINISHED FAILED
+Vuser 21:Processing 10000000 transactions with output suppressed...
 Vuser 22:RUNNING
-Vuser 22:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 22: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 22:FINISHED FAILED
+Vuser 22:Processing 10000000 transactions with output suppressed...
 Vuser 23:RUNNING
-Vuser 23:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 23: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 23:FINISHED FAILED
+Vuser 23:Processing 10000000 transactions with output suppressed...
 Vuser 24:RUNNING
-Vuser 24:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 24: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 24:FINISHED FAILED
+Vuser 24:Processing 10000000 transactions with output suppressed...
 Vuser 25:RUNNING
-Vuser 25:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 25: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 25:FINISHED FAILED
+Vuser 25:Processing 10000000 transactions with output suppressed...
 Vuser 26:RUNNING
-Vuser 26:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 26: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 26:FINISHED FAILED
+Vuser 26:Processing 10000000 transactions with output suppressed...
 Vuser 27:RUNNING
-Vuser 27:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 27: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 27:FINISHED FAILED
+Vuser 27:Processing 10000000 transactions with output suppressed...
 Vuser 28:RUNNING
-Vuser 28:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 28: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 28:FINISHED FAILED
+Vuser 28:Processing 10000000 transactions with output suppressed...
 Vuser 29:RUNNING
-Vuser 29:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 29: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 29:FINISHED FAILED
+Vuser 29:Processing 10000000 transactions with output suppressed...
 Vuser 30:RUNNING
-Vuser 30:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 30: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 30:FINISHED FAILED
+Vuser 30:Processing 10000000 transactions with output suppressed...
 Vuser 31:RUNNING
-Vuser 31:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 31: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 31:FINISHED FAILED
+Vuser 31:Processing 10000000 transactions with output suppressed...
 Vuser 32:RUNNING
-Vuser 32:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 32: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 32:FINISHED FAILED
+Vuser 32:Processing 10000000 transactions with output suppressed...
 Vuser 33:RUNNING
-Vuser 33:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 33: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 33:FINISHED FAILED
+Vuser 33:Processing 10000000 transactions with output suppressed...
 Vuser 34:RUNNING
-Vuser 34:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 34: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 34:FINISHED FAILED
+Vuser 34:Processing 10000000 transactions with output suppressed...
 Vuser 35:RUNNING
-Vuser 35:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 35: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 35:FINISHED FAILED
+Vuser 35:Processing 10000000 transactions with output suppressed...
 Vuser 36:RUNNING
-Vuser 36:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 36: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 36:FINISHED FAILED
+Vuser 36:Processing 10000000 transactions with output suppressed...
 Vuser 37:RUNNING
-Vuser 37:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 37: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 37:FINISHED FAILED
+Vuser 37:Processing 10000000 transactions with output suppressed...
 Vuser 38:RUNNING
-Vuser 38:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 38: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 38:FINISHED FAILED
+Vuser 38:Processing 10000000 transactions with output suppressed...
 Vuser 39:RUNNING
-Vuser 39:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 39: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 39:FINISHED FAILED
-18 PostgreSQL tpm
+Vuser 39:Processing 10000000 transactions with output suppressed...
+160848 PostgreSQL tpm
 Vuser 40:RUNNING
-Vuser 40:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 40: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 40:FINISHED FAILED
 Vuser 41:RUNNING
-Vuser 41:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 41: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 41:FINISHED FAILED
+Vuser 41:Processing 10000000 transactions with output suppressed...
 Vuser 42:RUNNING
-Vuser 42:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 42: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 42:FINISHED FAILED
+Vuser 42:Processing 10000000 transactions with output suppressed...
 Vuser 43:RUNNING
-Vuser 43:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 43: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 43:FINISHED FAILED
+Vuser 43:Processing 10000000 transactions with output suppressed...
 Vuser 44:RUNNING
-Vuser 44:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 44: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 44:FINISHED FAILED
+Vuser 44:Processing 10000000 transactions with output suppressed...
 Vuser 45:RUNNING
-Vuser 45:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 45: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 45:FINISHED FAILED
+Vuser 45:Processing 10000000 transactions with output suppressed...
 Vuser 46:RUNNING
-Vuser 46:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 46: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 46:FINISHED FAILED
+Vuser 46:Processing 10000000 transactions with output suppressed...
 Vuser 47:RUNNING
-Vuser 47:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 47: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 47:FINISHED FAILED
+Vuser 47:Processing 10000000 transactions with output suppressed...
 Vuser 48:RUNNING
-Vuser 48:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 48: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 48:FINISHED FAILED
+Vuser 48:Processing 10000000 transactions with output suppressed...
 Vuser 49:RUNNING
-Vuser 49:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 49: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 49:FINISHED FAILED
+Vuser 49:Processing 10000000 transactions with output suppressed...
 Vuser 50:RUNNING
-Vuser 50:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 50: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 50:FINISHED FAILED
+Vuser 40:Processing 10000000 transactions with output suppressed...
+Vuser 50:Processing 10000000 transactions with output suppressed...
 Vuser 51:RUNNING
-Vuser 51:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 51: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 51:FINISHED FAILED
+Vuser 51:Processing 10000000 transactions with output suppressed...
 Vuser 52:RUNNING
-Vuser 52:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 52: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 52:FINISHED FAILED
+Vuser 52:Processing 10000000 transactions with output suppressed...
 Vuser 53:RUNNING
-Vuser 53:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 53: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 53:FINISHED FAILED
+Vuser 53:Processing 10000000 transactions with output suppressed...
 Vuser 54:RUNNING
-Vuser 54:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 54: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 54:FINISHED FAILED
+Vuser 54:Processing 10000000 transactions with output suppressed...
 Vuser 55:RUNNING
-Vuser 55:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 55: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 55:FINISHED FAILED
+Vuser 55:Processing 10000000 transactions with output suppressed...
 Vuser 56:RUNNING
-Vuser 56:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 56: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 56:FINISHED FAILED
+Vuser 56:Processing 10000000 transactions with output suppressed...
 Vuser 57:RUNNING
-Vuser 57:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 57: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 57:FINISHED FAILED
+Vuser 57:Processing 10000000 transactions with output suppressed...
 Vuser 58:RUNNING
-Vuser 58:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 58: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 58:FINISHED FAILED
+Vuser 58:Processing 10000000 transactions with output suppressed...
 Vuser 59:RUNNING
-Vuser 59:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 59: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 59:FINISHED FAILED
-6 PostgreSQL tpm
+Vuser 59:Processing 10000000 transactions with output suppressed...
+168636 PostgreSQL tpm
 Vuser 60:RUNNING
-Vuser 60:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 60: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 60:FINISHED FAILED
+Vuser 60:Processing 10000000 transactions with output suppressed...
 Vuser 61:RUNNING
-Vuser 61:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 61: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 61:FINISHED FAILED
+Vuser 61:Processing 10000000 transactions with output suppressed...
 Vuser 62:RUNNING
-Vuser 62:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 62: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 62:FINISHED FAILED
+Vuser 62:Processing 10000000 transactions with output suppressed...
 Vuser 63:RUNNING
-Vuser 63:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 63: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 63:FINISHED FAILED
+Vuser 63:Processing 10000000 transactions with output suppressed...
 Vuser 64:RUNNING
-Vuser 64:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 64: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 64:FINISHED FAILED
 Vuser 65:RUNNING
-Vuser 65:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 65: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 65:FINISHED FAILED
+Vuser 65:Processing 10000000 transactions with output suppressed...
 Vuser 66:RUNNING
-Vuser 66:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 66: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 66:FINISHED FAILED
+Vuser 66:Processing 10000000 transactions with output suppressed...
 Vuser 67:RUNNING
-Vuser 67:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 67: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 67:FINISHED FAILED
+Vuser 67:Processing 10000000 transactions with output suppressed...
 Vuser 68:RUNNING
-Vuser 68:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 68: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 68:FINISHED FAILED
+Vuser 68:Processing 10000000 transactions with output suppressed...
 Vuser 69:RUNNING
-Vuser 69:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 69: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 69:FINISHED FAILED
+Vuser 69:Processing 10000000 transactions with output suppressed...
 Vuser 70:RUNNING
-Vuser 70:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 70: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 70:FINISHED FAILED
+Vuser 70:Processing 10000000 transactions with output suppressed...
 Vuser 71:RUNNING
-Vuser 71:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 71: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 71:FINISHED FAILED
+Vuser 71:Processing 10000000 transactions with output suppressed...
 Vuser 72:RUNNING
-Vuser 72:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 72: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 72:FINISHED FAILED
+Vuser 72:Processing 10000000 transactions with output suppressed...
 Vuser 73:RUNNING
-Vuser 73:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 73: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 73:FINISHED FAILED
+Vuser 73:Processing 10000000 transactions with output suppressed...
 Vuser 74:RUNNING
-Vuser 74:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 74: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 74:FINISHED FAILED
+Vuser 74:Processing 10000000 transactions with output suppressed...
+Vuser 64:Processing 10000000 transactions with output suppressed...
 Vuser 75:RUNNING
-Vuser 75:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 75: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 75:FINISHED FAILED
+Vuser 75:Processing 10000000 transactions with output suppressed...
 Vuser 76:RUNNING
-Vuser 76:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 76: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 76:FINISHED FAILED
+Vuser 76:Processing 10000000 transactions with output suppressed...
 Vuser 77:RUNNING
-Vuser 77:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 77: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 77:FINISHED FAILED
+Vuser 77:Processing 10000000 transactions with output suppressed...
 Vuser 78:RUNNING
-Vuser 78:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 78: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 78:FINISHED FAILED
+Vuser 78:Processing 10000000 transactions with output suppressed...
 Vuser 79:RUNNING
-Vuser 79:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 79: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 79:FINISHED FAILED
-6 PostgreSQL tpm
+Vuser 79:Processing 10000000 transactions with output suppressed...
+147132 PostgreSQL tpm
 Vuser 80:RUNNING
-Vuser 80:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 80: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 80:FINISHED FAILED
+Vuser 80:Processing 10000000 transactions with output suppressed...
 Vuser 81:RUNNING
-Vuser 81:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 81: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 81:FINISHED FAILED
+Vuser 81:Processing 10000000 transactions with output suppressed...
 Vuser 82:RUNNING
-Vuser 82:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 82: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 82:FINISHED FAILED
+Vuser 82:Processing 10000000 transactions with output suppressed...
 Vuser 83:RUNNING
-Vuser 83:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 83: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 83:FINISHED FAILED
+Vuser 83:Processing 10000000 transactions with output suppressed...
 Vuser 84:RUNNING
-Vuser 84:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 84: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 84:FINISHED FAILED
+Vuser 84:Processing 10000000 transactions with output suppressed...
 Vuser 85:RUNNING
-Vuser 85:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 85: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 85:FINISHED FAILED
+Vuser 85:Processing 10000000 transactions with output suppressed...
 Vuser 86:RUNNING
-Vuser 86:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 86: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 86:FINISHED FAILED
+Vuser 86:Processing 10000000 transactions with output suppressed...
 Vuser 87:RUNNING
-Vuser 87:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 87: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 87:FINISHED FAILED
+Vuser 87:Processing 10000000 transactions with output suppressed...
 Vuser 88:RUNNING
-Vuser 88:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 88: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 88:FINISHED FAILED
+Vuser 88:Processing 10000000 transactions with output suppressed...
 Vuser 89:RUNNING
-Vuser 89:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 89: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 89:FINISHED FAILED
+Vuser 89:Processing 10000000 transactions with output suppressed...
 Vuser 90:RUNNING
-Vuser 90:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 90: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 90:FINISHED FAILED
+Vuser 90:Processing 10000000 transactions with output suppressed...
 Vuser 91:RUNNING
-Vuser 91:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 91: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 91:FINISHED FAILED
+Vuser 91:Processing 10000000 transactions with output suppressed...
 Vuser 92:RUNNING
-Vuser 92:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 92: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 92:FINISHED FAILED
+Vuser 92:Processing 10000000 transactions with output suppressed...
 Vuser 93:RUNNING
-Vuser 93:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 93: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 93:FINISHED FAILED
+Vuser 93:Processing 10000000 transactions with output suppressed...
 Vuser 94:RUNNING
-Vuser 94:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 94: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 94:FINISHED FAILED
+Vuser 94:Processing 10000000 transactions with output suppressed...
 Vuser 95:RUNNING
-Vuser 95:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 95: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 95:FINISHED FAILED
+Vuser 95:Processing 10000000 transactions with output suppressed...
 Vuser 96:RUNNING
-Vuser 96:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 96: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 96:FINISHED FAILED
+Vuser 96:Processing 10000000 transactions with output suppressed...
 Vuser 97:RUNNING
-Vuser 97:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 97: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 97:FINISHED FAILED
+Vuser 97:Processing 10000000 transactions with output suppressed...
 Vuser 98:RUNNING
-Vuser 98:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 98: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 98:FINISHED FAILED
+Vuser 98:Processing 10000000 transactions with output suppressed...
 Vuser 99:RUNNING
-Vuser 99:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 99: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 99:FINISHED FAILED
-18 PostgreSQL tpm
+Vuser 99:Processing 10000000 transactions with output suppressed...
+201876 PostgreSQL tpm
 Vuser 100:RUNNING
-Vuser 100:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 100: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 100:FINISHED FAILED
+Vuser 100:Processing 10000000 transactions with output suppressed...
 Vuser 101:RUNNING
-Vuser 101:Connection to database failed connection to server at host.docker.internal (0.250.250.254), port 5432 failed: FATAL: password authentication failed for user tpcc
-Error in Virtual User 101: Connection to database failed
-connection to server at "host.docker.internal" (0.250.250.254), port 5432 failed: FATAL:  password authentication failed for user "tpcc"
-
-Vuser 101:FINISHED FAILED
+Vuser 101:Processing 10000000 transactions with output suppressed...
+172302 PostgreSQL tpm
+Vuser 1:Rampup 1 minutes complete ...
+192270 PostgreSQL tpm
+227652 PostgreSQL tpm
+272652 PostgreSQL tpm
+185658 PostgreSQL tpm
+145446 PostgreSQL tpm
+168288 PostgreSQL tpm
+Vuser 1:Rampup 2 minutes complete ...
+Vuser 1:Rampup complete, Taking start Transaction Count.
+Vuser 1:Timing test period of 3 in minutes
+193380 PostgreSQL tpm
+264984 PostgreSQL tpm
+238536 PostgreSQL tpm
+238128 PostgreSQL tpm
+259758 PostgreSQL tpm
+166386 PostgreSQL tpm
+Vuser 1:1 ...,
+180738 PostgreSQL tpm
+159834 PostgreSQL tpm
+224562 PostgreSQL tpm
+165024 PostgreSQL tpm
+189714 PostgreSQL tpm
+199182 PostgreSQL tpm
+Vuser 1:2 ...,
+225618 PostgreSQL tpm
+165906 PostgreSQL tpm
+154734 PostgreSQL tpm
+156618 PostgreSQL tpm
+180984 PostgreSQL tpm
+191478 PostgreSQL tpm
+Vuser 1:3 ...,
+Vuser 1:Test complete, Taking end Transaction Count.
+Vuser 1:100 Active Virtual Users configured
+Vuser 1:TEST RESULT : System achieved 85785 NOPM from 197379 PostgreSQL TPM
+Vuser 91:FINISHED SUCCESS
+Vuser 1:FINISHED SUCCESS
+Vuser 51:FINISHED SUCCESS
+Vuser 70:FINISHED SUCCESS
+Vuser 60:FINISHED SUCCESS
+Vuser 96:FINISHED SUCCESS
+Vuser 50:FINISHED SUCCESS
+Vuser 76:FINISHED SUCCESS
+Vuser 16:FINISHED SUCCESS
+Vuser 73:FINISHED SUCCESS
+Vuser 23:FINISHED SUCCESS
+Vuser 65:FINISHED SUCCESS
+Vuser 101:FINISHED SUCCESS
+Vuser 87:FINISHED SUCCESS
+Vuser 10:FINISHED SUCCESS
+Vuser 54:FINISHED SUCCESS
+Vuser 34:FINISHED SUCCESS
+Vuser 58:FINISHED SUCCESS
+Vuser 32:FINISHED SUCCESS
+Vuser 85:FINISHED SUCCESS
+Vuser 95:FINISHED SUCCESS
+Vuser 97:FINISHED SUCCESS
+Vuser 100:FINISHED SUCCESS
+Vuser 13:FINISHED SUCCESS
+Vuser 39:FINISHED SUCCESS
+Vuser 41:FINISHED SUCCESS
+Vuser 29:FINISHED SUCCESS
+Vuser 53:FINISHED SUCCESS
+Vuser 9:FINISHED SUCCESS
+Vuser 7:FINISHED SUCCESS
+Vuser 67:FINISHED SUCCESS
+Vuser 63:FINISHED SUCCESS
+Vuser 5:FINISHED SUCCESS
+Vuser 19:FINISHED SUCCESS
+Vuser 26:FINISHED SUCCESS
+Vuser 45:FINISHED SUCCESS
+Vuser 78:FINISHED SUCCESS
+Vuser 83:FINISHED SUCCESS
+Vuser 4:FINISHED SUCCESS
+Vuser 11:FINISHED SUCCESS
+Vuser 12:FINISHED SUCCESS
+Vuser 79:FINISHED SUCCESS
+Vuser 80:FINISHED SUCCESS
+148518 PostgreSQL tpm
+Vuser 62:FINISHED SUCCESS
+Vuser 8:FINISHED SUCCESS
+Vuser 71:FINISHED SUCCESS
+Vuser 20:FINISHED SUCCESS
+Vuser 46:FINISHED SUCCESS
+Vuser 14:FINISHED SUCCESS
+Vuser 49:FINISHED SUCCESS
+Vuser 17:FINISHED SUCCESS
+Vuser 2:FINISHED SUCCESS
+Vuser 28:FINISHED SUCCESS
+Vuser 6:FINISHED SUCCESS
+Vuser 86:FINISHED SUCCESS
+Vuser 61:FINISHED SUCCESS
+Vuser 57:FINISHED SUCCESS
+Vuser 92:FINISHED SUCCESS
+Vuser 37:FINISHED SUCCESS
+Vuser 44:FINISHED SUCCESS
+Vuser 59:FINISHED SUCCESS
+Vuser 55:FINISHED SUCCESS
+Vuser 89:FINISHED SUCCESS
+Vuser 90:FINISHED SUCCESS
+Vuser 77:FINISHED SUCCESS
+Vuser 40:FINISHED SUCCESS
+Vuser 68:FINISHED SUCCESS
+Vuser 21:FINISHED SUCCESS
+Vuser 38:FINISHED SUCCESS
+Vuser 93:FINISHED SUCCESS
+Vuser 69:FINISHED SUCCESS
+Vuser 42:FINISHED SUCCESS
+Vuser 47:FINISHED SUCCESS
+Vuser 30:FINISHED SUCCESS
+Vuser 99:FINISHED SUCCESS
+Vuser 18:FINISHED SUCCESS
+Vuser 27:FINISHED SUCCESS
+Vuser 35:FINISHED SUCCESS
+Vuser 74:FINISHED SUCCESS
+Vuser 56:FINISHED SUCCESS
+Vuser 66:FINISHED SUCCESS
+Vuser 88:FINISHED SUCCESS
+Vuser 15:FINISHED SUCCESS
+Vuser 24:FINISHED SUCCESS
+Vuser 98:FINISHED SUCCESS
+Vuser 3:FINISHED SUCCESS
+Vuser 25:FINISHED SUCCESS
+Vuser 75:FINISHED SUCCESS
+Vuser 94:FINISHED SUCCESS
+Vuser 82:FINISHED SUCCESS
+Vuser 48:FINISHED SUCCESS
+Vuser 36:FINISHED SUCCESS
+Vuser 52:FINISHED SUCCESS
+Vuser 72:FINISHED SUCCESS
+Vuser 33:FINISHED SUCCESS
+Vuser 22:FINISHED SUCCESS
+Vuser 31:FINISHED SUCCESS
+Vuser 64:FINISHED SUCCESS
+Vuser 84:FINISHED SUCCESS
+Vuser 81:FINISHED SUCCESS
+Vuser 43:FINISHED SUCCESS
 ALL VIRTUAL USERS COMPLETE
-[2Khammerdb>Benchmark Run jobid=68442DB852A903E223032353
+[2Khammerdb>Benchmark Run jobid=6844D52E4DDD03E283730303
 
-Transaction Counter thread running with threadid:tid0x7ffe8effd6c0
+Transaction Counter thread running with threadid:tid0x7fff8e7fc6c0
 
 
-Transaction Counter thread running with threadid:tid0x7ffe8effd6c0
+Transaction Counter thread running with threadid:tid0x7fff8e7fc6c0
 Stopping Transaction Counter
 
 

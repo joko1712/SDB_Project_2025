@@ -1,7 +1,7 @@
 HammerDB CLI v5.0
 Copyright © HammerDB Ltd hosted by tpc.org 2019-2025
 Type "help" for a list of commands
-Initialized Jobs on-disk database /tmp/hammer.DB using existing tables (18,259,968 bytes)
+Initialized Jobs on-disk database /tmp/hammer.DB using existing tables (25,366,528 bytes)
 
 🚀 Starting benchmark run 2 for pg_vu100_wh50_mc1000_sb4GB_wb256
 
@@ -126,705 +126,205 @@ Database set to PostgreSQL
 Vuser 1:DBVersion:16.9 (Debian 16.9-1.pgdg120+1)
 Vuser 1:Beginning rampup time of 2 minutes
 Vuser 2:RUNNING
-Error in Virtual User 2: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 2:FINISHED FAILED
+Vuser 2:Processing 10000000 transactions with output suppressed...
 Vuser 3:RUNNING
-Error in Virtual User 3: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 3:FINISHED FAILED
+Vuser 3:Processing 10000000 transactions with output suppressed...
 Vuser 4:RUNNING
-Error in Virtual User 4: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 4:FINISHED FAILED
+Vuser 4:Processing 10000000 transactions with output suppressed...
 Vuser 5:RUNNING
-Error in Virtual User 5: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 5:FINISHED FAILED
+Vuser 5:Processing 10000000 transactions with output suppressed...
 Vuser 6:RUNNING
-Error in Virtual User 6: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 6:FINISHED FAILED
+Vuser 6:Processing 10000000 transactions with output suppressed...
 Vuser 7:RUNNING
-Error in Virtual User 7: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 7:FINISHED FAILED
+Vuser 7:Processing 10000000 transactions with output suppressed...
 Vuser 8:RUNNING
-Error in Virtual User 8: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 8:FINISHED FAILED
+Vuser 8:Processing 10000000 transactions with output suppressed...
 Vuser 9:RUNNING
-Error in Virtual User 9: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 9:FINISHED FAILED
+Vuser 9:Processing 10000000 transactions with output suppressed...
 Vuser 10:RUNNING
-Error in Virtual User 10: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 10:FINISHED FAILED
+Vuser 10:Processing 10000000 transactions with output suppressed...
 Vuser 11:RUNNING
-Error in Virtual User 11: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 11:FINISHED FAILED
+Vuser 11:Processing 10000000 transactions with output suppressed...
 Vuser 12:RUNNING
-Error in Virtual User 12: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 12:FINISHED FAILED
+Vuser 12:Processing 10000000 transactions with output suppressed...
 Vuser 13:RUNNING
-Error in Virtual User 13: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 13:FINISHED FAILED
+Vuser 13:Processing 10000000 transactions with output suppressed...
 Vuser 14:RUNNING
-Error in Virtual User 14: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 14:FINISHED FAILED
+Vuser 14:Processing 10000000 transactions with output suppressed...
 Vuser 15:RUNNING
-Error in Virtual User 15: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 15:FINISHED FAILED
+Vuser 15:Processing 10000000 transactions with output suppressed...
 Vuser 16:RUNNING
-Error in Virtual User 16: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 16:FINISHED FAILED
+Vuser 16:Processing 10000000 transactions with output suppressed...
 Vuser 17:RUNNING
-Error in Virtual User 17: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 17:FINISHED FAILED
+Vuser 17:Processing 10000000 transactions with output suppressed...
 Vuser 18:RUNNING
-Error in Virtual User 18: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 18:FINISHED FAILED
+Vuser 18:Processing 10000000 transactions with output suppressed...
 Vuser 19:RUNNING
-Error in Virtual User 19: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 19:FINISHED FAILED
+Vuser 19:Processing 10000000 transactions with output suppressed...
 Vuser 20:RUNNING
-Error in Virtual User 20: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 20:FINISHED FAILED
+Vuser 20:Processing 10000000 transactions with output suppressed...
 Vuser 21:RUNNING
-Error in Virtual User 21: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 21:FINISHED FAILED
+Vuser 21:Processing 10000000 transactions with output suppressed...
 Vuser 22:RUNNING
-Error in Virtual User 22: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 22:FINISHED FAILED
+Vuser 22:Processing 10000000 transactions with output suppressed...
 Vuser 23:RUNNING
-Error in Virtual User 23: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 23:FINISHED FAILED
+Vuser 23:Processing 10000000 transactions with output suppressed...
 Vuser 24:RUNNING
-Error in Virtual User 24: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 24:FINISHED FAILED
+Vuser 24:Processing 10000000 transactions with output suppressed...
 Vuser 25:RUNNING
-Error in Virtual User 25: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 25:FINISHED FAILED
+Vuser 25:Processing 10000000 transactions with output suppressed...
 Vuser 26:RUNNING
-Error in Virtual User 26: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 26:FINISHED FAILED
+Vuser 26:Processing 10000000 transactions with output suppressed...
 Vuser 27:RUNNING
-Error in Virtual User 27: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 27:FINISHED FAILED
+Vuser 27:Processing 10000000 transactions with output suppressed...
 Vuser 28:RUNNING
-Error in Virtual User 28: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 28:FINISHED FAILED
+Vuser 28:Processing 10000000 transactions with output suppressed...
 Vuser 29:RUNNING
-Error in Virtual User 29: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 29:FINISHED FAILED
+Vuser 29:Processing 10000000 transactions with output suppressed...
 Vuser 30:RUNNING
-Error in Virtual User 30: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 30:FINISHED FAILED
+Vuser 30:Processing 10000000 transactions with output suppressed...
 Vuser 31:RUNNING
-Error in Virtual User 31: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 31:FINISHED FAILED
+Vuser 31:Processing 10000000 transactions with output suppressed...
 Vuser 32:RUNNING
-Error in Virtual User 32: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 32:FINISHED FAILED
+Vuser 32:Processing 10000000 transactions with output suppressed...
 Vuser 33:RUNNING
-Error in Virtual User 33: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 33:FINISHED FAILED
+Vuser 33:Processing 10000000 transactions with output suppressed...
 Vuser 34:RUNNING
-Error in Virtual User 34: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 34:FINISHED FAILED
+Vuser 34:Processing 10000000 transactions with output suppressed...
 Vuser 35:RUNNING
-Error in Virtual User 35: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 35:FINISHED FAILED
+Vuser 35:Processing 10000000 transactions with output suppressed...
 Vuser 36:RUNNING
-Error in Virtual User 36: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 36:FINISHED FAILED
+Vuser 36:Processing 10000000 transactions with output suppressed...
 Vuser 37:RUNNING
-Error in Virtual User 37: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 37:FINISHED FAILED
+Vuser 37:Processing 10000000 transactions with output suppressed...
 Vuser 38:RUNNING
-Error in Virtual User 38: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 38:FINISHED FAILED
+Vuser 38:Processing 10000000 transactions with output suppressed...
 Vuser 39:RUNNING
-Error in Virtual User 39: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 39:FINISHED FAILED
+Vuser 39:Processing 10000000 transactions with output suppressed...
 Vuser 40:RUNNING
-Error in Virtual User 40: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 40:FINISHED FAILED
+Vuser 40:Processing 10000000 transactions with output suppressed...
 Vuser 41:RUNNING
-Error in Virtual User 41: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 41:FINISHED FAILED
+Vuser 41:Processing 10000000 transactions with output suppressed...
 Vuser 42:RUNNING
-Error in Virtual User 42: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 42:FINISHED FAILED
+Vuser 42:Processing 10000000 transactions with output suppressed...
 Vuser 43:RUNNING
-Error in Virtual User 43: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 43:FINISHED FAILED
+Vuser 43:Processing 10000000 transactions with output suppressed...
 Vuser 44:RUNNING
-Error in Virtual User 44: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 44:FINISHED FAILED
+Vuser 44:Processing 10000000 transactions with output suppressed...
 Vuser 45:RUNNING
-Error in Virtual User 45: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 45:FINISHED FAILED
+Vuser 45:Processing 10000000 transactions with output suppressed...
 Vuser 46:RUNNING
-Error in Virtual User 46: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 46:FINISHED FAILED
+Vuser 46:Processing 10000000 transactions with output suppressed...
 Vuser 47:RUNNING
-Error in Virtual User 47: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 47:FINISHED FAILED
+Vuser 47:Processing 10000000 transactions with output suppressed...
 Vuser 48:RUNNING
-Error in Virtual User 48: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 48:FINISHED FAILED
+Vuser 48:Processing 10000000 transactions with output suppressed...
 Vuser 49:RUNNING
-Error in Virtual User 49: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 49:FINISHED FAILED
+Vuser 49:Processing 10000000 transactions with output suppressed...
 Vuser 50:RUNNING
-Error in Virtual User 50: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 50:FINISHED FAILED
+Vuser 50:Processing 10000000 transactions with output suppressed...
 Vuser 51:RUNNING
-Error in Virtual User 51: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 51:FINISHED FAILED
+Vuser 51:Processing 10000000 transactions with output suppressed...
 Vuser 52:RUNNING
-Error in Virtual User 52: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 52:FINISHED FAILED
+Vuser 52:Processing 10000000 transactions with output suppressed...
 Vuser 53:RUNNING
-Error in Virtual User 53: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 53:FINISHED FAILED
+Vuser 53:Processing 10000000 transactions with output suppressed...
 Vuser 54:RUNNING
-Error in Virtual User 54: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 54:FINISHED FAILED
+Vuser 54:Processing 10000000 transactions with output suppressed...
 Vuser 55:RUNNING
-Error in Virtual User 55: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 55:FINISHED FAILED
+Vuser 55:Processing 10000000 transactions with output suppressed...
 Vuser 56:RUNNING
-Error in Virtual User 56: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 56:FINISHED FAILED
+Vuser 56:Processing 10000000 transactions with output suppressed...
 Vuser 57:RUNNING
-Error in Virtual User 57: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 57:FINISHED FAILED
+Vuser 57:Processing 10000000 transactions with output suppressed...
 Vuser 58:RUNNING
-Error in Virtual User 58: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 58:FINISHED FAILED
+Vuser 58:Processing 10000000 transactions with output suppressed...
 Vuser 59:RUNNING
-Error in Virtual User 59: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 59:FINISHED FAILED
+Vuser 59:Processing 10000000 transactions with output suppressed...
 Vuser 60:RUNNING
-Error in Virtual User 60: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 60:FINISHED FAILED
+Vuser 60:Processing 10000000 transactions with output suppressed...
 Vuser 61:RUNNING
-Error in Virtual User 61: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 61:FINISHED FAILED
+Vuser 61:Processing 10000000 transactions with output suppressed...
 Vuser 62:RUNNING
-Error in Virtual User 62: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 62:FINISHED FAILED
+Vuser 62:Processing 10000000 transactions with output suppressed...
 Vuser 63:RUNNING
-Error in Virtual User 63: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 63:FINISHED FAILED
+Vuser 63:Processing 10000000 transactions with output suppressed...
 Vuser 64:RUNNING
-Error in Virtual User 64: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 64:FINISHED FAILED
+Vuser 64:Processing 10000000 transactions with output suppressed...
 Vuser 65:RUNNING
-Error in Virtual User 65: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 65:FINISHED FAILED
+Vuser 65:Processing 10000000 transactions with output suppressed...
 Vuser 66:RUNNING
-Error in Virtual User 66: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 66:FINISHED FAILED
+Vuser 66:Processing 10000000 transactions with output suppressed...
 Vuser 67:RUNNING
-Error in Virtual User 67: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 67:FINISHED FAILED
+Vuser 67:Processing 10000000 transactions with output suppressed...
 Vuser 68:RUNNING
-Error in Virtual User 68: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 68:FINISHED FAILED
+Vuser 68:Processing 10000000 transactions with output suppressed...
 Vuser 69:RUNNING
-Error in Virtual User 69: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 69:FINISHED FAILED
+Vuser 69:Processing 10000000 transactions with output suppressed...
 Vuser 70:RUNNING
-Error in Virtual User 70: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 70:FINISHED FAILED
+Vuser 70:Processing 10000000 transactions with output suppressed...
 Vuser 71:RUNNING
-Error in Virtual User 71: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 71:FINISHED FAILED
+Vuser 71:Processing 10000000 transactions with output suppressed...
 Vuser 72:RUNNING
-Error in Virtual User 72: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 72:FINISHED FAILED
+Vuser 72:Processing 10000000 transactions with output suppressed...
 Vuser 73:RUNNING
-Error in Virtual User 73: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 73:FINISHED FAILED
+Vuser 73:Processing 10000000 transactions with output suppressed...
 Vuser 74:RUNNING
-Error in Virtual User 74: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 74:FINISHED FAILED
+Vuser 74:Processing 10000000 transactions with output suppressed...
 Vuser 75:RUNNING
-Error in Virtual User 75: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 75:FINISHED FAILED
+Vuser 75:Processing 10000000 transactions with output suppressed...
 Vuser 76:RUNNING
-Error in Virtual User 76: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 76:FINISHED FAILED
+Vuser 76:Processing 10000000 transactions with output suppressed...
 Vuser 77:RUNNING
-Error in Virtual User 77: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 77:FINISHED FAILED
+Vuser 77:Processing 10000000 transactions with output suppressed...
 Vuser 78:RUNNING
-Error in Virtual User 78: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 78:FINISHED FAILED
+Vuser 78:Processing 10000000 transactions with output suppressed...
 Vuser 79:RUNNING
-Error in Virtual User 79: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 79:FINISHED FAILED
+Vuser 79:Processing 10000000 transactions with output suppressed...
 Vuser 80:RUNNING
-Error in Virtual User 80: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 80:FINISHED FAILED
+Vuser 80:Processing 10000000 transactions with output suppressed...
 Vuser 81:RUNNING
-Error in Virtual User 81: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 81:FINISHED FAILED
+Vuser 81:Processing 10000000 transactions with output suppressed...
 Vuser 82:RUNNING
-Error in Virtual User 82: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 82:FINISHED FAILED
+Vuser 82:Processing 10000000 transactions with output suppressed...
 Vuser 83:RUNNING
-Error in Virtual User 83: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 83:FINISHED FAILED
+Vuser 83:Processing 10000000 transactions with output suppressed...
 Vuser 84:RUNNING
-Error in Virtual User 84: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 84:FINISHED FAILED
+Vuser 84:Processing 10000000 transactions with output suppressed...
 Vuser 85:RUNNING
-Error in Virtual User 85: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 85:FINISHED FAILED
+Vuser 85:Processing 10000000 transactions with output suppressed...
 Vuser 86:RUNNING
-Error in Virtual User 86: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 86:FINISHED FAILED
+Vuser 86:Processing 10000000 transactions with output suppressed...
 Vuser 87:RUNNING
-Error in Virtual User 87: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 87:FINISHED FAILED
+Vuser 87:Processing 10000000 transactions with output suppressed...
 Vuser 88:RUNNING
-Error in Virtual User 88: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 88:FINISHED FAILED
+Vuser 88:Processing 10000000 transactions with output suppressed...
 Vuser 89:RUNNING
-Error in Virtual User 89: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 89:FINISHED FAILED
+Vuser 89:Processing 10000000 transactions with output suppressed...
 Vuser 90:RUNNING
-Error in Virtual User 90: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 90:FINISHED FAILED
+Vuser 90:Processing 10000000 transactions with output suppressed...
 Vuser 91:RUNNING
-Error in Virtual User 91: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 91:FINISHED FAILED
+Vuser 91:Processing 10000000 transactions with output suppressed...
 Vuser 92:RUNNING
-Error in Virtual User 92: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 92:FINISHED FAILED
+Vuser 92:Processing 10000000 transactions with output suppressed...
 Vuser 93:RUNNING
-Error in Virtual User 93: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 93:FINISHED FAILED
+Vuser 93:Processing 10000000 transactions with output suppressed...
 Vuser 94:RUNNING
-Error in Virtual User 94: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 94:FINISHED FAILED
+Vuser 94:Processing 10000000 transactions with output suppressed...
 Vuser 95:RUNNING
-Error in Virtual User 95: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 95:FINISHED FAILED
+Vuser 95:Processing 10000000 transactions with output suppressed...
 Vuser 96:RUNNING
-Error in Virtual User 96: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 96:FINISHED FAILED
+Vuser 96:Processing 10000000 transactions with output suppressed...
 Vuser 97:RUNNING
-Error in Virtual User 97: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 97:FINISHED FAILED
+Vuser 97:Processing 10000000 transactions with output suppressed...
 Vuser 98:RUNNING
-Error in Virtual User 98: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 98:FINISHED FAILED
+Vuser 98:Processing 10000000 transactions with output suppressed...
 Vuser 99:RUNNING
-Error in Virtual User 99: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 99:FINISHED FAILED
+Vuser 99:Processing 10000000 transactions with output suppressed...
 Vuser 100:RUNNING
-Error in Virtual User 100: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 100:FINISHED FAILED
+Vuser 100:Processing 10000000 transactions with output suppressed...
 Vuser 101:RUNNING
-Error in Virtual User 101: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 101:FINISHED FAILED
+Vuser 101:Processing 10000000 transactions with output suppressed...
 Vuser 1:Rampup 1 minutes complete ...
 Vuser 1:Rampup 2 minutes complete ...
 Vuser 1:Rampup complete, Taking start Transaction Count.
@@ -834,8 +334,108 @@ HINT:  No function matches the given name and argument types. You might need to 
 Vuser 1:3 ...,
 Vuser 1:Test complete, Taking end Transaction Count.
 Vuser 1:100 Active Virtual Users configured
-Vuser 1:TEST RESULT : System achieved 0 NOPM from 6 PostgreSQL TPM
+Vuser 1:TEST RESULT : System achieved 140129 NOPM from 321709 PostgreSQL TPM
+Vuser 85:FINISHED SUCCESS
+Vuser 2:FINISHED SUCCESS
 Vuser 1:FINISHED SUCCESS
+Vuser 58:FINISHED SUCCESS
+Vuser 55:FINISHED SUCCESS
+Vuser 34:FINISHED SUCCESS
+Vuser 71:FINISHED SUCCESS
+Vuser 13:FINISHED SUCCESS
+Vuser 95:FINISHED SUCCESS
+Vuser 6:FINISHED SUCCESS
+Vuser 91:FINISHED SUCCESS
+Vuser 45:FINISHED SUCCESS
+Vuser 29:FINISHED SUCCESS
+Vuser 88:FINISHED SUCCESS
+Vuser 22:FINISHED SUCCESS
+Vuser 16:FINISHED SUCCESS
+Vuser 65:FINISHED SUCCESS
+Vuser 18:FINISHED SUCCESS
+Vuser 54:FINISHED SUCCESS
+Vuser 60:FINISHED SUCCESS
+Vuser 48:FINISHED SUCCESS
+Vuser 90:FINISHED SUCCESS
+Vuser 4:FINISHED SUCCESS
+Vuser 10:FINISHED SUCCESS
+Vuser 51:FINISHED SUCCESS
+Vuser 62:FINISHED SUCCESS
+Vuser 89:FINISHED SUCCESS
+Vuser 81:FINISHED SUCCESS
+Vuser 77:FINISHED SUCCESS
+Vuser 74:FINISHED SUCCESS
+Vuser 5:FINISHED SUCCESS
+Vuser 46:FINISHED SUCCESS
+Vuser 57:FINISHED SUCCESS
+Vuser 73:FINISHED SUCCESS
+Vuser 87:FINISHED SUCCESS
+Vuser 66:FINISHED SUCCESS
+Vuser 75:FINISHED SUCCESS
+Vuser 50:FINISHED SUCCESS
+Vuser 61:FINISHED SUCCESS
+Vuser 52:FINISHED SUCCESS
+Vuser 80:FINISHED SUCCESS
+Vuser 47:FINISHED SUCCESS
+Vuser 96:FINISHED SUCCESS
+Vuser 15:FINISHED SUCCESS
+Vuser 40:FINISHED SUCCESS
+Vuser 27:FINISHED SUCCESS
+Vuser 30:FINISHED SUCCESS
+Vuser 32:FINISHED SUCCESS
+Vuser 97:FINISHED SUCCESS
+Vuser 36:FINISHED SUCCESS
+Vuser 101:FINISHED SUCCESS
+Vuser 82:FINISHED SUCCESS
+Vuser 49:FINISHED SUCCESS
+Vuser 84:FINISHED SUCCESS
+Vuser 24:FINISHED SUCCESS
+Vuser 53:FINISHED SUCCESS
+Vuser 42:FINISHED SUCCESS
+Vuser 83:FINISHED SUCCESS
+Vuser 67:FINISHED SUCCESS
+Vuser 21:FINISHED SUCCESS
+Vuser 78:FINISHED SUCCESS
+Vuser 12:FINISHED SUCCESS
+Vuser 3:FINISHED SUCCESS
+Vuser 92:FINISHED SUCCESS
+Vuser 31:FINISHED SUCCESS
+Vuser 98:FINISHED SUCCESS
+Vuser 68:FINISHED SUCCESS
+Vuser 33:FINISHED SUCCESS
+Vuser 64:FINISHED SUCCESS
+Vuser 9:FINISHED SUCCESS
+Vuser 20:FINISHED SUCCESS
+Vuser 100:FINISHED SUCCESS
+Vuser 56:FINISHED SUCCESS
+Vuser 94:FINISHED SUCCESS
+Vuser 76:FINISHED SUCCESS
+Vuser 35:FINISHED SUCCESS
+Vuser 25:FINISHED SUCCESS
+Vuser 39:FINISHED SUCCESS
+Vuser 19:FINISHED SUCCESS
+Vuser 70:FINISHED SUCCESS
+Vuser 8:FINISHED SUCCESS
+Vuser 37:FINISHED SUCCESS
+Vuser 14:FINISHED SUCCESS
+Vuser 44:FINISHED SUCCESS
+Vuser 93:FINISHED SUCCESS
+Vuser 23:FINISHED SUCCESS
+Vuser 79:FINISHED SUCCESS
+Vuser 86:FINISHED SUCCESS
+Vuser 43:FINISHED SUCCESS
+Vuser 59:FINISHED SUCCESS
+Vuser 17:FINISHED SUCCESS
+Vuser 38:FINISHED SUCCESS
+Vuser 26:FINISHED SUCCESS
+Vuser 72:FINISHED SUCCESS
+Vuser 63:FINISHED SUCCESS
+Vuser 28:FINISHED SUCCESS
+Vuser 7:FINISHED SUCCESS
+Vuser 99:FINISHED SUCCESS
+Vuser 11:FINISHED SUCCESS
+Vuser 69:FINISHED SUCCESS
+Vuser 41:FINISHED SUCCESS
 ALL VIRTUAL USERS COMPLETE
 [2Khammerdb>vudestroy success
 ✅ PostgreSQL benchmark run complete.
@@ -1063,752 +663,354 @@ Vuser 1 created MONITOR - WAIT IDLE
 Vuser 1:DBVersion:16.9 (Debian 16.9-1.pgdg120+1)
 Vuser 1:Beginning rampup time of 2 minutes
 Vuser 2:RUNNING
-Error in Virtual User 2: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 2:FINISHED FAILED
+Vuser 2:Processing 10000000 transactions with output suppressed...
 Vuser 3:RUNNING
-Error in Virtual User 3: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 3:FINISHED FAILED
+Vuser 3:Processing 10000000 transactions with output suppressed...
 Vuser 4:RUNNING
-Error in Virtual User 4: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 4:FINISHED FAILED
+Vuser 4:Processing 10000000 transactions with output suppressed...
 Vuser 5:RUNNING
-Error in Virtual User 5: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 5:FINISHED FAILED
+Vuser 5:Processing 10000000 transactions with output suppressed...
 Vuser 6:RUNNING
-Error in Virtual User 6: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 6:FINISHED FAILED
+Vuser 6:Processing 10000000 transactions with output suppressed...
 Vuser 7:RUNNING
-Error in Virtual User 7: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 7:FINISHED FAILED
+Vuser 7:Processing 10000000 transactions with output suppressed...
 Vuser 8:RUNNING
-Error in Virtual User 8: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 8:FINISHED FAILED
+Vuser 8:Processing 10000000 transactions with output suppressed...
 Vuser 9:RUNNING
-Error in Virtual User 9: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 9:FINISHED FAILED
+Vuser 9:Processing 10000000 transactions with output suppressed...
 Vuser 10:RUNNING
-Error in Virtual User 10: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 10:FINISHED FAILED
+Vuser 10:Processing 10000000 transactions with output suppressed...
 Vuser 11:RUNNING
-Error in Virtual User 11: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 11:FINISHED FAILED
+Vuser 11:Processing 10000000 transactions with output suppressed...
 Vuser 12:RUNNING
-Error in Virtual User 12: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 12:FINISHED FAILED
+Vuser 12:Processing 10000000 transactions with output suppressed...
 Vuser 13:RUNNING
-Error in Virtual User 13: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 13:FINISHED FAILED
+Vuser 13:Processing 10000000 transactions with output suppressed...
 Vuser 14:RUNNING
-Error in Virtual User 14: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 14:FINISHED FAILED
+Vuser 14:Processing 10000000 transactions with output suppressed...
 Vuser 15:RUNNING
-Error in Virtual User 15: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 15:FINISHED FAILED
+Vuser 15:Processing 10000000 transactions with output suppressed...
 Vuser 16:RUNNING
-Error in Virtual User 16: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 16:FINISHED FAILED
+Vuser 16:Processing 10000000 transactions with output suppressed...
 Vuser 17:RUNNING
-Error in Virtual User 17: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 17:FINISHED FAILED
+Vuser 17:Processing 10000000 transactions with output suppressed...
 Vuser 18:RUNNING
-Error in Virtual User 18: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 18:FINISHED FAILED
+Vuser 18:Processing 10000000 transactions with output suppressed...
 Vuser 19:RUNNING
-Error in Virtual User 19: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 19:FINISHED FAILED
-132 PostgreSQL tpm
+Vuser 19:Processing 10000000 transactions with output suppressed...
 Vuser 20:RUNNING
-Error in Virtual User 20: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 20:FINISHED FAILED
+78672 PostgreSQL tpm
+Vuser 20:Processing 10000000 transactions with output suppressed...
 Vuser 21:RUNNING
-Error in Virtual User 21: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 21:FINISHED FAILED
+Vuser 21:Processing 10000000 transactions with output suppressed...
 Vuser 22:RUNNING
-Error in Virtual User 22: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 22:FINISHED FAILED
+Vuser 22:Processing 10000000 transactions with output suppressed...
 Vuser 23:RUNNING
-Error in Virtual User 23: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 23:FINISHED FAILED
+Vuser 23:Processing 10000000 transactions with output suppressed...
 Vuser 24:RUNNING
-Error in Virtual User 24: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 24:FINISHED FAILED
+Vuser 24:Processing 10000000 transactions with output suppressed...
 Vuser 25:RUNNING
-Error in Virtual User 25: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 25:FINISHED FAILED
+Vuser 25:Processing 10000000 transactions with output suppressed...
 Vuser 26:RUNNING
-Error in Virtual User 26: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 26:FINISHED FAILED
+Vuser 26:Processing 10000000 transactions with output suppressed...
 Vuser 27:RUNNING
-Error in Virtual User 27: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 27:FINISHED FAILED
+Vuser 27:Processing 10000000 transactions with output suppressed...
 Vuser 28:RUNNING
-Error in Virtual User 28: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 28:FINISHED FAILED
+Vuser 28:Processing 10000000 transactions with output suppressed...
 Vuser 29:RUNNING
-Error in Virtual User 29: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 29:FINISHED FAILED
+Vuser 29:Processing 10000000 transactions with output suppressed...
 Vuser 30:RUNNING
-Error in Virtual User 30: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 30:FINISHED FAILED
+Vuser 30:Processing 10000000 transactions with output suppressed...
 Vuser 31:RUNNING
-Error in Virtual User 31: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 31:FINISHED FAILED
+Vuser 31:Processing 10000000 transactions with output suppressed...
 Vuser 32:RUNNING
-Error in Virtual User 32: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 32:FINISHED FAILED
+Vuser 32:Processing 10000000 transactions with output suppressed...
 Vuser 33:RUNNING
-Error in Virtual User 33: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 33:FINISHED FAILED
+Vuser 33:Processing 10000000 transactions with output suppressed...
 Vuser 34:RUNNING
-Error in Virtual User 34: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 34:FINISHED FAILED
+Vuser 34:Processing 10000000 transactions with output suppressed...
 Vuser 35:RUNNING
-Error in Virtual User 35: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 35:FINISHED FAILED
+Vuser 35:Processing 10000000 transactions with output suppressed...
 Vuser 36:RUNNING
-Error in Virtual User 36: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 36:FINISHED FAILED
+Vuser 36:Processing 10000000 transactions with output suppressed...
 Vuser 37:RUNNING
-Error in Virtual User 37: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 37:FINISHED FAILED
+Vuser 37:Processing 10000000 transactions with output suppressed...
 Vuser 38:RUNNING
-Error in Virtual User 38: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 38:FINISHED FAILED
+Vuser 38:Processing 10000000 transactions with output suppressed...
 Vuser 39:RUNNING
-Error in Virtual User 39: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 39:FINISHED FAILED
-498 PostgreSQL tpm
+Vuser 39:Processing 10000000 transactions with output suppressed...
+299922 PostgreSQL tpm
 Vuser 40:RUNNING
-Error in Virtual User 40: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 40:FINISHED FAILED
+Vuser 40:Processing 10000000 transactions with output suppressed...
 Vuser 41:RUNNING
-Error in Virtual User 41: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 41:FINISHED FAILED
+Vuser 41:Processing 10000000 transactions with output suppressed...
 Vuser 42:RUNNING
-Error in Virtual User 42: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 42:FINISHED FAILED
+Vuser 42:Processing 10000000 transactions with output suppressed...
 Vuser 43:RUNNING
-Error in Virtual User 43: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 43:FINISHED FAILED
+Vuser 43:Processing 10000000 transactions with output suppressed...
 Vuser 44:RUNNING
-Error in Virtual User 44: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 44:FINISHED FAILED
+Vuser 44:Processing 10000000 transactions with output suppressed...
 Vuser 45:RUNNING
-Error in Virtual User 45: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 45:FINISHED FAILED
+Vuser 45:Processing 10000000 transactions with output suppressed...
 Vuser 46:RUNNING
-Error in Virtual User 46: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 46:FINISHED FAILED
+Vuser 46:Processing 10000000 transactions with output suppressed...
 Vuser 47:RUNNING
-Error in Virtual User 47: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 47:FINISHED FAILED
+Vuser 47:Processing 10000000 transactions with output suppressed...
 Vuser 48:RUNNING
-Error in Virtual User 48: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 48:FINISHED FAILED
+Vuser 48:Processing 10000000 transactions with output suppressed...
 Vuser 49:RUNNING
-Error in Virtual User 49: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 49:FINISHED FAILED
+Vuser 49:Processing 10000000 transactions with output suppressed...
 Vuser 50:RUNNING
-Error in Virtual User 50: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 50:FINISHED FAILED
+Vuser 50:Processing 10000000 transactions with output suppressed...
 Vuser 51:RUNNING
-Error in Virtual User 51: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 51:FINISHED FAILED
+Vuser 51:Processing 10000000 transactions with output suppressed...
 Vuser 52:RUNNING
-Error in Virtual User 52: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 52:FINISHED FAILED
+Vuser 52:Processing 10000000 transactions with output suppressed...
 Vuser 53:RUNNING
-Error in Virtual User 53: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 53:FINISHED FAILED
+Vuser 53:Processing 10000000 transactions with output suppressed...
 Vuser 54:RUNNING
-Error in Virtual User 54: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 54:FINISHED FAILED
+Vuser 54:Processing 10000000 transactions with output suppressed...
 Vuser 55:RUNNING
-Error in Virtual User 55: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 55:FINISHED FAILED
+Vuser 55:Processing 10000000 transactions with output suppressed...
 Vuser 56:RUNNING
-Error in Virtual User 56: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 56:FINISHED FAILED
+Vuser 56:Processing 10000000 transactions with output suppressed...
 Vuser 57:RUNNING
-Error in Virtual User 57: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 57:FINISHED FAILED
+Vuser 57:Processing 10000000 transactions with output suppressed...
 Vuser 58:RUNNING
-Error in Virtual User 58: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 58:FINISHED FAILED
+Vuser 58:Processing 10000000 transactions with output suppressed...
 Vuser 59:RUNNING
-Error in Virtual User 59: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 59:FINISHED FAILED
-468 PostgreSQL tpm
+Vuser 59:Processing 10000000 transactions with output suppressed...
+323682 PostgreSQL tpm
 Vuser 60:RUNNING
-Error in Virtual User 60: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 60:FINISHED FAILED
+Vuser 60:Processing 10000000 transactions with output suppressed...
 Vuser 61:RUNNING
-Error in Virtual User 61: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 61:FINISHED FAILED
+Vuser 61:Processing 10000000 transactions with output suppressed...
 Vuser 62:RUNNING
-Error in Virtual User 62: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 62:FINISHED FAILED
+Vuser 62:Processing 10000000 transactions with output suppressed...
 Vuser 63:RUNNING
-Error in Virtual User 63: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 63:FINISHED FAILED
+Vuser 63:Processing 10000000 transactions with output suppressed...
 Vuser 64:RUNNING
-Error in Virtual User 64: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 64:FINISHED FAILED
+Vuser 64:Processing 10000000 transactions with output suppressed...
 Vuser 65:RUNNING
-Error in Virtual User 65: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 65:FINISHED FAILED
+Vuser 65:Processing 10000000 transactions with output suppressed...
 Vuser 66:RUNNING
-Error in Virtual User 66: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 66:FINISHED FAILED
+Vuser 66:Processing 10000000 transactions with output suppressed...
 Vuser 67:RUNNING
-Error in Virtual User 67: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 67:FINISHED FAILED
+Vuser 67:Processing 10000000 transactions with output suppressed...
 Vuser 68:RUNNING
-Error in Virtual User 68: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 68:FINISHED FAILED
+Vuser 68:Processing 10000000 transactions with output suppressed...
 Vuser 69:RUNNING
-Error in Virtual User 69: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 69:FINISHED FAILED
+Vuser 69:Processing 10000000 transactions with output suppressed...
 Vuser 70:RUNNING
-Error in Virtual User 70: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 70:FINISHED FAILED
+Vuser 70:Processing 10000000 transactions with output suppressed...
 Vuser 71:RUNNING
-Error in Virtual User 71: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 71:FINISHED FAILED
+Vuser 71:Processing 10000000 transactions with output suppressed...
 Vuser 72:RUNNING
-Error in Virtual User 72: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 72:FINISHED FAILED
+Vuser 72:Processing 10000000 transactions with output suppressed...
 Vuser 73:RUNNING
-Error in Virtual User 73: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 73:FINISHED FAILED
+Vuser 73:Processing 10000000 transactions with output suppressed...
 Vuser 74:RUNNING
-Error in Virtual User 74: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 74:FINISHED FAILED
+Vuser 74:Processing 10000000 transactions with output suppressed...
 Vuser 75:RUNNING
-Error in Virtual User 75: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 75:FINISHED FAILED
+Vuser 75:Processing 10000000 transactions with output suppressed...
 Vuser 76:RUNNING
-Error in Virtual User 76: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 76:FINISHED FAILED
+Vuser 76:Processing 10000000 transactions with output suppressed...
 Vuser 77:RUNNING
-Error in Virtual User 77: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 77:FINISHED FAILED
+Vuser 77:Processing 10000000 transactions with output suppressed...
 Vuser 78:RUNNING
-Error in Virtual User 78: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 78:FINISHED FAILED
+Vuser 78:Processing 10000000 transactions with output suppressed...
 Vuser 79:RUNNING
-Error in Virtual User 79: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 79:FINISHED FAILED
-498 PostgreSQL tpm
+Vuser 79:Processing 10000000 transactions with output suppressed...
 Vuser 80:RUNNING
-Error in Virtual User 80: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 80:FINISHED FAILED
+213558 PostgreSQL tpm
+Vuser 80:Processing 10000000 transactions with output suppressed...
 Vuser 81:RUNNING
-Error in Virtual User 81: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 81:FINISHED FAILED
+Vuser 81:Processing 10000000 transactions with output suppressed...
 Vuser 82:RUNNING
-Error in Virtual User 82: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 82:FINISHED FAILED
+Vuser 82:Processing 10000000 transactions with output suppressed...
 Vuser 83:RUNNING
-Error in Virtual User 83: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 83:FINISHED FAILED
+Vuser 83:Processing 10000000 transactions with output suppressed...
 Vuser 84:RUNNING
-Error in Virtual User 84: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 84:FINISHED FAILED
+Vuser 84:Processing 10000000 transactions with output suppressed...
 Vuser 85:RUNNING
-Error in Virtual User 85: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 85:FINISHED FAILED
+Vuser 85:Processing 10000000 transactions with output suppressed...
 Vuser 86:RUNNING
-Error in Virtual User 86: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 86:FINISHED FAILED
+Vuser 86:Processing 10000000 transactions with output suppressed...
 Vuser 87:RUNNING
-Error in Virtual User 87: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 87:FINISHED FAILED
+Vuser 87:Processing 10000000 transactions with output suppressed...
 Vuser 88:RUNNING
-Error in Virtual User 88: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 88:FINISHED FAILED
+Vuser 88:Processing 10000000 transactions with output suppressed...
 Vuser 89:RUNNING
-Error in Virtual User 89: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 89:FINISHED FAILED
+Vuser 89:Processing 10000000 transactions with output suppressed...
 Vuser 90:RUNNING
-Error in Virtual User 90: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 90:FINISHED FAILED
+Vuser 90:Processing 10000000 transactions with output suppressed...
 Vuser 91:RUNNING
-Error in Virtual User 91: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 91:FINISHED FAILED
+Vuser 91:Processing 10000000 transactions with output suppressed...
 Vuser 92:RUNNING
-Error in Virtual User 92: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 92:FINISHED FAILED
+Vuser 92:Processing 10000000 transactions with output suppressed...
 Vuser 93:RUNNING
-Error in Virtual User 93: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 93:FINISHED FAILED
+Vuser 93:Processing 10000000 transactions with output suppressed...
 Vuser 94:RUNNING
-Error in Virtual User 94: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 94:FINISHED FAILED
+Vuser 94:Processing 10000000 transactions with output suppressed...
 Vuser 95:RUNNING
-Error in Virtual User 95: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 95:FINISHED FAILED
+Vuser 95:Processing 10000000 transactions with output suppressed...
 Vuser 96:RUNNING
-Error in Virtual User 96: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 96:FINISHED FAILED
+Vuser 96:Processing 10000000 transactions with output suppressed...
 Vuser 97:RUNNING
-Error in Virtual User 97: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 97:FINISHED FAILED
+Vuser 97:Processing 10000000 transactions with output suppressed...
 Vuser 98:RUNNING
-Error in Virtual User 98: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 98:FINISHED FAILED
+Vuser 98:Processing 10000000 transactions with output suppressed...
 Vuser 99:RUNNING
-Error in Virtual User 99: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 99:FINISHED FAILED
-486 PostgreSQL tpm
+Vuser 99:Processing 10000000 transactions with output suppressed...
 Vuser 100:RUNNING
-Error in Virtual User 100: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 100:FINISHED FAILED
+257820 PostgreSQL tpm
+Vuser 100:Processing 10000000 transactions with output suppressed...
 Vuser 101:RUNNING
-Error in Virtual User 101: ERROR:  function neword(integer, integer, integer, integer, integer, integer) does not exist
-LINE 1: ...ER, INTEGER, INTEGER, INTEGER, INTEGER) as select neword($1,...
-                                                             ^
-HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
-
-Vuser 101:FINISHED FAILED
-390 PostgreSQL tpm
+Vuser 101:Processing 10000000 transactions with output suppressed...
 Vuser 1:Rampup 1 minutes complete ...
-42 PostgreSQL tpm
-18 PostgreSQL tpm
-6 PostgreSQL tpm
-18 PostgreSQL tpm
-6 PostgreSQL tpm
+378984 PostgreSQL tpm
+386892 PostgreSQL tpm
+257550 PostgreSQL tpm
+278160 PostgreSQL tpm
+426882 PostgreSQL tpm
+335418 PostgreSQL tpm
 Vuser 1:Rampup 2 minutes complete ...
 Vuser 1:Rampup complete, Taking start Transaction Count.
 Vuser 1:Timing test period of 3 in minutes
-24 PostgreSQL tpm
-12 PostgreSQL tpm
-18 PostgreSQL tpm
-6 PostgreSQL tpm
-18 PostgreSQL tpm
-6 PostgreSQL tpm
+342558 PostgreSQL tpm
+284244 PostgreSQL tpm
+196206 PostgreSQL tpm
+338946 PostgreSQL tpm
+244500 PostgreSQL tpm
+300966 PostgreSQL tpm
 Vuser 1:1 ...,
-18 PostgreSQL tpm
-6 PostgreSQL tpm
-18 PostgreSQL tpm
-6 PostgreSQL tpm
-18 PostgreSQL tpm
-6 PostgreSQL tpm
+289914 PostgreSQL tpm
+269352 PostgreSQL tpm
+329328 PostgreSQL tpm
+188604 PostgreSQL tpm
+128058 PostgreSQL tpm
+210240 PostgreSQL tpm
 Vuser 1:2 ...,
-18 PostgreSQL tpm
-6 PostgreSQL tpm
-18 PostgreSQL tpm
-6 PostgreSQL tpm
-18 PostgreSQL tpm
-6 PostgreSQL tpm
+327906 PostgreSQL tpm
+348552 PostgreSQL tpm
+265584 PostgreSQL tpm
+233670 PostgreSQL tpm
+335040 PostgreSQL tpm
+312642 PostgreSQL tpm
 Vuser 1:3 ...,
 Vuser 1:Test complete, Taking end Transaction Count.
 Vuser 1:100 Active Virtual Users configured
-Vuser 1:TEST RESULT : System achieved 0 NOPM from 12 PostgreSQL TPM
+Vuser 1:TEST RESULT : System achieved 118547 NOPM from 272152 PostgreSQL TPM
+Vuser 44:FINISHED SUCCESS
 Vuser 1:FINISHED SUCCESS
+Vuser 3:FINISHED SUCCESS
+Vuser 22:FINISHED SUCCESS
+Vuser 48:FINISHED SUCCESS
+Vuser 39:FINISHED SUCCESS
+Vuser 18:FINISHED SUCCESS
+Vuser 65:FINISHED SUCCESS
+Vuser 55:FINISHED SUCCESS
+291288 PostgreSQL tpm
+Vuser 66:FINISHED SUCCESS
+Vuser 101:FINISHED SUCCESS
+Vuser 64:FINISHED SUCCESS
+Vuser 76:FINISHED SUCCESS
+Vuser 60:FINISHED SUCCESS
+Vuser 31:FINISHED SUCCESS
+Vuser 74:FINISHED SUCCESS
+Vuser 21:FINISHED SUCCESS
+Vuser 88:FINISHED SUCCESS
+Vuser 71:FINISHED SUCCESS
+Vuser 37:FINISHED SUCCESS
+Vuser 35:FINISHED SUCCESS
+Vuser 33:FINISHED SUCCESS
+Vuser 93:FINISHED SUCCESS
+Vuser 36:FINISHED SUCCESS
+Vuser 63:FINISHED SUCCESS
+Vuser 12:FINISHED SUCCESS
+Vuser 47:FINISHED SUCCESS
+Vuser 51:FINISHED SUCCESS
+Vuser 41:FINISHED SUCCESS
+Vuser 8:FINISHED SUCCESS
+Vuser 50:FINISHED SUCCESS
+Vuser 16:FINISHED SUCCESS
+Vuser 83:FINISHED SUCCESS
+Vuser 68:FINISHED SUCCESS
+Vuser 19:FINISHED SUCCESS
+Vuser 58:FINISHED SUCCESS
+Vuser 67:FINISHED SUCCESS
+Vuser 10:FINISHED SUCCESS
+Vuser 52:FINISHED SUCCESS
+Vuser 49:FINISHED SUCCESS
+Vuser 25:FINISHED SUCCESS
+Vuser 92:FINISHED SUCCESS
+Vuser 81:FINISHED SUCCESS
+Vuser 77:FINISHED SUCCESS
+Vuser 17:FINISHED SUCCESS
+Vuser 11:FINISHED SUCCESS
+Vuser 73:FINISHED SUCCESS
+Vuser 54:FINISHED SUCCESS
+Vuser 40:FINISHED SUCCESS
+Vuser 9:FINISHED SUCCESS
+Vuser 89:FINISHED SUCCESS
+Vuser 29:FINISHED SUCCESS
+Vuser 6:FINISHED SUCCESS
+Vuser 56:FINISHED SUCCESS
+Vuser 80:FINISHED SUCCESS
+Vuser 53:FINISHED SUCCESS
+Vuser 14:FINISHED SUCCESS
+Vuser 85:FINISHED SUCCESS
+Vuser 38:FINISHED SUCCESS
+Vuser 87:FINISHED SUCCESS
+Vuser 24:FINISHED SUCCESS
+Vuser 59:FINISHED SUCCESS
+Vuser 27:FINISHED SUCCESS
+Vuser 95:FINISHED SUCCESS
+Vuser 15:FINISHED SUCCESS
+Vuser 42:FINISHED SUCCESS
+Vuser 28:FINISHED SUCCESS
+Vuser 91:FINISHED SUCCESS
+Vuser 94:FINISHED SUCCESS
+Vuser 4:FINISHED SUCCESS
+Vuser 100:FINISHED SUCCESS
+Vuser 70:FINISHED SUCCESS
+Vuser 78:FINISHED SUCCESS
+224976 PostgreSQL tpm
+Vuser 62:FINISHED SUCCESS
+Vuser 97:FINISHED SUCCESS
+Vuser 43:FINISHED SUCCESS
+Vuser 20:FINISHED SUCCESS
+Vuser 90:FINISHED SUCCESS
+Vuser 26:FINISHED SUCCESS
+Vuser 61:FINISHED SUCCESS
+Vuser 72:FINISHED SUCCESS
+Vuser 98:FINISHED SUCCESS
+Vuser 2:FINISHED SUCCESS
+Vuser 57:FINISHED SUCCESS
+Vuser 86:FINISHED SUCCESS
+Vuser 84:FINISHED SUCCESS
+Vuser 34:FINISHED SUCCESS
+Vuser 7:FINISHED SUCCESS
+Vuser 32:FINISHED SUCCESS
+Vuser 23:FINISHED SUCCESS
+Vuser 99:FINISHED SUCCESS
+Vuser 13:FINISHED SUCCESS
+Vuser 5:FINISHED SUCCESS
+Vuser 79:FINISHED SUCCESS
+Vuser 46:FINISHED SUCCESS
+Vuser 82:FINISHED SUCCESS
+Vuser 45:FINISHED SUCCESS
+Vuser 75:FINISHED SUCCESS
+Vuser 96:FINISHED SUCCESS
+Vuser 69:FINISHED SUCCESS
+Vuser 30:FINISHED SUCCESS
 ALL VIRTUAL USERS COMPLETE
-[2Khammerdb>Benchmark Run jobid=6844554FAEBF03E243833383
+[2Khammerdb>Benchmark Run jobid=68451E44A91203E263736313
 
-Transaction Counter thread running with threadid:tid0x7fff0dffb6c0
+Transaction Counter thread running with threadid:tid0x7fffacff96c0
 
 
-Transaction Counter thread running with threadid:tid0x7fff0dffb6c0
+Transaction Counter thread running with threadid:tid0x7fffacff96c0
 Stopping Transaction Counter
 
 
