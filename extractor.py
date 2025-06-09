@@ -22,7 +22,11 @@ test_case_map = {
     (150, 50, 1000, '4G', '128M'): (83, 'Stress3 - Best PostgreSQL'),
     (200, 50, 1000, '4G', '128M'): (84, 'Stress4 - Best PostgreSQL'),
     (100, 50, 1000, '8G', '128M'): (85, 'Stress5 - Best PostgreSQL'),
-    (100, 50, 1000, '4G', '256M'): (86, 'Stress6 - Best PostgreSQL'),    
+    (100, 50, 1000, '4G', '256M'): (86, 'Stress6 - Best PostgreSQL'),
+    (10, 5, 100, '256M', '8M'): (11, 'Small1 - Virtual Users vs Warehouses'),
+    (20, 5, 100, '256M', '8M'): (12, 'Small2 - Virtual Users vs Warehouses'),    
+    (5, 10, 100, '256M', '8M'): (13, 'Small3 - Virtual Users vs Warehouses'),
+    (5, 20, 100, '256M', '8M'): (14, 'Small4 - Virtual Users vs Warehouses'),
     }
 
 def parse_test_case_id(filename):

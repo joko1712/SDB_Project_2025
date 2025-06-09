@@ -1,0 +1,117 @@
+HammerDB CLI v5.0
+Copyright © HammerDB Ltd hosted by tpc.org 2019-2025
+Type "help" for a list of commands
+Initialized Jobs on-disk database /tmp/hammer.DB using existing tables (26,177,536 bytes)
+
+🚀 Starting benchmark run 4 for tpcc_vu5_wh10_mc100_bp256M_lb8
+
+
+
+
+CPU Metrics are not running on hammerdb-ubuntu
+
+
+Transaction Counter Started
+
+
+No Virtual Users found to destroy
+
+
+Script loaded, Type "print script" to view
+Vuser 1 created MONITOR - WAIT IDLE
+Vuser 2 created - WAIT IDLE
+Vuser 3 created - WAIT IDLE
+Vuser 4 created - WAIT IDLE
+Vuser 5 created - WAIT IDLE
+Vuser 6 created - WAIT IDLE
+6 Virtual Users Created with Monitor VU
+
+
+1 = WAIT IDLE
+2 = WAIT IDLE
+3 = WAIT IDLE
+4 = WAIT IDLE
+5 = WAIT IDLE
+6 = WAIT IDLE
+
+
+
+0 MariaDB tpm
+Vuser 1:RUNNING
+Vuser 1:Ssl_cipher 
+Vuser 1:DBVersion:10.11.13
+Vuser 1:Beginning rampup time of 2 minutes
+Vuser 2:RUNNING
+Vuser 2:Ssl_cipher 
+Vuser 2:Processing 10000000 transactions with output suppressed...
+Vuser 3:RUNNING
+Vuser 3:Ssl_cipher 
+Vuser 3:Processing 10000000 transactions with output suppressed...
+Vuser 4:RUNNING
+Vuser 4:Ssl_cipher 
+Vuser 4:Processing 10000000 transactions with output suppressed...
+Vuser 5:RUNNING
+Vuser 5:Ssl_cipher 
+Vuser 5:Processing 10000000 transactions with output suppressed...
+Vuser 6:RUNNING
+Vuser 6:Ssl_cipher 
+Vuser 6:Processing 10000000 transactions with output suppressed...
+85080 MariaDB tpm
+100710 MariaDB tpm
+91116 MariaDB tpm
+95316 MariaDB tpm
+92406 MariaDB tpm
+Vuser 1:Rampup 1 minutes complete ...
+83820 MariaDB tpm
+83064 MariaDB tpm
+85470 MariaDB tpm
+89934 MariaDB tpm
+80628 MariaDB tpm
+91644 MariaDB tpm
+Vuser 1:Rampup 2 minutes complete ...
+Vuser 1:Rampup complete, Taking start Transaction Count.
+Vuser 1:Timing test period of 3 in minutes
+90030 MariaDB tpm
+80184 MariaDB tpm
+88500 MariaDB tpm
+90780 MariaDB tpm
+81600 MariaDB tpm
+90192 MariaDB tpm
+Vuser 1:1 ...,
+87420 MariaDB tpm
+82602 MariaDB tpm
+87966 MariaDB tpm
+89136 MariaDB tpm
+86772 MariaDB tpm
+91680 MariaDB tpm
+Vuser 1:2 ...,
+90888 MariaDB tpm
+78600 MariaDB tpm
+87888 MariaDB tpm
+93888 MariaDB tpm
+82872 MariaDB tpm
+87288 MariaDB tpm
+Vuser 1:3 ...,
+Vuser 1:Test complete, Taking end Transaction Count.
+Vuser 1:5 Active Virtual Users configured
+Vuser 1:TEST RESULT : System achieved 37404 NOPM from 86931 MariaDB TPM
+Vuser 1:FINISHED SUCCESS
+Vuser 5:FINISHED SUCCESS
+Vuser 6:FINISHED SUCCESS
+Vuser 4:FINISHED SUCCESS
+88878 MariaDB tpm
+Vuser 2:FINISHED SUCCESS
+Vuser 3:FINISHED SUCCESS
+ALL VIRTUAL USERS COMPLETE
+[2Khammerdb>Benchmark Run jobid=68471862D3D803E263732343
+
+Transaction Counter thread running with threadid:tid0x7ffffe2516c0
+
+
+Transaction Counter thread running with threadid:tid0x7ffffe2516c0
+Stopping Transaction Counter
+
+
+No Metrics Agent detected on id: localhost:10000
+
+
