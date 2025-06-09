@@ -1,0 +1,706 @@
+HammerDB CLI v5.0
+Copyright © HammerDB Ltd hosted by tpc.org 2019-2025
+Type "help" for a list of commands
+Initialized Jobs on-disk database C:/Users/diogo/AppData/Local/Temp/hammer.DB using existing tables (213,356,544 bytes)
+Running TPCC benchmark for PostgreSQL...
+Database set to PostgreSQL
+Benchmark set to TPC-C for PostgreSQL
+Value localhost for connection:pg_host is the same as existing value localhost, no change made
+Value 5432 for connection:pg_port is the same as existing value 5432, no change made
+Value tpcc for tpcc:pg_user is the same as existing value tpcc, no change made
+Value tpcc for tpcc:pg_pass is the same as existing value tpcc, no change made
+Value tpcc for tpcc:pg_dbase is the same as existing value tpcc, no change made
+Value 50 for tpcc:pg_count_ware is the same as existing value 50, no change made
+Value timed for tpcc:pg_driver is the same as existing value timed, no change made
+Value 2 for tpcc:pg_rampup is the same as existing value 2, no change made
+Value 3 for tpcc:pg_duration is the same as existing value 3, no change made
+Value 10 for tpcc:pg_async_client is the same as existing value 10, no change made
+Value true for tpcc:pg_allwarehouse is the same as existing value true, no change made
+Transaction Counter Started
+Script loaded, Type "print script" to view
+Vuser 1 created MONITOR - WAIT IDLE
+Vuser 2 created - WAIT IDLE
+Vuser 3 created - WAIT IDLE
+Vuser 4 created - WAIT IDLE
+Vuser 5 created - WAIT IDLE
+Vuser 6 created - WAIT IDLE
+Vuser 7 created - WAIT IDLE
+Vuser 8 created - WAIT IDLE
+Vuser 9 created - WAIT IDLE
+Vuser 10 created - WAIT IDLE
+Vuser 11 created - WAIT IDLE
+Vuser 12 created - WAIT IDLE
+Vuser 13 created - WAIT IDLE
+Vuser 14 created - WAIT IDLE
+Vuser 15 created - WAIT IDLE
+Vuser 16 created - WAIT IDLE
+Vuser 17 created - WAIT IDLE
+Vuser 18 created - WAIT IDLE
+Vuser 19 created - WAIT IDLE
+Vuser 20 created - WAIT IDLE
+Vuser 21 created - WAIT IDLE
+Vuser 22 created - WAIT IDLE
+Vuser 23 created - WAIT IDLE
+Vuser 24 created - WAIT IDLE
+Vuser 25 created - WAIT IDLE
+Vuser 26 created - WAIT IDLE
+Vuser 27 created - WAIT IDLE
+Vuser 28 created - WAIT IDLE
+Vuser 29 created - WAIT IDLE
+Vuser 30 created - WAIT IDLE
+Vuser 31 created - WAIT IDLE
+Vuser 32 created - WAIT IDLE
+Vuser 33 created - WAIT IDLE
+Vuser 34 created - WAIT IDLE
+Vuser 35 created - WAIT IDLE
+Vuser 36 created - WAIT IDLE
+Vuser 37 created - WAIT IDLE
+Vuser 38 created - WAIT IDLE
+Vuser 39 created - WAIT IDLE
+Vuser 40 created - WAIT IDLE
+Vuser 41 created - WAIT IDLE
+Vuser 42 created - WAIT IDLE
+Vuser 43 created - WAIT IDLE
+Vuser 44 created - WAIT IDLE
+Vuser 45 created - WAIT IDLE
+Vuser 46 created - WAIT IDLE
+Vuser 47 created - WAIT IDLE
+Vuser 48 created - WAIT IDLE
+Vuser 49 created - WAIT IDLE
+Vuser 50 created - WAIT IDLE
+Vuser 51 created - WAIT IDLE
+Vuser 52 created - WAIT IDLE
+Vuser 53 created - WAIT IDLE
+Vuser 54 created - WAIT IDLE
+Vuser 55 created - WAIT IDLE
+Vuser 56 created - WAIT IDLE
+Vuser 57 created - WAIT IDLE
+Vuser 58 created - WAIT IDLE
+Vuser 59 created - WAIT IDLE
+Vuser 60 created - WAIT IDLE
+Vuser 61 created - WAIT IDLE
+Vuser 62 created - WAIT IDLE
+Vuser 63 created - WAIT IDLE
+Vuser 64 created - WAIT IDLE
+Vuser 65 created - WAIT IDLE
+Vuser 66 created - WAIT IDLE
+Vuser 67 created - WAIT IDLE
+Vuser 68 created - WAIT IDLE
+Vuser 69 created - WAIT IDLE
+Vuser 70 created - WAIT IDLE
+Vuser 71 created - WAIT IDLE
+Vuser 72 created - WAIT IDLE
+Vuser 73 created - WAIT IDLE
+Vuser 74 created - WAIT IDLE
+Vuser 75 created - WAIT IDLE
+Vuser 76 created - WAIT IDLE
+Vuser 77 created - WAIT IDLE
+Vuser 78 created - WAIT IDLE
+Vuser 79 created - WAIT IDLE
+Vuser 80 created - WAIT IDLE
+Vuser 81 created - WAIT IDLE
+Vuser 82 created - WAIT IDLE
+Vuser 83 created - WAIT IDLE
+Vuser 84 created - WAIT IDLE
+Vuser 85 created - WAIT IDLE
+Vuser 86 created - WAIT IDLE
+Vuser 87 created - WAIT IDLE
+Vuser 88 created - WAIT IDLE
+Vuser 89 created - WAIT IDLE
+Vuser 90 created - WAIT IDLE
+Vuser 91 created - WAIT IDLE
+Vuser 92 created - WAIT IDLE
+Vuser 93 created - WAIT IDLE
+Vuser 94 created - WAIT IDLE
+Vuser 95 created - WAIT IDLE
+Vuser 96 created - WAIT IDLE
+Vuser 97 created - WAIT IDLE
+Vuser 98 created - WAIT IDLE
+Vuser 99 created - WAIT IDLE
+Vuser 100 created - WAIT IDLE
+Vuser 101 created - WAIT IDLE
+101 Virtual Users Created with Monitor VU
+0 PostgreSQL tpm
+Vuser 1:RUNNING
+Vuser 2:RUNNING
+Vuser 3:RUNNING
+Vuser 1:DBVersion:17.5
+Vuser 3:Assigned 1 WIDs = 2 based on VU count 100, Warehouses = 1 out of 50
+Vuser 2:Assigned 1 WIDs = 1 based on VU count 100, Warehouses = 1 out of 50
+Vuser 1:Beginning rampup time of 2 minutes
+Vuser 3:Processing 100000 transactions with output suppressed...
+Vuser 2:Processing 100000 transactions with output suppressed...
+Vuser 4:RUNNING
+Vuser 4:Assigned 1 WIDs = 3 based on VU count 100, Warehouses = 1 out of 50
+Vuser 4:Processing 100000 transactions with output suppressed...
+Vuser 5:RUNNING
+Vuser 5:Assigned 1 WIDs = 4 based on VU count 100, Warehouses = 1 out of 50
+Vuser 5:Processing 100000 transactions with output suppressed...
+Vuser 6:RUNNING
+Vuser 6:Assigned 1 WIDs = 5 based on VU count 100, Warehouses = 1 out of 50
+Vuser 6:Processing 100000 transactions with output suppressed...
+Vuser 7:RUNNING
+Vuser 7:Assigned 1 WIDs = 6 based on VU count 100, Warehouses = 1 out of 50
+Vuser 7:Processing 100000 transactions with output suppressed...
+Vuser 8:RUNNING
+Vuser 8:Assigned 1 WIDs = 7 based on VU count 100, Warehouses = 1 out of 50
+Vuser 8:Processing 100000 transactions with output suppressed...
+Vuser 9:RUNNING
+Vuser 9:Assigned 1 WIDs = 8 based on VU count 100, Warehouses = 1 out of 50
+Vuser 9:Processing 100000 transactions with output suppressed...
+Vuser 10:RUNNING
+Vuser 10:Assigned 1 WIDs = 9 based on VU count 100, Warehouses = 1 out of 50
+Vuser 10:Processing 100000 transactions with output suppressed...
+Vuser 11:RUNNING
+Vuser 11:Assigned 1 WIDs = 10 based on VU count 100, Warehouses = 1 out of 50
+Vuser 11:Processing 100000 transactions with output suppressed...
+Vuser 12:RUNNING
+Vuser 12:Assigned 1 WIDs = 11 based on VU count 100, Warehouses = 1 out of 50
+Vuser 13:RUNNING
+Vuser 12:Processing 100000 transactions with output suppressed...
+Vuser 14:RUNNING
+Vuser 13:Assigned 1 WIDs = 12 based on VU count 100, Warehouses = 1 out of 50
+Vuser 13:Processing 100000 transactions with output suppressed...
+Vuser 14:Assigned 1 WIDs = 13 based on VU count 100, Warehouses = 1 out of 50
+Vuser 14:Processing 100000 transactions with output suppressed...
+Vuser 15:RUNNING
+Vuser 15:Assigned 1 WIDs = 14 based on VU count 100, Warehouses = 1 out of 50
+Vuser 15:Processing 100000 transactions with output suppressed...
+Vuser 16:RUNNING
+Vuser 17:RUNNING
+Vuser 18:RUNNING
+Vuser 16:Assigned 1 WIDs = 15 based on VU count 100, Warehouses = 1 out of 50
+Vuser 16:Processing 100000 transactions with output suppressed...
+Vuser 18:Assigned 1 WIDs = 17 based on VU count 100, Warehouses = 1 out of 50
+2706 PostgreSQL tpm
+Vuser 17:Assigned 1 WIDs = 16 based on VU count 100, Warehouses = 1 out of 50
+Vuser 18:Processing 100000 transactions with output suppressed...
+Vuser 17:Processing 100000 transactions with output suppressed...
+Vuser 19:RUNNING
+Vuser 20:RUNNING
+Vuser 19:Assigned 1 WIDs = 18 based on VU count 100, Warehouses = 1 out of 50
+Vuser 19:Processing 100000 transactions with output suppressed...
+Vuser 20:Assigned 1 WIDs = 19 based on VU count 100, Warehouses = 1 out of 50
+Vuser 20:Processing 100000 transactions with output suppressed...
+Vuser 21:RUNNING
+Vuser 22:RUNNING
+Vuser 21:Assigned 1 WIDs = 20 based on VU count 100, Warehouses = 1 out of 50
+Vuser 21:Processing 100000 transactions with output suppressed...
+Vuser 23:RUNNING
+Vuser 22:Assigned 1 WIDs = 21 based on VU count 100, Warehouses = 1 out of 50
+Vuser 22:Processing 100000 transactions with output suppressed...
+Vuser 23:Assigned 1 WIDs = 22 based on VU count 100, Warehouses = 1 out of 50
+Vuser 24:RUNNING
+Vuser 23:Processing 100000 transactions with output suppressed...
+Vuser 24:Assigned 1 WIDs = 23 based on VU count 100, Warehouses = 1 out of 50
+Vuser 24:Processing 100000 transactions with output suppressed...
+Vuser 25:RUNNING
+Vuser 26:RUNNING
+Vuser 25:Assigned 1 WIDs = 24 based on VU count 100, Warehouses = 1 out of 50
+Vuser 25:Processing 100000 transactions with output suppressed...
+Vuser 26:Assigned 1 WIDs = 25 based on VU count 100, Warehouses = 1 out of 50
+Vuser 26:Processing 100000 transactions with output suppressed...
+Vuser 27:RUNNING
+Vuser 27:Assigned 1 WIDs = 26 based on VU count 100, Warehouses = 1 out of 50
+Vuser 27:Processing 100000 transactions with output suppressed...
+Vuser 28:RUNNING
+Vuser 29:RUNNING
+Vuser 28:Assigned 1 WIDs = 27 based on VU count 100, Warehouses = 1 out of 50
+Vuser 28:Processing 100000 transactions with output suppressed...
+Vuser 29:Assigned 1 WIDs = 28 based on VU count 100, Warehouses = 1 out of 50
+Vuser 29:Processing 100000 transactions with output suppressed...
+Vuser 30:RUNNING
+Vuser 31:RUNNING
+Vuser 30:Assigned 1 WIDs = 29 based on VU count 100, Warehouses = 1 out of 50
+Vuser 30:Processing 100000 transactions with output suppressed...
+Vuser 32:RUNNING
+Vuser 31:Assigned 1 WIDs = 30 based on VU count 100, Warehouses = 1 out of 50
+Vuser 31:Processing 100000 transactions with output suppressed...
+Vuser 32:Assigned 1 WIDs = 31 based on VU count 100, Warehouses = 1 out of 50
+Vuser 32:Processing 100000 transactions with output suppressed...
+Vuser 33:RUNNING
+Vuser 34:RUNNING
+Vuser 35:RUNNING
+Vuser 36:RUNNING
+Vuser 33:Assigned 1 WIDs = 32 based on VU count 100, Warehouses = 1 out of 50
+5322 PostgreSQL tpm
+Vuser 33:Processing 100000 transactions with output suppressed...
+Vuser 37:RUNNING
+Vuser 34:Assigned 1 WIDs = 33 based on VU count 100, Warehouses = 1 out of 50
+Vuser 34:Processing 100000 transactions with output suppressed...
+Vuser 36:Assigned 1 WIDs = 35 based on VU count 100, Warehouses = 1 out of 50
+Vuser 38:RUNNING
+Vuser 36:Processing 100000 transactions with output suppressed...
+Vuser 35:Assigned 1 WIDs = 34 based on VU count 100, Warehouses = 1 out of 50
+Vuser 38:Assigned 1 WIDs = 37 based on VU count 100, Warehouses = 1 out of 50
+Vuser 35:Processing 100000 transactions with output suppressed...
+Vuser 38:Processing 100000 transactions with output suppressed...
+Vuser 37:Assigned 1 WIDs = 36 based on VU count 100, Warehouses = 1 out of 50
+Vuser 37:Processing 100000 transactions with output suppressed...
+Vuser 39:RUNNING
+Vuser 40:RUNNING
+Vuser 41:RUNNING
+Vuser 39:Assigned 1 WIDs = 38 based on VU count 100, Warehouses = 1 out of 50
+Vuser 39:Processing 100000 transactions with output suppressed...
+Vuser 40:Assigned 1 WIDs = 39 based on VU count 100, Warehouses = 1 out of 50
+Vuser 40:Processing 100000 transactions with output suppressed...
+Vuser 42:RUNNING
+Vuser 41:Assigned 1 WIDs = 40 based on VU count 100, Warehouses = 1 out of 50
+Vuser 43:RUNNING
+Vuser 41:Processing 100000 transactions with output suppressed...
+Vuser 42:Assigned 1 WIDs = 41 based on VU count 100, Warehouses = 1 out of 50
+Vuser 42:Processing 100000 transactions with output suppressed...
+Vuser 44:RUNNING
+Vuser 43:Assigned 1 WIDs = 42 based on VU count 100, Warehouses = 1 out of 50
+Vuser 43:Processing 100000 transactions with output suppressed...
+Vuser 45:RUNNING
+Vuser 46:RUNNING
+Vuser 47:RUNNING
+Vuser 44:Assigned 1 WIDs = 43 based on VU count 100, Warehouses = 1 out of 50
+Vuser 48:RUNNING
+Vuser 45:Assigned 1 WIDs = 44 based on VU count 100, Warehouses = 1 out of 50
+Vuser 44:Processing 100000 transactions with output suppressed...
+Vuser 45:Processing 100000 transactions with output suppressed...
+Vuser 46:Assigned 1 WIDs = 45 based on VU count 100, Warehouses = 1 out of 50
+Vuser 46:Processing 100000 transactions with output suppressed...
+Vuser 47:Assigned 1 WIDs = 46 based on VU count 100, Warehouses = 1 out of 50
+Vuser 47:Processing 100000 transactions with output suppressed...
+Vuser 49:RUNNING
+Vuser 48:Assigned 1 WIDs = 47 based on VU count 100, Warehouses = 1 out of 50
+Vuser 48:Processing 100000 transactions with output suppressed...
+Vuser 50:RUNNING
+Vuser 49:Assigned 1 WIDs = 48 based on VU count 100, Warehouses = 1 out of 50
+Vuser 49:Processing 100000 transactions with output suppressed...
+5520 PostgreSQL tpm
+Vuser 50:Assigned 1 WIDs = 49 based on VU count 100, Warehouses = 1 out of 50
+Vuser 51:RUNNING
+Vuser 50:Processing 100000 transactions with output suppressed...
+Vuser 52:RUNNING
+Vuser 53:RUNNING
+Vuser 51:Assigned 1 WIDs = 50 based on VU count 100, Warehouses = 1 out of 50
+Vuser 52:Assigned 1 WIDs = 1 based on VU count 100, Warehouses = 1 out of 50
+Vuser 51:Processing 100000 transactions with output suppressed...
+Vuser 52:Processing 100000 transactions with output suppressed...
+Vuser 54:RUNNING
+Vuser 55:RUNNING
+Vuser 54:Assigned 1 WIDs = 3 based on VU count 100, Warehouses = 1 out of 50
+Vuser 53:Assigned 1 WIDs = 2 based on VU count 100, Warehouses = 1 out of 50
+Vuser 54:Processing 100000 transactions with output suppressed...
+Vuser 53:Processing 100000 transactions with output suppressed...
+Vuser 55:Assigned 1 WIDs = 4 based on VU count 100, Warehouses = 1 out of 50
+Vuser 55:Processing 100000 transactions with output suppressed...
+Vuser 56:RUNNING
+Vuser 56:Assigned 1 WIDs = 5 based on VU count 100, Warehouses = 1 out of 50
+Vuser 57:RUNNING
+Vuser 56:Processing 100000 transactions with output suppressed...
+Vuser 58:RUNNING
+Vuser 57:Assigned 1 WIDs = 6 based on VU count 100, Warehouses = 1 out of 50
+Vuser 57:Processing 100000 transactions with output suppressed...
+Vuser 59:RUNNING
+Vuser 60:RUNNING
+Vuser 61:RUNNING
+Vuser 58:Assigned 1 WIDs = 7 based on VU count 100, Warehouses = 1 out of 50
+Vuser 60:Assigned 1 WIDs = 9 based on VU count 100, Warehouses = 1 out of 50
+Vuser 59:Assigned 1 WIDs = 8 based on VU count 100, Warehouses = 1 out of 50
+Vuser 58:Processing 100000 transactions with output suppressed...
+Vuser 60:Processing 100000 transactions with output suppressed...
+Vuser 59:Processing 100000 transactions with output suppressed...
+Vuser 62:RUNNING
+Vuser 63:RUNNING
+Vuser 64:RUNNING
+Vuser 62:Assigned 1 WIDs = 11 based on VU count 100, Warehouses = 1 out of 50
+Vuser 62:Processing 100000 transactions with output suppressed...
+Vuser 65:RUNNING
+Vuser 66:RUNNING
+Vuser 67:RUNNING
+Vuser 64:Assigned 1 WIDs = 13 based on VU count 100, Warehouses = 1 out of 50
+Vuser 68:RUNNING
+Vuser 64:Processing 100000 transactions with output suppressed...
+Vuser 61:Assigned 1 WIDs = 10 based on VU count 100, Warehouses = 1 out of 50
+Vuser 69:RUNNING
+5424 PostgreSQL tpm
+Vuser 61:Processing 100000 transactions with output suppressed...
+Vuser 70:RUNNING
+Vuser 66:Assigned 1 WIDs = 15 based on VU count 100, Warehouses = 1 out of 50
+Vuser 71:RUNNING
+Vuser 66:Processing 100000 transactions with output suppressed...
+Vuser 63:Assigned 1 WIDs = 12 based on VU count 100, Warehouses = 1 out of 50
+Vuser 72:RUNNING
+Vuser 63:Processing 100000 transactions with output suppressed...
+Vuser 65:Assigned 1 WIDs = 14 based on VU count 100, Warehouses = 1 out of 50
+Vuser 65:Processing 100000 transactions with output suppressed...
+Vuser 73:RUNNING
+Vuser 67:Assigned 1 WIDs = 16 based on VU count 100, Warehouses = 1 out of 50
+Vuser 67:Processing 100000 transactions with output suppressed...
+Vuser 68:Assigned 1 WIDs = 17 based on VU count 100, Warehouses = 1 out of 50
+Vuser 70:Assigned 1 WIDs = 19 based on VU count 100, Warehouses = 1 out of 50
+Vuser 68:Processing 100000 transactions with output suppressed...
+Vuser 69:Assigned 1 WIDs = 18 based on VU count 100, Warehouses = 1 out of 50
+Vuser 71:Assigned 1 WIDs = 20 based on VU count 100, Warehouses = 1 out of 50
+Vuser 70:Processing 100000 transactions with output suppressed...
+Vuser 69:Processing 100000 transactions with output suppressed...
+Vuser 72:Assigned 1 WIDs = 21 based on VU count 100, Warehouses = 1 out of 50
+Vuser 71:Processing 100000 transactions with output suppressed...
+Vuser 73:Assigned 1 WIDs = 22 based on VU count 100, Warehouses = 1 out of 50
+4626 PostgreSQL tpm
+4746 PostgreSQL tpm
+Vuser 1:Rampup 1 minutes complete ...
+4416 PostgreSQL tpm
+1896 PostgreSQL tpm
+3216 PostgreSQL tpm
+3756 PostgreSQL tpm
+3396 PostgreSQL tpm
+4074 PostgreSQL tpm
+4074 PostgreSQL tpm
+2856 PostgreSQL tpm
+576 PostgreSQL tpm
+3048 PostgreSQL tpm
+3444 PostgreSQL tpm
+3276 PostgreSQL tpm
+4560 PostgreSQL tpm
+4272 PostgreSQL tpm
+4512 PostgreSQL tpm
+4830 PostgreSQL tpm
+3276 PostgreSQL tpm
+3828 PostgreSQL tpm
+4812 PostgreSQL tpm
+4020 PostgreSQL tpm
+1002 PostgreSQL tpm
+Vuser 72:Processing 100000 transactions with output suppressed...
+2784 PostgreSQL tpm
+1566 PostgreSQL tpm
+5388 PostgreSQL tpm
+Vuser 73:Processing 100000 transactions with output suppressed...
+1890 PostgreSQL tpm
+2028 PostgreSQL tpm
+1506 PostgreSQL tpm
+1014 PostgreSQL tpm
+618 PostgreSQL tpm
+Vuser 1:Rampup 2 minutes complete ...
+1404 PostgreSQL tpm
+Vuser 1:Rampup complete, Taking start Transaction Count.
+Vuser 77:RUNNING
+Vuser 76:RUNNING
+Vuser 75:RUNNING
+Vuser 74:RUNNING
+Vuser 78:RUNNING
+3576 PostgreSQL tpm
+Vuser 1:Timing test period of 3 in minutes
+3984 PostgreSQL tpm
+Vuser 80:RUNNING
+Vuser 79:RUNNING
+3714 PostgreSQL tpm
+Vuser 77:Assigned 1 WIDs = 26 based on VU count 100, Warehouses = 1 out of 50
+Vuser 76:Assigned 1 WIDs = 25 based on VU count 100, Warehouses = 1 out of 50
+Vuser 75:Assigned 1 WIDs = 24 based on VU count 100, Warehouses = 1 out of 50
+3162 PostgreSQL tpm
+Vuser 78:Assigned 1 WIDs = 27 based on VU count 100, Warehouses = 1 out of 50
+Vuser 74:Assigned 1 WIDs = 23 based on VU count 100, Warehouses = 1 out of 50
+Vuser 77:Processing 100000 transactions with output suppressed...
+Vuser 80:Assigned 1 WIDs = 29 based on VU count 100, Warehouses = 1 out of 50
+3690 PostgreSQL tpm
+Vuser 79:Assigned 1 WIDs = 28 based on VU count 100, Warehouses = 1 out of 50
+Vuser 76:Processing 100000 transactions with output suppressed...
+Vuser 78:Processing 100000 transactions with output suppressed...
+Vuser 75:Processing 100000 transactions with output suppressed...
+Vuser 74:Processing 100000 transactions with output suppressed...
+Vuser 79:Processing 100000 transactions with output suppressed...
+Vuser 80:Processing 100000 transactions with output suppressed...
+3924 PostgreSQL tpm
+Vuser 85:RUNNING
+Vuser 84:RUNNING
+Vuser 83:RUNNING
+Vuser 86:RUNNING
+Vuser 82:RUNNING
+4230 PostgreSQL tpm
+Vuser 81:RUNNING
+Vuser 1:1 ...,
+2586 PostgreSQL tpm
+2640 PostgreSQL tpm
+Vuser 85:Assigned 1 WIDs = 34 based on VU count 100, Warehouses = 1 out of 50
+Vuser 84:Assigned 1 WIDs = 33 based on VU count 100, Warehouses = 1 out of 50
+Vuser 85:Processing 100000 transactions with output suppressed...
+Vuser 84:Processing 100000 transactions with output suppressed...
+Vuser 81:Assigned 1 WIDs = 30 based on VU count 100, Warehouses = 1 out of 50
+Vuser 81:Processing 100000 transactions with output suppressed...
+Vuser 82:Assigned 1 WIDs = 31 based on VU count 100, Warehouses = 1 out of 50
+Vuser 83:Assigned 1 WIDs = 32 based on VU count 100, Warehouses = 1 out of 50
+Vuser 83:Processing 100000 transactions with output suppressed...
+Vuser 82:Processing 100000 transactions with output suppressed...
+Vuser 88:RUNNING
+Vuser 87:RUNNING
+Vuser 92:RUNNING
+Vuser 93:RUNNING
+Vuser 90:RUNNING
+Vuser 91:RUNNING
+Vuser 89:RUNNING
+1992 PostgreSQL tpm
+Vuser 86:Assigned 1 WIDs = 35 based on VU count 100, Warehouses = 1 out of 50
+2352 PostgreSQL tpm
+Vuser 87:Assigned 1 WIDs = 36 based on VU count 100, Warehouses = 1 out of 50
+Vuser 93:Assigned 1 WIDs = 42 based on VU count 100, Warehouses = 1 out of 50
+Vuser 92:Assigned 1 WIDs = 41 based on VU count 100, Warehouses = 1 out of 50
+Vuser 88:Assigned 1 WIDs = 37 based on VU count 100, Warehouses = 1 out of 50
+1974 PostgreSQL tpm
+2424 PostgreSQL tpm
+Vuser 90:Assigned 1 WIDs = 39 based on VU count 100, Warehouses = 1 out of 50
+Vuser 89:Assigned 1 WIDs = 38 based on VU count 100, Warehouses = 1 out of 50
+Vuser 91:Assigned 1 WIDs = 40 based on VU count 100, Warehouses = 1 out of 50
+2562 PostgreSQL tpm
+Vuser 1:2 ...,
+3426 PostgreSQL tpm
+3348 PostgreSQL tpm
+2568 PostgreSQL tpm
+2358 PostgreSQL tpm
+780 PostgreSQL tpm
+618 PostgreSQL tpm
+1878 PostgreSQL tpm
+300 PostgreSQL tpm
+2490 PostgreSQL tpm
+1506 PostgreSQL tpm
+1392 PostgreSQL tpm
+444 PostgreSQL tpm
+492 PostgreSQL tpm
+786 PostgreSQL tpm
+1848 PostgreSQL tpm
+Vuser 87:Processing 100000 transactions with output suppressed...
+Vuser 86:Processing 100000 transactions with output suppressed...
+Vuser 93:Processing 100000 transactions with output suppressed...
+1908 PostgreSQL tpm
+Vuser 88:Processing 100000 transactions with output suppressed...
+Vuser 92:Processing 100000 transactions with output suppressed...
+2208 PostgreSQL tpm
+Vuser 90:Processing 100000 transactions with output suppressed...
+Vuser 89:Processing 100000 transactions with output suppressed...
+1452 PostgreSQL tpm
+6 PostgreSQL tpm
+Vuser 91:Processing 100000 transactions with output suppressed...
+990 PostgreSQL tpm
+1326 PostgreSQL tpm
+1074 PostgreSQL tpm
+306 PostgreSQL tpm
+1992 PostgreSQL tpm
+1548 PostgreSQL tpm
+Vuser 1:3 ...,
+972 PostgreSQL tpm
+1188 PostgreSQL tpm
+1896 PostgreSQL tpm
+762 PostgreSQL tpm
+1866 PostgreSQL tpm
+1272 PostgreSQL tpm
+Vuser 1:Test complete, Taking end Transaction Count.
+2010 PostgreSQL tpm
+1662 PostgreSQL tpm
+1146 PostgreSQL tpm
+2922 PostgreSQL tpm
+1272 PostgreSQL tpm
+2358 PostgreSQL tpm
+1680 PostgreSQL tpm
+Vuser 1:100 Active Virtual Users configured
+1908 PostgreSQL tpm
+1434 PostgreSQL tpm
+2256 PostgreSQL tpm
+624 PostgreSQL tpm
+Vuser 1:TEST RESULT : System achieved 2222 NOPM from 5032 PostgreSQL TPM
+Vuser 1:FINISHED SUCCESS
+Vuser 94:RUNNING
+Vuser 43:FINISHED SUCCESS
+Vuser 37:FINISHED SUCCESS
+Vuser 45:FINISHED SUCCESS
+Vuser 34:FINISHED SUCCESS
+Vuser 95:RUNNING
+Vuser 29:FINISHED SUCCESS
+Vuser 19:FINISHED SUCCESS
+Vuser 21:FINISHED SUCCESS
+Vuser 7:FINISHED SUCCESS
+Vuser 88:FINISHED SUCCESS
+Vuser 3:FINISHED SUCCESS
+Vuser 87:FINISHED SUCCESS
+Vuser 92:FINISHED SUCCESS
+Vuser 90:FINISHED SUCCESS
+1932 PostgreSQL tpm
+Vuser 8:FINISHED SUCCESS
+Vuser 39:FINISHED SUCCESS
+Vuser 31:FINISHED SUCCESS
+Vuser 35:FINISHED SUCCESS
+Vuser 82:FINISHED SUCCESS
+Vuser 40:FINISHED SUCCESS
+Vuser 89:FINISHED SUCCESS
+Vuser 24:FINISHED SUCCESS
+Vuser 28:FINISHED SUCCESS
+Vuser 91:FINISHED SUCCESS
+Vuser 52:FINISHED SUCCESS
+Vuser 76:FINISHED SUCCESS
+Vuser 71:FINISHED SUCCESS
+774 PostgreSQL tpm
+Vuser 53:FINISHED SUCCESS
+Vuser 59:FINISHED SUCCESS
+Vuser 27:FINISHED SUCCESS
+540 PostgreSQL tpm
+Vuser 73:FINISHED SUCCESS
+Vuser 86:FINISHED SUCCESS
+984 PostgreSQL tpm
+Vuser 77:FINISHED SUCCESS
+Vuser 11:FINISHED SUCCESS
+Vuser 30:FINISHED SUCCESS
+Vuser 57:FINISHED SUCCESS
+2070 PostgreSQL tpm
+Vuser 79:FINISHED SUCCESS
+Vuser 83:FINISHED SUCCESS
+1620 PostgreSQL tpm
+Vuser 65:FINISHED SUCCESS
+2244 PostgreSQL tpm
+Vuser 16:FINISHED SUCCESS
+Vuser 6:FINISHED SUCCESS
+Vuser 15:FINISHED SUCCESS
+Vuser 72:FINISHED SUCCESS
+Vuser 42:FINISHED SUCCESS
+Vuser 68:FINISHED SUCCESS
+1494 PostgreSQL tpm
+Vuser 58:FINISHED SUCCESS
+Vuser 75:FINISHED SUCCESS
+Vuser 93:FINISHED SUCCESS
+Vuser 66:FINISHED SUCCESS
+1692 PostgreSQL tpm
+2484 PostgreSQL tpm
+Vuser 25:FINISHED SUCCESS
+Vuser 22:FINISHED SUCCESS
+Vuser 47:FINISHED SUCCESS
+Vuser 23:FINISHED SUCCESS
+Vuser 17:FINISHED SUCCESS
+Vuser 5:FINISHED SUCCESS
+Vuser 10:FINISHED SUCCESS
+Vuser 61:FINISHED SUCCESS
+1116 PostgreSQL tpm
+Vuser 44:FINISHED SUCCESS
+1884 PostgreSQL tpm
+Vuser 41:FINISHED SUCCESS
+Vuser 67:FINISHED SUCCESS
+Vuser 62:FINISHED SUCCESS
+Vuser 84:FINISHED SUCCESS
+Vuser 60:FINISHED SUCCESS
+Vuser 74:FINISHED SUCCESS
+Vuser 81:FINISHED SUCCESS
+1464 PostgreSQL tpm
+Vuser 64:FINISHED SUCCESS
+6 PostgreSQL tpm
+Vuser 33:FINISHED SUCCESS
+Vuser 80:FINISHED SUCCESS
+2370 PostgreSQL tpm
+Vuser 78:FINISHED SUCCESS
+Vuser 38:FINISHED SUCCESS
+Vuser 50:FINISHED SUCCESS
+Vuser 51:FINISHED SUCCESS
+2058 PostgreSQL tpm
+Vuser 46:FINISHED SUCCESS
+630 PostgreSQL tpm
+Vuser 32:FINISHED SUCCESS
+Vuser 69:FINISHED SUCCESS
+1830 PostgreSQL tpm
+Vuser 26:FINISHED SUCCESS
+Vuser 49:FINISHED SUCCESS
+Vuser 36:FINISHED SUCCESS
+Vuser 48:FINISHED SUCCESS
+Vuser 20:FINISHED SUCCESS
+2400 PostgreSQL tpm
+Vuser 85:FINISHED SUCCESS
+Vuser 70:FINISHED SUCCESS
+888 PostgreSQL tpm
+Vuser 14:FINISHED SUCCESS
+Vuser 55:FINISHED SUCCESS
+Vuser 12:FINISHED SUCCESS
+Vuser 4:FINISHED SUCCESS
+1662 PostgreSQL tpm
+Vuser 97:RUNNING
+Vuser 98:RUNNING
+Vuser 96:RUNNING
+Vuser 63:FINISHED SUCCESS
+2088 PostgreSQL tpm
+Vuser 18:FINISHED SUCCESS
+Vuser 94:Assigned 1 WIDs = 43 based on VU count 100, Warehouses = 1 out of 50
+Vuser 94:Processing 100000 transactions with output suppressed...
+Warning: a running Virtual User was terminated, any pending output has been discarded
+Vuser 94:FINISHED FAILED
+Vuser 95:Assigned 1 WIDs = 44 based on VU count 100, Warehouses = 1 out of 50
+Vuser 98:Assigned 1 WIDs = 47 based on VU count 100, Warehouses = 1 out of 50
+Vuser 96:Assigned 1 WIDs = 45 based on VU count 100, Warehouses = 1 out of 50
+Vuser 100:RUNNING
+Vuser 97:Assigned 1 WIDs = 46 based on VU count 100, Warehouses = 1 out of 50
+Vuser 99:RUNNING
+Vuser 98:Processing 100000 transactions with output suppressed...
+Vuser 96:Processing 100000 transactions with output suppressed...
+Vuser 95:Processing 100000 transactions with output suppressed...
+Vuser 97:Processing 100000 transactions with output suppressed...
+Warning: a running Virtual User was terminated, any pending output has been discarded
+Vuser 98:FINISHED FAILED
+Warning: a running Virtual User was terminated, any pending output has been discarded
+Vuser 96:FINISHED FAILED
+Warning: a running Virtual User was terminated, any pending output has been discarded
+Vuser 95:FINISHED FAILED
+1866 PostgreSQL tpm
+Warning: a running Virtual User was terminated, any pending output has been discarded
+Vuser 97:FINISHED FAILED
+2058 PostgreSQL tpm
+Vuser 13:FINISHED SUCCESS
+Vuser 2:FINISHED SUCCESS
+Vuser 99:Assigned 1 WIDs = 48 based on VU count 100, Warehouses = 1 out of 50
+Vuser 100:Assigned 1 WIDs = 49 based on VU count 100, Warehouses = 1 out of 50
+Vuser 54:FINISHED SUCCESS
+Vuser 101:RUNNING
+Vuser 99:Processing 100000 transactions with output suppressed...
+Vuser 100:Processing 100000 transactions with output suppressed...
+Vuser 101:Assigned 1 WIDs = 50 based on VU count 100, Warehouses = 1 out of 50
+660 PostgreSQL tpm
+Warning: a running Virtual User was terminated, any pending output has been discarded
+Vuser 99:FINISHED FAILED
+Warning: a running Virtual User was terminated, any pending output has been discarded
+Vuser 100:FINISHED FAILED
+894 PostgreSQL tpm
+Vuser 101:Processing 100000 transactions with output suppressed...
+696 PostgreSQL tpm
+Vuser 56:FINISHED SUCCESS
+Warning: a running Virtual User was terminated, any pending output has been discarded
+Vuser 101:FINISHED FAILED
+Vuser 9:FINISHED SUCCESS
+ALL VIRTUAL USERS COMPLETE
+vudestroy success
+Dictionary Settings for PostgreSQL
+connection {
+ pg_host    = localhost
+ pg_port    = 5432
+ pg_sslmode = prefer
+}
+tpcc       {
+ pg_count_ware       = 50
+ pg_num_vu           = 4
+ pg_superuser        = postgres
+ pg_superuserpass    = postgres
+ pg_defaultdbase     = postgres
+ pg_user             = tpcc
+ pg_pass             = tpcc
+ pg_dbase            = tpcc
+ pg_tspace           = pg_default
+ pg_vacuum           = false
+ pg_dritasnap        = false
+ pg_oracompat        = false
+ pg_cituscompat      = false
+ pg_storedprocs      = false
+ pg_partition        = false
+ pg_total_iterations = 100000
+ pg_raiseerror       = false
+ pg_keyandthink      = false
+ pg_driver           = timed
+ pg_rampup           = 2
+ pg_duration         = 3
+ pg_allwarehouse     = true
+ pg_timeprofile      = false
+ pg_async_scale      = false
+ pg_async_client     = 10
+ pg_async_verbose    = false
+ pg_async_delay      = 1000
+ pg_connect_pool     = false
+}
+Transaction Counter thread running with threadid:tid0000000000004458
+Transaction Counter thread running with threadid:tid0000000000004458
+Stopping Transaction Counter
+PostgreSQL benchmark run complete.

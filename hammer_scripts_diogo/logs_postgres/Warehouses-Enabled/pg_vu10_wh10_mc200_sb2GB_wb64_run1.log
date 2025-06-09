@@ -1,0 +1,160 @@
+HammerDB CLI v5.0
+Copyright © HammerDB Ltd hosted by tpc.org 2019-2025
+Type "help" for a list of commands
+Initialized Jobs on-disk database C:/Users/diogo/AppData/Local/Temp/hammer.DB using existing tables (212,705,280 bytes)
+Running TPCC benchmark for PostgreSQL...
+Database set to PostgreSQL
+Benchmark set to TPC-C for PostgreSQL
+Value localhost for connection:pg_host is the same as existing value localhost, no change made
+Value 5432 for connection:pg_port is the same as existing value 5432, no change made
+Value tpcc for tpcc:pg_user is the same as existing value tpcc, no change made
+Value tpcc for tpcc:pg_pass is the same as existing value tpcc, no change made
+Value tpcc for tpcc:pg_dbase is the same as existing value tpcc, no change made
+Value 10 for tpcc:pg_count_ware is the same as existing value 10, no change made
+Value timed for tpcc:pg_driver is the same as existing value timed, no change made
+Value 2 for tpcc:pg_rampup is the same as existing value 2, no change made
+Value 3 for tpcc:pg_duration is the same as existing value 3, no change made
+Value 10 for tpcc:pg_async_client is the same as existing value 10, no change made
+Value true for tpcc:pg_allwarehouse is the same as existing value true, no change made
+Transaction Counter Started
+Script loaded, Type "print script" to view
+Vuser 1 created MONITOR - WAIT IDLE
+Vuser 2 created - WAIT IDLE
+Vuser 3 created - WAIT IDLE
+Vuser 4 created - WAIT IDLE
+Vuser 5 created - WAIT IDLE
+Vuser 6 created - WAIT IDLE
+Vuser 7 created - WAIT IDLE
+Vuser 8 created - WAIT IDLE
+Vuser 9 created - WAIT IDLE
+Vuser 10 created - WAIT IDLE
+Vuser 11 created - WAIT IDLE
+11 Virtual Users Created with Monitor VU
+0 PostgreSQL tpm
+Vuser 1:RUNNING
+Vuser 1:DBVersion:17.5
+Vuser 1:Beginning rampup time of 2 minutes
+Vuser 2:RUNNING
+Vuser 2:Assigned 1 WIDs = 1 based on VU count 10, Warehouses = 1 out of 10
+Vuser 2:Processing 100000 transactions with output suppressed...
+Vuser 3:RUNNING
+Vuser 3:Assigned 1 WIDs = 2 based on VU count 10, Warehouses = 1 out of 10
+Vuser 3:Processing 100000 transactions with output suppressed...
+Vuser 4:RUNNING
+Vuser 4:Assigned 1 WIDs = 3 based on VU count 10, Warehouses = 1 out of 10
+Vuser 4:Processing 100000 transactions with output suppressed...
+Vuser 5:RUNNING
+Vuser 5:Assigned 1 WIDs = 4 based on VU count 10, Warehouses = 1 out of 10
+Vuser 5:Processing 100000 transactions with output suppressed...
+Vuser 6:RUNNING
+Vuser 6:Assigned 1 WIDs = 5 based on VU count 10, Warehouses = 1 out of 10
+Vuser 6:Processing 100000 transactions with output suppressed...
+Vuser 7:RUNNING
+Vuser 7:Assigned 1 WIDs = 6 based on VU count 10, Warehouses = 1 out of 10
+Vuser 7:Processing 100000 transactions with output suppressed...
+Vuser 8:RUNNING
+Vuser 8:Assigned 1 WIDs = 7 based on VU count 10, Warehouses = 1 out of 10
+Vuser 8:Processing 100000 transactions with output suppressed...
+Vuser 9:RUNNING
+Vuser 9:Assigned 1 WIDs = 8 based on VU count 10, Warehouses = 1 out of 10
+Vuser 9:Processing 100000 transactions with output suppressed...
+Vuser 10:RUNNING
+Vuser 10:Assigned 1 WIDs = 9 based on VU count 10, Warehouses = 1 out of 10
+Vuser 10:Processing 100000 transactions with output suppressed...
+Vuser 11:RUNNING
+Vuser 11:Assigned 1 WIDs = 10 based on VU count 10, Warehouses = 1 out of 10
+Vuser 11:Processing 100000 transactions with output suppressed...
+234612 PostgreSQL tpm
+226068 PostgreSQL tpm
+152454 PostgreSQL tpm
+211650 PostgreSQL tpm
+143856 PostgreSQL tpm
+Vuser 1:Rampup 1 minutes complete ...
+183192 PostgreSQL tpm
+106434 PostgreSQL tpm
+121746 PostgreSQL tpm
+107490 PostgreSQL tpm
+123570 PostgreSQL tpm
+100650 PostgreSQL tpm
+Vuser 1:Rampup 2 minutes complete ...
+Vuser 1:Rampup complete, Taking start Transaction Count.
+Vuser 1:Timing test period of 3 in minutes
+202866 PostgreSQL tpm
+128292 PostgreSQL tpm
+191622 PostgreSQL tpm
+125754 PostgreSQL tpm
+127152 PostgreSQL tpm
+96354 PostgreSQL tpm
+Vuser 1:1 ...,
+68898 PostgreSQL tpm
+104622 PostgreSQL tpm
+55200 PostgreSQL tpm
+89040 PostgreSQL tpm
+36678 PostgreSQL tpm
+98292 PostgreSQL tpm
+Vuser 1:2 ...,
+71796 PostgreSQL tpm
+87672 PostgreSQL tpm
+91884 PostgreSQL tpm
+90714 PostgreSQL tpm
+133128 PostgreSQL tpm
+70560 PostgreSQL tpm
+Vuser 1:3 ...,
+Vuser 1:Test complete, Taking end Transaction Count.
+Vuser 1:10 Active Virtual Users configured
+Vuser 1:TEST RESULT : System achieved 43685 NOPM from 100083 PostgreSQL TPM
+Vuser 1:FINISHED SUCCESS
+Vuser 7:FINISHED SUCCESS
+Vuser 6:FINISHED SUCCESS
+Vuser 10:FINISHED SUCCESS
+Vuser 9:FINISHED SUCCESS
+160902 PostgreSQL tpm
+Vuser 3:FINISHED SUCCESS
+Vuser 8:FINISHED SUCCESS
+Vuser 2:FINISHED SUCCESS
+Vuser 4:FINISHED SUCCESS
+Vuser 5:FINISHED SUCCESS
+Vuser 11:FINISHED SUCCESS
+ALL VIRTUAL USERS COMPLETE
+83946 PostgreSQL tpm
+vudestroy success
+Dictionary Settings for PostgreSQL
+connection {
+ pg_host    = localhost
+ pg_port    = 5432
+ pg_sslmode = prefer
+}
+tpcc       {
+ pg_count_ware       = 10
+ pg_num_vu           = 4
+ pg_superuser        = postgres
+ pg_superuserpass    = postgres
+ pg_defaultdbase     = postgres
+ pg_user             = tpcc
+ pg_pass             = tpcc
+ pg_dbase            = tpcc
+ pg_tspace           = pg_default
+ pg_vacuum           = false
+ pg_dritasnap        = false
+ pg_oracompat        = false
+ pg_cituscompat      = false
+ pg_storedprocs      = false
+ pg_partition        = false
+ pg_total_iterations = 100000
+ pg_raiseerror       = false
+ pg_keyandthink      = false
+ pg_driver           = timed
+ pg_rampup           = 2
+ pg_duration         = 3
+ pg_allwarehouse     = true
+ pg_timeprofile      = false
+ pg_async_scale      = false
+ pg_async_client     = 10
+ pg_async_verbose    = false
+ pg_async_delay      = 1000
+ pg_connect_pool     = false
+}
+Transaction Counter thread running with threadid:tid0000000000003EE8
+Transaction Counter thread running with threadid:tid0000000000003EE8
+Stopping Transaction Counter
+PostgreSQL benchmark run complete.

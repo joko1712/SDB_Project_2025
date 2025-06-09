@@ -1,0 +1,134 @@
+HammerDB CLI v5.0
+Copyright © HammerDB Ltd hosted by tpc.org 2019-2025
+Type "help" for a list of commands
+Initialized Jobs on-disk database C:/Users/diogo/AppData/Local/Temp/hammer.DB using existing tables (212,934,656 bytes)
+Running TPCC benchmark for PostgreSQL...
+Database set to PostgreSQL
+Benchmark set to TPC-C for PostgreSQL
+Value localhost for connection:pg_host is the same as existing value localhost, no change made
+Value 5432 for connection:pg_port is the same as existing value 5432, no change made
+Value tpcc for tpcc:pg_user is the same as existing value tpcc, no change made
+Value tpcc for tpcc:pg_pass is the same as existing value tpcc, no change made
+Value tpcc for tpcc:pg_dbase is the same as existing value tpcc, no change made
+Value 20 for tpcc:pg_count_ware is the same as existing value 20, no change made
+Value timed for tpcc:pg_driver is the same as existing value timed, no change made
+Value 2 for tpcc:pg_rampup is the same as existing value 2, no change made
+Value 3 for tpcc:pg_duration is the same as existing value 3, no change made
+Value 10 for tpcc:pg_async_client is the same as existing value 10, no change made
+Value true for tpcc:pg_allwarehouse is the same as existing value true, no change made
+Transaction Counter Started
+Script loaded, Type "print script" to view
+Vuser 1 created MONITOR - WAIT IDLE
+Vuser 2 created - WAIT IDLE
+Vuser 3 created - WAIT IDLE
+Vuser 4 created - WAIT IDLE
+Vuser 5 created - WAIT IDLE
+Vuser 6 created - WAIT IDLE
+6 Virtual Users Created with Monitor VU
+Vuser 1:RUNNING
+0 PostgreSQL tpm
+Vuser 1:DBVersion:17.5
+Vuser 1:Beginning rampup time of 2 minutes
+Vuser 2:RUNNING
+Vuser 2:Assigned 4 WIDs = 1 6 11 16 based on VU count 5, Warehouses = 4 out of 20
+Vuser 2:Processing 100000 transactions with output suppressed...
+Vuser 3:RUNNING
+Vuser 3:Assigned 4 WIDs = 2 7 12 17 based on VU count 5, Warehouses = 4 out of 20
+Vuser 3:Processing 100000 transactions with output suppressed...
+Vuser 4:RUNNING
+Vuser 4:Assigned 4 WIDs = 3 8 13 18 based on VU count 5, Warehouses = 4 out of 20
+Vuser 4:Processing 100000 transactions with output suppressed...
+Vuser 5:RUNNING
+Vuser 5:Assigned 4 WIDs = 4 9 14 19 based on VU count 5, Warehouses = 4 out of 20
+Vuser 5:Processing 100000 transactions with output suppressed...
+Vuser 6:RUNNING
+Vuser 6:Assigned 4 WIDs = 5 10 15 20 based on VU count 5, Warehouses = 4 out of 20
+Vuser 6:Processing 100000 transactions with output suppressed...
+42468 PostgreSQL tpm
+29262 PostgreSQL tpm
+20304 PostgreSQL tpm
+39414 PostgreSQL tpm
+30018 PostgreSQL tpm
+Vuser 1:Rampup 1 minutes complete ...
+23220 PostgreSQL tpm
+33618 PostgreSQL tpm
+34278 PostgreSQL tpm
+29082 PostgreSQL tpm
+24276 PostgreSQL tpm
+20022 PostgreSQL tpm
+Vuser 1:Rampup 2 minutes complete ...
+Vuser 1:Rampup complete, Taking start Transaction Count.
+Vuser 1:Timing test period of 3 in minutes
+47400 PostgreSQL tpm
+47376 PostgreSQL tpm
+34932 PostgreSQL tpm
+56154 PostgreSQL tpm
+43224 PostgreSQL tpm
+50394 PostgreSQL tpm
+Vuser 1:1 ...,
+53874 PostgreSQL tpm
+36000 PostgreSQL tpm
+40428 PostgreSQL tpm
+67206 PostgreSQL tpm
+38748 PostgreSQL tpm
+57456 PostgreSQL tpm
+Vuser 1:2 ...,
+53478 PostgreSQL tpm
+40614 PostgreSQL tpm
+20532 PostgreSQL tpm
+52026 PostgreSQL tpm
+41142 PostgreSQL tpm
+25506 PostgreSQL tpm
+Vuser 1:3 ...,
+Vuser 1:Test complete, Taking end Transaction Count.
+Vuser 1:5 Active Virtual Users configured
+Vuser 1:TEST RESULT : System achieved 19049 NOPM from 43776 PostgreSQL TPM
+Vuser 1:FINISHED SUCCESS
+Vuser 2:FINISHED SUCCESS
+Vuser 3:FINISHED SUCCESS
+29670 PostgreSQL tpm
+Vuser 6:FINISHED SUCCESS
+Vuser 5:FINISHED SUCCESS
+Vuser 4:FINISHED SUCCESS
+ALL VIRTUAL USERS COMPLETE
+vudestroy success
+Dictionary Settings for PostgreSQL
+connection {
+ pg_host    = localhost
+ pg_port    = 5432
+ pg_sslmode = prefer
+}
+tpcc       {
+ pg_count_ware       = 20
+ pg_num_vu           = 4
+ pg_superuser        = postgres
+ pg_superuserpass    = postgres
+ pg_defaultdbase     = postgres
+ pg_user             = tpcc
+ pg_pass             = tpcc
+ pg_dbase            = tpcc
+ pg_tspace           = pg_default
+ pg_vacuum           = false
+ pg_dritasnap        = false
+ pg_oracompat        = false
+ pg_cituscompat      = false
+ pg_storedprocs      = false
+ pg_partition        = false
+ pg_total_iterations = 100000
+ pg_raiseerror       = false
+ pg_keyandthink      = false
+ pg_driver           = timed
+ pg_rampup           = 2
+ pg_duration         = 3
+ pg_allwarehouse     = true
+ pg_timeprofile      = false
+ pg_async_scale      = false
+ pg_async_client     = 10
+ pg_async_verbose    = false
+ pg_async_delay      = 1000
+ pg_connect_pool     = false
+}
+Transaction Counter thread running with threadid:tid0000000000001A04
+Transaction Counter thread running with threadid:tid0000000000001A04
+Stopping Transaction Counter
+PostgreSQL benchmark run complete.
