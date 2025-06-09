@@ -1,12 +1,15 @@
 
 set benchmark_tcl $env(BENCHMARK_TCL)
 
-metset agent_hostname laptop-cf5747ge
-metset agent_id 17556
+# metset agent_hostname laptop-cf5747ge
+# metset agent_id 17555
+# metset agent_id 27468
 # metset laptop-cf5747ge 17556
-metstart
-metstatus
+tcstart
+# metstart
+# metstatus
 source $benchmark_tcl
 print dict
-metstop
+tcstop
+# metstop
 exit

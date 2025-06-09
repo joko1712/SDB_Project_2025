@@ -1,0 +1,243 @@
+HammerDB CLI v5.0
+Copyright © HammerDB Ltd hosted by tpc.org 2019-2025
+Type "help" for a list of commands
+Initialized Jobs on-disk database C:/Users/diogo/AppData/Local/Temp/hammer.DB using existing tables (126,812,160 bytes)
+Metrics agent hostname set to laptop-cf5747ge
+Metrics agent id set to 17555
+Transaction Counter Started
+CPU Metrics are not running on laptop-cf5747ge
+Starting TPCC benchmark...
+Database set to MariaDB
+Value 127.0.0.1 for connection:maria_host is the same as existing value 127.0.0.1, no change made
+Value 3306 for connection:maria_port is the same as existing value 3306, no change made
+Value root for tpcc:maria_user is the same as existing value root, no change made
+Value root for tpcc:maria_pass is the same as existing value root, no change made
+Changed tpcc:maria_dbase from tpcc_vu10_wh10_mc200_bp512M_lb16 to tpcc_vu5_wh5_mc100_bp256M_lb8 for MariaDB
+Changed tpcc:maria_count_ware from 10 to 5 for MariaDB
+Value timed for tpcc:maria_driver is the same as existing value timed, no change made
+Value 2 for tpcc:maria_rampup is the same as existing value 2, no change made
+Value 3 for tpcc:maria_duration is the same as existing value 3, no change made
+Value 10 for tpcc:maria_async_client is the same as existing value 10, no change made
+Value true for tpcc:maria_allwarehouse is the same as existing value true, no change made
+Script loaded, Type "print script" to view
+Vuser 1 created MONITOR - WAIT IDLE
+Vuser 2 created - WAIT IDLE
+Vuser 3 created - WAIT IDLE
+Vuser 4 created - WAIT IDLE
+Vuser 5 created - WAIT IDLE
+Vuser 6 created - WAIT IDLE
+6 Virtual Users Created with Monitor VU
+0 MariaDB tpm
+Vuser 1:RUNNING
+Vuser 1:Ssl_cipher 
+Connecting to Agent to Display CPU Metrics
+Vuser 1:DBVersion:11.7.2
+Metric receive port open @ 28612 on laptop-cf5747ge
+Connecting to HammerDB Agent @ laptop-cf5747ge:17555
+Testing Agent Connectivity...Vuser 1:Beginning rampup time of 2 minutes
+Timeout
+Connection failed verify hostname and id @ laptop-cf5747ge:17555
+Started CPU Metrics for AGENT CONNECTION FAILED:(1 CPUs)
+AGENT CONNECTION FAILED
+Vuser 2:RUNNING
+Vuser 2:Ssl_cipher 
+Vuser 2:Assigned 2 WIDs = 1 6 based on VU count 5, Warehouses = 2 out of 10
+Vuser 2:Processing 1000000 transactions with output suppressed...
+Vuser 3:RUNNING
+Vuser 3:Ssl_cipher 
+Vuser 3:Assigned 2 WIDs = 2 7 based on VU count 5, Warehouses = 2 out of 10
+Vuser 3:Processing 1000000 transactions with output suppressed...
+Vuser 4:RUNNING
+Vuser 4:Ssl_cipher 
+Vuser 4:Assigned 2 WIDs = 3 8 based on VU count 5, Warehouses = 2 out of 10
+Vuser 4:Processing 1000000 transactions with output suppressed...
+Vuser 5:RUNNING
+Vuser 5:Ssl_cipher 
+Vuser 5:Assigned 2 WIDs = 4 9 based on VU count 5, Warehouses = 2 out of 10
+Vuser 5:Processing 1000000 transactions with output suppressed...
+Vuser 6:RUNNING
+Vuser 6:Ssl_cipher 
+Vuser 6:Assigned 2 WIDs = 5 10 based on VU count 5, Warehouses = 2 out of 10
+Vuser 6:Processing 1000000 transactions with output suppressed...
+10410 MariaDB tpm
+19770 MariaDB tpm
+18792 MariaDB tpm
+21648 MariaDB tpm
+19554 MariaDB tpm
+19002 MariaDB tpm
+Vuser 1:Rampup 1 minutes complete ...
+18318 MariaDB tpm
+19632 MariaDB tpm
+20952 MariaDB tpm
+20526 MariaDB tpm
+21102 MariaDB tpm
+Vuser 1:Rampup 2 minutes complete ...
+Vuser 1:Rampup complete, Taking start Transaction Count.
+Vuser 1:Timing test period of 3 in minutes
+20376 MariaDB tpm
+17328 MariaDB tpm
+18138 MariaDB tpm
+21162 MariaDB tpm
+17214 MariaDB tpm
+19536 MariaDB tpm
+Vuser 1:1 ...,
+22398 MariaDB tpm
+19110 MariaDB tpm
+18006 MariaDB tpm
+20142 MariaDB tpm
+19800 MariaDB tpm
+21702 MariaDB tpm
+Vuser 1:2 ...,
+18888 MariaDB tpm
+22188 MariaDB tpm
+19728 MariaDB tpm
+20718 MariaDB tpm
+20466 MariaDB tpm
+19776 MariaDB tpm
+Vuser 1:3 ...,
+Vuser 1:Test complete, Taking end Transaction Count.
+Vuser 1:5 Active Virtual Users configured
+Vuser 1:TEST RESULT : System achieved 2439 NOPM from 19723 MariaDB TPM
+Vuser 1:FINISHED SUCCESS
+20568 MariaDB tpm
+Vuser 5:FINISHED SUCCESS
+16254 MariaDB tpm
+Vuser 3:FINISHED SUCCESS
+Vuser 6:FINISHED SUCCESS
+Vuser 2:FINISHED SUCCESS
+Vuser 4:FINISHED SUCCESS
+ALL VIRTUAL USERS COMPLETE
+vudestroy success
+Benchmark run complete.
+No Virtual Users found to destroy
+Vuser 1 created MONITOR - WAIT IDLE
+Vuser 2 created - WAIT IDLE
+Vuser 3 created - WAIT IDLE
+Vuser 4 created - WAIT IDLE
+Vuser 5 created - WAIT IDLE
+Vuser 6 created - WAIT IDLE
+6 Virtual Users Created with Monitor VU
+1 = WAIT IDLE
+2 = WAIT IDLE
+3 = WAIT IDLE
+4 = WAIT IDLE
+5 = WAIT IDLE
+6 = WAIT IDLE
+
+Vuser 1:RUNNING
+Vuser 1:Ssl_cipher 
+Vuser 1:DBVersion:11.7.2
+Vuser 1:Beginning rampup time of 2 minutes
+Vuser 2:RUNNING
+Vuser 2:Ssl_cipher 
+Vuser 2:Assigned 2 WIDs = 1 6 based on VU count 5, Warehouses = 2 out of 10
+Vuser 2:Processing 1000000 transactions with output suppressed...
+Vuser 3:RUNNING
+Vuser 3:Ssl_cipher 
+Vuser 3:Assigned 2 WIDs = 2 7 based on VU count 5, Warehouses = 2 out of 10
+Vuser 3:Processing 1000000 transactions with output suppressed...
+Vuser 4:RUNNING
+Vuser 4:Ssl_cipher 
+Vuser 4:Assigned 2 WIDs = 3 8 based on VU count 5, Warehouses = 2 out of 10
+Vuser 4:Processing 1000000 transactions with output suppressed...
+Vuser 5:RUNNING
+Vuser 5:Ssl_cipher 
+Vuser 5:Assigned 2 WIDs = 4 9 based on VU count 5, Warehouses = 2 out of 10
+Vuser 5:Processing 1000000 transactions with output suppressed...
+Vuser 6:RUNNING
+Vuser 6:Ssl_cipher 
+Vuser 6:Assigned 2 WIDs = 5 10 based on VU count 5, Warehouses = 2 out of 10
+Vuser 6:Processing 1000000 transactions with output suppressed...
+13230 MariaDB tpm
+21840 MariaDB tpm
+18666 MariaDB tpm
+18408 MariaDB tpm
+21228 MariaDB tpm
+21234 MariaDB tpm
+Vuser 1:Rampup 1 minutes complete ...
+15834 MariaDB tpm
+20004 MariaDB tpm
+20928 MariaDB tpm
+20130 MariaDB tpm
+17952 MariaDB tpm
+19266 MariaDB tpm
+Vuser 1:Rampup 2 minutes complete ...
+Vuser 1:Rampup complete, Taking start Transaction Count.
+Vuser 1:Timing test period of 3 in minutes
+19842 MariaDB tpm
+21786 MariaDB tpm
+16356 MariaDB tpm
+22074 MariaDB tpm
+20664 MariaDB tpm
+17004 MariaDB tpm
+Vuser 1:1 ...,
+19968 MariaDB tpm
+19008 MariaDB tpm
+20262 MariaDB tpm
+20634 MariaDB tpm
+20826 MariaDB tpm
+21594 MariaDB tpm
+Vuser 1:2 ...,
+18582 MariaDB tpm
+19440 MariaDB tpm
+20184 MariaDB tpm
+21012 MariaDB tpm
+18042 MariaDB tpm
+18780 MariaDB tpm
+Vuser 1:3 ...,
+Vuser 1:Test complete, Taking end Transaction Count.
+Vuser 1:5 Active Virtual Users configured
+Vuser 1:TEST RESULT : System achieved 2440 NOPM from 19674 MariaDB TPM
+Vuser 1:FINISHED SUCCESS
+Vuser 4:FINISHED SUCCESS
+Vuser 2:FINISHED SUCCESS
+Vuser 3:FINISHED SUCCESS
+15750 MariaDB tpm
+Vuser 5:FINISHED SUCCESS
+Vuser 6:FINISHED SUCCESS
+ALL VIRTUAL USERS COMPLETE
+Transaction Counter thread running with threadid:tid00000000000045D0
+Dictionary Settings for MariaDB
+connection {
+ maria_host               = 127.0.0.1
+ maria_port               = 3306
+ maria_socket             = null
+ maria_ssl                = false
+ maria_ssl_two_way        = false
+ maria_ssl_linux_capath   = /etc/mysql/certs
+ maria_ssl_windows_capath = C:\mysql\certs
+ maria_ssl_ca             = ca-cert.pem
+ maria_ssl_cert           = client-cert.pem
+ maria_ssl_key            = client-key.pem
+ maria_ssl_cipher         = server
+}
+tpcc       {
+ maria_count_ware       = 5
+ maria_num_vu           = 4
+ maria_user             = root
+ maria_pass             = root
+ maria_dbase            = tpcc_vu5_wh5_mc100_bp256M_lb8
+ maria_storage_engine   = innodb
+ maria_partition        = false
+ maria_prepared         = false
+ maria_no_stored_procs  = false
+ maria_history_pk       = false
+ maria_total_iterations = 1000000
+ maria_raiseerror       = false
+ maria_keyandthink      = false
+ maria_driver           = timed
+ maria_rampup           = 2
+ maria_duration         = 3
+ maria_allwarehouse     = true
+ maria_timeprofile      = false
+ maria_async_scale      = false
+ maria_async_client     = 10
+ maria_async_verbose    = false
+ maria_async_delay      = 1000
+ maria_connect_pool     = false
+ maria_purge            = false
+}
+Transaction Counter thread running with threadid:tid00000000000045D0
+Stopping Transaction Counter
+No Metrics Agent detected on id: laptop-cf5747ge:17555
+

@@ -19,13 +19,17 @@ diset tpcc maria_driver timed
 diset tpcc maria_rampup 2
 diset tpcc maria_duration 3
 diset tpcc maria_async_client 10
-diset tpcc maria_allwarehouse true
+# Test true and false
+diset tpcc maria_allwarehouse false
 
-# Run with 10 virtual users
+tcstart
 vuset vu $vus
 loadscript
 vucreate
 vurun
 vudestroy
+print dict
+tcstatus
+tcstop
 
 puts "Benchmark run complete."

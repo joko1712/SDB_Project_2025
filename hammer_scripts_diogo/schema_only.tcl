@@ -24,7 +24,6 @@ diset tpcc maria_partition false
 diset tpcc maria_no_stored_procs false
 diset tpcc maria_allwarehouse true
 
-
 buildschema
 
 puts "Schema build issued — check for success."

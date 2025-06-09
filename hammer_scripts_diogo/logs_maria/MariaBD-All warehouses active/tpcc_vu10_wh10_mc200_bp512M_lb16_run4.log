@@ -1,0 +1,304 @@
+HammerDB CLI v5.0
+Copyright © HammerDB Ltd hosted by tpc.org 2019-2025
+Type "help" for a list of commands
+Initialized Jobs on-disk database C:/Users/diogo/AppData/Local/Temp/hammer.DB using existing tables (134,311,936 bytes)
+Transaction Counter Started
+Starting TPCC benchmark...
+Database set to MariaDB
+Value 127.0.0.1 for connection:maria_host is the same as existing value 127.0.0.1, no change made
+Value 3306 for connection:maria_port is the same as existing value 3306, no change made
+Value root for tpcc:maria_user is the same as existing value root, no change made
+Value root for tpcc:maria_pass is the same as existing value root, no change made
+Value tpcc_vu10_wh10_mc200_bp512M_lb16 for tpcc:maria_dbase is the same as existing value tpcc_vu10_wh10_mc200_bp512M_lb16, no change made
+Value 10 for tpcc:maria_count_ware is the same as existing value 10, no change made
+Value timed for tpcc:maria_driver is the same as existing value timed, no change made
+Value 2 for tpcc:maria_rampup is the same as existing value 2, no change made
+Value 3 for tpcc:maria_duration is the same as existing value 3, no change made
+Value 10 for tpcc:maria_async_client is the same as existing value 10, no change made
+Value true for tpcc:maria_allwarehouse is the same as existing value true, no change made
+Script loaded, Type "print script" to view
+Vuser 1 created MONITOR - WAIT IDLE
+Vuser 2 created - WAIT IDLE
+Vuser 3 created - WAIT IDLE
+Vuser 4 created - WAIT IDLE
+Vuser 5 created - WAIT IDLE
+Vuser 6 created - WAIT IDLE
+Vuser 7 created - WAIT IDLE
+Vuser 8 created - WAIT IDLE
+Vuser 9 created - WAIT IDLE
+Vuser 10 created - WAIT IDLE
+Vuser 11 created - WAIT IDLE
+11 Virtual Users Created with Monitor VU
+0 MariaDB tpm
+Vuser 1:RUNNING
+Vuser 1:Ssl_cipher 
+Vuser 1:DBVersion:11.7.2
+Vuser 1:Beginning rampup time of 2 minutes
+Vuser 2:RUNNING
+Vuser 2:Ssl_cipher 
+Vuser 2:Assigned 1 WIDs = 1 based on VU count 10, Warehouses = 1 out of 10
+Vuser 2:Processing 1000000 transactions with output suppressed...
+Vuser 3:RUNNING
+Vuser 3:Ssl_cipher 
+Vuser 3:Assigned 1 WIDs = 2 based on VU count 10, Warehouses = 1 out of 10
+Vuser 3:Processing 1000000 transactions with output suppressed...
+Vuser 4:RUNNING
+Vuser 4:Ssl_cipher 
+Vuser 4:Assigned 1 WIDs = 3 based on VU count 10, Warehouses = 1 out of 10
+Vuser 4:Processing 1000000 transactions with output suppressed...
+Vuser 5:RUNNING
+Vuser 5:Ssl_cipher 
+Vuser 5:Assigned 1 WIDs = 4 based on VU count 10, Warehouses = 1 out of 10
+Vuser 5:Processing 1000000 transactions with output suppressed...
+Vuser 6:RUNNING
+Vuser 6:Ssl_cipher 
+Vuser 6:Assigned 1 WIDs = 5 based on VU count 10, Warehouses = 1 out of 10
+Vuser 6:Processing 1000000 transactions with output suppressed...
+Vuser 7:RUNNING
+Vuser 7:Ssl_cipher 
+Vuser 7:Assigned 1 WIDs = 6 based on VU count 10, Warehouses = 1 out of 10
+Vuser 7:Processing 1000000 transactions with output suppressed...
+Vuser 8:RUNNING
+Vuser 8:Ssl_cipher 
+Vuser 8:Assigned 1 WIDs = 7 based on VU count 10, Warehouses = 1 out of 10
+Vuser 8:Processing 1000000 transactions with output suppressed...
+Vuser 9:RUNNING
+Vuser 9:Ssl_cipher 
+Vuser 9:Assigned 1 WIDs = 8 based on VU count 10, Warehouses = 1 out of 10
+Vuser 9:Processing 1000000 transactions with output suppressed...
+Vuser 10:RUNNING
+Vuser 10:Ssl_cipher 
+Vuser 10:Assigned 1 WIDs = 9 based on VU count 10, Warehouses = 1 out of 10
+Vuser 10:Processing 1000000 transactions with output suppressed...
+Vuser 11:RUNNING
+Vuser 11:Ssl_cipher 
+Vuser 11:Assigned 1 WIDs = 10 based on VU count 10, Warehouses = 1 out of 10
+Vuser 11:Processing 1000000 transactions with output suppressed...
+39864 MariaDB tpm
+22590 MariaDB tpm
+43344 MariaDB tpm
+26970 MariaDB tpm
+36108 MariaDB tpm
+Vuser 1:Rampup 1 minutes complete ...
+36204 MariaDB tpm
+57468 MariaDB tpm
+32286 MariaDB tpm
+47784 MariaDB tpm
+40248 MariaDB tpm
+36444 MariaDB tpm
+Vuser 3:mariaexec/db server: Record has changed since last read in table 'customer'
+Vuser 1:Rampup 2 minutes complete ...
+Vuser 1:Rampup complete, Taking start Transaction Count.
+Vuser 1:Timing test period of 3 in minutes
+47442 MariaDB tpm
+23838 MariaDB tpm
+Vuser 5:mariaexec/db server: Record has changed since last read in table 'customer'
+58728 MariaDB tpm
+Vuser 4:mariaexec/db server: Record has changed since last read in table 'stock'
+Vuser 5:mariaexec/db server: Record has changed since last read in table 'stock'
+25938 MariaDB tpm
+54960 MariaDB tpm
+20280 MariaDB tpm
+Vuser 1:1 ...,
+53034 MariaDB tpm
+40212 MariaDB tpm
+32352 MariaDB tpm
+55362 MariaDB tpm
+26964 MariaDB tpm
+51816 MariaDB tpm
+Vuser 1:2 ...,
+26094 MariaDB tpm
+51390 MariaDB tpm
+26100 MariaDB tpm
+44238 MariaDB tpm
+18492 MariaDB tpm
+32262 MariaDB tpm
+Vuser 1:3 ...,
+Vuser 1:Test complete, Taking end Transaction Count.
+Vuser 1:10 Active Virtual Users configured
+Vuser 1:TEST RESULT : System achieved 16114 NOPM from 37504 MariaDB TPM
+Vuser 1:FINISHED SUCCESS
+Vuser 2:FINISHED SUCCESS
+Vuser 4:FINISHED SUCCESS
+Vuser 10:FINISHED SUCCESS
+36468 MariaDB tpm
+Vuser 5:FINISHED SUCCESS
+Vuser 6:FINISHED SUCCESS
+Vuser 3:FINISHED SUCCESS
+Vuser 9:FINISHED SUCCESS
+Vuser 7:FINISHED SUCCESS
+Vuser 8:FINISHED SUCCESS
+Vuser 11:FINISHED SUCCESS
+ALL VIRTUAL USERS COMPLETE
+16344 MariaDB tpm
+vudestroy success
+Benchmark run complete.
+No Virtual Users found to destroy
+Vuser 1 created MONITOR - WAIT IDLE
+Vuser 2 created - WAIT IDLE
+Vuser 3 created - WAIT IDLE
+Vuser 4 created - WAIT IDLE
+Vuser 5 created - WAIT IDLE
+Vuser 6 created - WAIT IDLE
+Vuser 7 created - WAIT IDLE
+Vuser 8 created - WAIT IDLE
+Vuser 9 created - WAIT IDLE
+Vuser 10 created - WAIT IDLE
+Vuser 11 created - WAIT IDLE
+11 Virtual Users Created with Monitor VU
+1  = WAIT IDLE
+2  = WAIT IDLE
+3  = WAIT IDLE
+4  = WAIT IDLE
+5  = WAIT IDLE
+6  = WAIT IDLE
+7  = WAIT IDLE
+8  = WAIT IDLE
+9  = WAIT IDLE
+10 = WAIT IDLE
+11 = WAIT IDLE
+
+Vuser 1:RUNNING
+Vuser 1:Ssl_cipher 
+Vuser 1:DBVersion:11.7.2
+Vuser 1:Beginning rampup time of 2 minutes
+Vuser 2:RUNNING
+Vuser 2:Ssl_cipher 
+Vuser 2:Assigned 1 WIDs = 1 based on VU count 10, Warehouses = 1 out of 10
+Vuser 2:Processing 1000000 transactions with output suppressed...
+Vuser 3:RUNNING
+Vuser 3:Ssl_cipher 
+Vuser 3:Assigned 1 WIDs = 2 based on VU count 10, Warehouses = 1 out of 10
+Vuser 3:Processing 1000000 transactions with output suppressed...
+Vuser 4:RUNNING
+Vuser 4:Ssl_cipher 
+Vuser 4:Assigned 1 WIDs = 3 based on VU count 10, Warehouses = 1 out of 10
+Vuser 4:Processing 1000000 transactions with output suppressed...
+Vuser 5:RUNNING
+Vuser 5:Ssl_cipher 
+Vuser 5:Assigned 1 WIDs = 4 based on VU count 10, Warehouses = 1 out of 10
+Vuser 5:Processing 1000000 transactions with output suppressed...
+Vuser 6:RUNNING
+Vuser 6:Ssl_cipher 
+Vuser 6:Assigned 1 WIDs = 5 based on VU count 10, Warehouses = 1 out of 10
+Vuser 6:Processing 1000000 transactions with output suppressed...
+Vuser 7:RUNNING
+Vuser 7:Ssl_cipher 
+Vuser 7:Assigned 1 WIDs = 6 based on VU count 10, Warehouses = 1 out of 10
+Vuser 7:Processing 1000000 transactions with output suppressed...
+Vuser 8:RUNNING
+Vuser 8:Ssl_cipher 
+Vuser 8:Assigned 1 WIDs = 7 based on VU count 10, Warehouses = 1 out of 10
+Vuser 8:Processing 1000000 transactions with output suppressed...
+Vuser 9:RUNNING
+Vuser 9:Ssl_cipher 
+Vuser 9:Assigned 1 WIDs = 8 based on VU count 10, Warehouses = 1 out of 10
+Vuser 9:Processing 1000000 transactions with output suppressed...
+Vuser 10:RUNNING
+Vuser 10:Ssl_cipher 
+Vuser 10:Assigned 1 WIDs = 9 based on VU count 10, Warehouses = 1 out of 10
+Vuser 10:Processing 1000000 transactions with output suppressed...
+Vuser 11:RUNNING
+Vuser 11:Ssl_cipher 
+Vuser 11:Assigned 1 WIDs = 10 based on VU count 10, Warehouses = 1 out of 10
+Vuser 11:Processing 1000000 transactions with output suppressed...
+36732 MariaDB tpm
+Vuser 2:mariaexec/db server: Record has changed since last read in table 'customer'
+35784 MariaDB tpm
+54276 MariaDB tpm
+35514 MariaDB tpm
+38454 MariaDB tpm
+47586 MariaDB tpm
+Vuser 1:Rampup 1 minutes complete ...
+Vuser 4:mariaexec/db server: Record has changed since last read in table 'stock'
+28278 MariaDB tpm
+52566 MariaDB tpm
+32856 MariaDB tpm
+45102 MariaDB tpm
+40368 MariaDB tpm
+36900 MariaDB tpm
+Vuser 1:Rampup 2 minutes complete ...
+Vuser 1:Rampup complete, Taking start Transaction Count.
+Vuser 1:Timing test period of 3 in minutes
+56310 MariaDB tpm
+24876 MariaDB tpm
+54870 MariaDB tpm
+27054 MariaDB tpm
+49740 MariaDB tpm
+Vuser 1:1 ...,
+33870 MariaDB tpm
+36684 MariaDB tpm
+49500 MariaDB tpm
+27804 MariaDB tpm
+Vuser 4:mariaexec/db server: Record has changed since last read in table 'stock'
+54978 MariaDB tpm
+28656 MariaDB tpm
+Vuser 1:2 ...,
+48858 MariaDB tpm
+23088 MariaDB tpm
+54672 MariaDB tpm
+45312 MariaDB tpm
+32148 MariaDB tpm
+52260 MariaDB tpm
+Vuser 1:3 ...,
+Vuser 1:Test complete, Taking end Transaction Count.
+Vuser 1:10 Active Virtual Users configured
+Vuser 1:TEST RESULT : System achieved 17387 NOPM from 40284 MariaDB TPM
+Vuser 1:FINISHED SUCCESS
+Vuser 8:FINISHED SUCCESS
+Vuser 11:mariaexec/db server: Record has changed since last read in table 'customer'
+Vuser 7:FINISHED SUCCESS
+31116 MariaDB tpm
+Vuser 4:FINISHED SUCCESS
+Vuser 6:FINISHED SUCCESS
+Vuser 11:FINISHED SUCCESS
+Vuser 3:FINISHED SUCCESS
+Vuser 10:FINISHED SUCCESS
+Vuser 2:FINISHED SUCCESS
+Vuser 9:FINISHED SUCCESS
+Vuser 5:FINISHED SUCCESS
+ALL VIRTUAL USERS COMPLETE
+Transaction Counter thread running with threadid:tid0000000000004EDC
+Dictionary Settings for MariaDB
+connection {
+ maria_host               = 127.0.0.1
+ maria_port               = 3306
+ maria_socket             = null
+ maria_ssl                = false
+ maria_ssl_two_way        = false
+ maria_ssl_linux_capath   = /etc/mysql/certs
+ maria_ssl_windows_capath = C:\mysql\certs
+ maria_ssl_ca             = ca-cert.pem
+ maria_ssl_cert           = client-cert.pem
+ maria_ssl_key            = client-key.pem
+ maria_ssl_cipher         = server
+}
+tpcc       {
+ maria_count_ware       = 10
+ maria_num_vu           = 4
+ maria_user             = root
+ maria_pass             = root
+ maria_dbase            = tpcc_vu10_wh10_mc200_bp512M_lb16
+ maria_storage_engine   = innodb
+ maria_partition        = false
+ maria_prepared         = false
+ maria_no_stored_procs  = false
+ maria_history_pk       = false
+ maria_total_iterations = 1000000
+ maria_raiseerror       = false
+ maria_keyandthink      = false
+ maria_driver           = timed
+ maria_rampup           = 2
+ maria_duration         = 3
+ maria_allwarehouse     = true
+ maria_timeprofile      = false
+ maria_async_scale      = false
+ maria_async_client     = 10
+ maria_async_verbose    = false
+ maria_async_delay      = 1000
+ maria_connect_pool     = false
+ maria_purge            = false
+}
+Transaction Counter thread running with threadid:tid0000000000004EDC
+Stopping Transaction Counter
+

@@ -52,9 +52,10 @@ ENABLE_METRICS_TCL=C:/SBD/enable_metrics.tcl
 LOGDIR=C:/SBD/logs_maria
 mkdir -p "$LOGDIR"
 
+# tpcc_vu20_wh20_mc500_bp1G_lb32
 # Config list: each entry is "VU,WH,MC,BP,LB"
 CONFIGS=(
-  # "5,5,100,256M,8M"
+  "5,5,100,256M,8M"
   "10,10,200,512M,16M"
   "20,20,500,1G,32M"
   "50,20,500,2G,64M"
@@ -65,72 +66,109 @@ CONFIGS=(
 )
 
 REPEATS=5
-RUN_AGENT_BASE=17560
 
 echo "SCHEMA_TCL: [$SCHEMA_TCL]"
-echo "BENCHMARK_TCL: [$BENCHMARK_TCL]"
-echo "LOGDIR: [$LOGDIR]"
+echo "benchmark_tcl: [$BENCHMARK_TCL]"
+echo "logdir: [$LOGDIR]"
+
+# str='256M'
+# echo "${str: -1}"
 
 
 for config in "${CONFIGS[@]}"; do
   IFS=',' read -r VU WH MC BP LB <<< "$config"
   DBNAME="tpcc_vu${VU}_wh${WH}_mc${MC}_bp${BP}_lb${LB//M/}"  # sanitize for filenames
   CONTAINER_NAME="mariadb-bench"
-  
 
-  # echo "🔧 [$DBNAME] Restarting MariaDB on host with MC=$MC, BP=$BP, LB=$LB"
-  # ssh $HOST_USER@$HOST_IP "~/restart_mariadb.sh $MC $BP $LB"
-  # if [ $? -ne 0 ]; then
-    # echo "❌ Failed to restart MariaDB container — skipping config $config"
-    # continue
+  # if [ "${BP: -1}" = "M" ]; then
+	# BUFFER_POOL_SIZE=$((${BP%?} * 1048576))
+  # elif [ "${BP: -1}" = "G" ]; then
+	# BUFFER_POOL_SIZE=$((${BP%?} * 1073741824))
+  # else
+	# BUFFER_POOL_SIZE=$LB
   # fi
-
-  echo "📦 [$DBNAME] Creating DB"
-  mysql -h 127.0.0.1 -P 3306 -u root -proot -e "DROP DATABASE IF EXISTS $DBNAME; CREATE DATABASE $DBNAME;"
-
-  echo "🏗️ [$DBNAME] Building schema"
-  DBNAME="$DBNAME" "C:/Program Files/HammerDB-5.0/hammerdbcli" auto "$SCHEMA_TCL"
-
-# puts "📋 Running dict export for $DBNAME"
-  echo "📋 [$DBNAME] Saving configuration dict and enabling metrics"
-  echo "$LOGDIR/${DBNAME}_dict.txt"
+  
+  # if [ "${LB: -1}" = "M" ]; then
+	# LOG_BUFFER_SIZE=$((${LB%?} * 1048576))
+  # elif [ "${LB: -1}" = "G" ]; then
+	# LOG_BUFFER_SIZE=$((${LB%?} * 1073741824))
+  # else
+	# LOG_BUFFER_SIZE=$LB
+  # fi 
   
 set -v -x -e
-  VU="$VU" WH="$WH" DBNAME="$DBNAME" ALLWAREHOUSES=1 BENCHMARK_TCL="$BENCHMARK_TCL" "C:/Program Files/HammerDB-5.0/hammerdbcli" auto "$ENABLE_METRICS_TCL" > "$LOGDIR/${DBNAME}_dict.txt"
-# tclsh.exe "C:/Program Files/HammerDB-5.0/hammerdbcli.exe" <<EOF > "$LOGDIR/${DBNAME}_dict.txt"
-	# "C:/Program Files/HammerDB-5.0/hammerdbcli.exe" <<EOF > "$LOGDIR/${DBNAME}_dict.txt"
-# source "$BENCHMARK_TCL"
-# metstart
-# metstatus
-# print dict
-# metstop
-# exit
-# EOF
+
+  echo "🔧 [$DBNAME] Restarting MariaDB on host with MC=$MC, BP=$BP, LB=$LB"
+  # ssh $HOST_USER@$HOST_IP
+  # MC="$MC" BP="$BP" LB="$LB" DBNAME="$DBNAME" "C:/SBD/restart_mariadb.sh"
+  # "C:/SBD/restart_mariadb.sh \"${MC}\" \"${BP}\" \"${LB}\" \"${DBNAME}\""
+  C:/SBD/restart_mariadb.sh ${MC} ${BP} ${LB}
+  if [ $? -ne 0 ]; then
+    echo "❌ Failed to restart MariaDB container — skipping config $config"
+    continue
+  fi
+  
+  # Get-Service -ComputerName computername -Name servicename | Stop-Service -Force
 
 set +v +x +e
 
-for run in $(seq 1 $REPEATS); do
-  echo "🚀 [$DBNAME] Benchmark Run #$run"
-
-  LOGFILE="$LOGDIR/${DBNAME}_run${run}.log"
+  echo "📦 [$DBNAME] Creating DB"
+  mysql -h 127.0.0.1 -P 3306 -u root -proot -e "DROP DATABASE IF EXISTS $DBNAME; CREATE DATABASE $DBNAME;"
+  # mysql -h 127.0.0.1 -P 3306 -u root -proot -e "SET GLOBAL max_connections=$MC;"
+  # mysql -h 127.0.0.1 -P 3306 -u root -proot -e "SET GLOBAL innodb_buffer_pool_size=$BUFFER_POOL_SIZE;"
+  # mysql -h 127.0.0.1 -P 3306 -u root -proot -e "SET GLOBAL innodb_log_buffer_size=$LOG_BUFFER_SIZE;"
   
-  echo "🚀 Starting benchmark run $run for $DBNAME"
-  VU="$VU" WH="$WH" DBNAME="$DBNAME" ALLWAREHOUSES=1 BENCHMARK_TCL="$BENCHMARK_TCL" RUN_AGENT=RUN_AGENT_BASE+run "C:/Program Files/HammerDB-5.0/hammerdbcli" auto "$BENCHMARK_RUN_SCRIPT_TCL" > "$LOGFILE"
+  sleep 60
 
-  # VU="$VU" WH="$WH" DBNAME="$DBNAME" ALLWAREHOUSES=1 \
-# tclsh.exe "C:/Program Files/HammerDB-5.0/hammerdbcli.exe" <<EOF > "$LOGFILE"
-	# "C:/Program Files/HammerDB-5.0/hammerdbcli.exe" <<EOF > "$LOGFILE"
-# source "$BENCHMARK_TCL"
-# tcstart
-# metstart
-# metstatus
-# vudestroy
-# vucreate
-# vustatus
-# vurun
-# tcstatus
-# exit
-# EOF
+  echo "🏗️ [$DBNAME] Building schema"
+  DBNAME="$DBNAME" "C:/Program Files/HammerDB-5.0/hammerdbcli" auto "$SCHEMA_TCL"
+  # while [ $? -ne 0 ]; do
+    # echo "❌ Failed to Building schema — retrying"
+	# DBNAME="$DBNAME" "C:/Program Files/HammerDB-5.0/hammerdbcli" auto "$SCHEMA_TCL"
+  # done
+  
+# puts "📋 Running dict export for $DBNAME"
+  # echo "📋 [$DBNAME] Saving configuration dict and enabling metrics"
+  # echo "$LOGDIR/${DBNAME}_dict.txt"
+  
+# set -v -x -e
+  # VU="$VU" WH="$WH" DBNAME="$DBNAME" ALLWAREHOUSES=1 BENCHMARK_TCL="$BENCHMARK_TCL" "C:/Program Files/HammerDB-5.0/hammerdbcli" auto "$ENABLE_METRICS_TCL" > "$LOGDIR/${DBNAME}_dict.txt"
+  # # VU="$VU" WH="$WH" DBNAME="$DBNAME" ALLWAREHOUSES=1 BENCHMARK_TCL="$BENCHMARK_TCL" "C:/Program Files/HammerDB-5.0/hammerdbcli" auto "$ENABLE_METRICS_TCL"
+# # tclsh.exe "C:/Program Files/HammerDB-5.0/hammerdbcli.exe" <<EOF > "$LOGDIR/${DBNAME}_dict.txt"
+	# # "C:/Program Files/HammerDB-5.0/hammerdbcli.exe" <<EOF > "$LOGDIR/${DBNAME}_dict.txt"
+# # source "$BENCHMARK_TCL"
+# # metstart
+# # metstatus
+# # print dict
+# # metstop
+# # exit
+# # EOF
+
+# set +v +x +e
+
+  for run in $(seq 1 $REPEATS); do
+    echo "🚀 [$DBNAME] Benchmark Run #$run"
+
+    LOGFILE="$LOGDIR/${DBNAME}_run${run}.log"
+  
+    echo "🚀 Starting benchmark run $run for $DBNAME"
+    # VU="$VU" WH="$WH" DBNAME="$DBNAME" ALLWAREHOUSES=1 BENCHMARK_TCL="$BENCHMARK_TCL" "C:/Program Files/HammerDB-5.0/hammerdbcli" auto "$BENCHMARK_TCL" > "$LOGFILE"
+    VU="$VU" WH="$WH" DBNAME="$DBNAME" ALLWAREHOUSES=0 BENCHMARK_TCL="$BENCHMARK_TCL" "C:/Program Files/HammerDB-5.0/hammerdbcli" auto "$BENCHMARK_TCL" > "$LOGFILE"
+
+	  # VU="$VU" WH="$WH" DBNAME="$DBNAME" ALLWAREHOUSES=1 \
+	# tclsh.exe "C:/Program Files/HammerDB-5.0/hammerdbcli.exe" <<EOF > "$LOGFILE"
+		# "C:/Program Files/HammerDB-5.0/hammerdbcli.exe" <<EOF > "$LOGFILE"
+	# source "$BENCHMARK_TCL"
+	# tcstart
+	# metstart
+	# metstatus
+	# vudestroy
+	# vucreate
+	# vustatus
+	# vurun
+	# tcstatus
+	# exit
+	# EOF
 
 	# 🔍 Parse transaction results
 	# TOTAL_TX=$(grep "Total Transactions" "$LOGFILE" | awk -F: '{print $2}' | tr -d ' ')
@@ -138,7 +176,11 @@ for run in $(seq 1 $REPEATS); do
 	# echo "$DBNAME,$run,$TOTAL_TX,$TPM" >> "$RESULTS_CSV"
 
 	done
-	
+
+  # "C:/Program Files/HammerDB-5.0/hammerdbcli" << EOF
+# tcstop
+# metstop
+# EOF
 	# "C:/Program Files/HammerDB-5.0/hammerdbcli" <<EOF > "$LOGFILE"
 # source "$BENCHMARK_TCL"
 # metstatus
@@ -153,6 +195,6 @@ for run in $(seq 1 $REPEATS); do
 # exit
 # EOF
   echo "✅ [$DBNAME] Finished all $REPEATS runs"
- done
+done
  
 echo "🏁 All benchmarks complete."

@@ -1,0 +1,4 @@
+O servi‡o MariaDB est  a parar..
+O servi‡o MariaDB foi parado com ˆxito.
+
+MariaDB Service stopped.

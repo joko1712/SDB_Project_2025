@@ -1,0 +1,201 @@
+HammerDB CLI v5.0
+Copyright © HammerDB Ltd hosted by tpc.org 2019-2025
+Type "help" for a list of commands
+Initialized Jobs on-disk database C:/Users/diogo/AppData/Local/Temp/hammer.DB using existing tables (127,004,672 bytes)
+Metrics agent hostname set to laptop-cf5747ge
+Metrics agent id set to 17555
+Transaction Counter Started
+CPU Metrics are not running on laptop-cf5747ge
+Starting TPCC benchmark...
+Database set to MariaDB
+Value 127.0.0.1 for connection:maria_host is the same as existing value 127.0.0.1, no change made
+Value 3306 for connection:maria_port is the same as existing value 3306, no change made
+Value root for tpcc:maria_user is the same as existing value root, no change made
+Value root for tpcc:maria_pass is the same as existing value root, no change made
+Value tpcc_vu10_wh10_mc200_bp512M_lb16 for tpcc:maria_dbase is the same as existing value tpcc_vu10_wh10_mc200_bp512M_lb16, no change made
+Value 10 for tpcc:maria_count_ware is the same as existing value 10, no change made
+Value timed for tpcc:maria_driver is the same as existing value timed, no change made
+Value 2 for tpcc:maria_rampup is the same as existing value 2, no change made
+Value 3 for tpcc:maria_duration is the same as existing value 3, no change made
+Value 10 for tpcc:maria_async_client is the same as existing value 10, no change made
+Value true for tpcc:maria_allwarehouse is the same as existing value true, no change made
+Script loaded, Type "print script" to view
+Vuser 1 created MONITOR - WAIT IDLE
+Vuser 2 created - WAIT IDLE
+Vuser 3 created - WAIT IDLE
+Vuser 4 created - WAIT IDLE
+Vuser 5 created - WAIT IDLE
+Vuser 6 created - WAIT IDLE
+Vuser 7 created - WAIT IDLE
+Vuser 8 created - WAIT IDLE
+Vuser 9 created - WAIT IDLE
+Vuser 10 created - WAIT IDLE
+Vuser 11 created - WAIT IDLE
+11 Virtual Users Created with Monitor VU
+Connecting to Agent to Display CPU Metrics
+Vuser 1:RUNNING
+Metric receive port open @ 21932 on laptop-cf5747ge
+Connecting to HammerDB Agent @ laptop-cf5747ge:17555
+Testing Agent Connectivity...OK
+Metrics Connected
+Vuser 2:RUNNING
+Vuser 3:RUNNING
+Vuser 4:RUNNING
+Transaction Counter Error: mariaconnect/db server: Can't connect to server on '127.0.0.1' (10061)
+Vuser 1:the tcp connection to 127.0.0.1:3306 could not be established
+Vuser 5:RUNNING
+Error in Virtual User 1: mariaconnect/db server: Can't connect to server on '127.0.0.1' (10061)
+Vuser 1:FINISHED FAILED
+Vuser 2:the tcp connection to 127.0.0.1:3306 could not be established
+Vuser 6:RUNNING
+Error in Virtual User 2: mariaconnect/db server: Can't connect to server on '127.0.0.1' (10061)
+Vuser 2:FINISHED FAILED
+Vuser 3:the tcp connection to 127.0.0.1:3306 could not be established
+Vuser 7:RUNNING
+Error in Virtual User 3: mariaconnect/db server: Can't connect to server on '127.0.0.1' (10061)
+Vuser 3:FINISHED FAILED
+Vuser 4:the tcp connection to 127.0.0.1:3306 could not be established
+Vuser 8:RUNNING
+Error in Virtual User 4: mariaconnect/db server: Can't connect to server on '127.0.0.1' (10061)
+Vuser 4:FINISHED FAILED
+Vuser 9:RUNNING
+Vuser 5:the tcp connection to 127.0.0.1:3306 could not be established
+Error in Virtual User 5: mariaconnect/db server: Can't connect to server on '127.0.0.1' (10061)
+Vuser 5:FINISHED FAILED
+Vuser 6:the tcp connection to 127.0.0.1:3306 could not be established
+Vuser 10:RUNNING
+Error in Virtual User 6: mariaconnect/db server: Can't connect to server on '127.0.0.1' (10061)
+Vuser 6:FINISHED FAILED
+Vuser 7:the tcp connection to 127.0.0.1:3306 could not be established
+Vuser 11:RUNNING
+Error in Virtual User 7: mariaconnect/db server: Can't connect to server on '127.0.0.1' (10061)
+Vuser 7:FINISHED FAILED
+Vuser 8:the tcp connection to 127.0.0.1:3306 could not be established
+Error in Virtual User 8: mariaconnect/db server: Can't connect to server on '127.0.0.1' (10061)
+Vuser 8:FINISHED FAILED
+Vuser 9:the tcp connection to 127.0.0.1:3306 could not be established
+Error in Virtual User 9: mariaconnect/db server: Can't connect to server on '127.0.0.1' (10061)
+Vuser 9:FINISHED FAILED
+Vuser 10:the tcp connection to 127.0.0.1:3306 could not be established
+Error in Virtual User 10: mariaconnect/db server: Can't connect to server on '127.0.0.1' (10061)
+Vuser 10:FINISHED FAILED
+Vuser 11:the tcp connection to 127.0.0.1:3306 could not be established
+Error in Virtual User 11: mariaconnect/db server: Can't connect to server on '127.0.0.1' (10061)
+Vuser 11:FINISHED FAILED
+ALL VIRTUAL USERS COMPLETE
+vudestroy success
+Benchmark run complete.
+No Virtual Users found to destroy
+Vuser 1 created MONITOR - WAIT IDLE
+Vuser 2 created - WAIT IDLE
+Vuser 3 created - WAIT IDLE
+Vuser 4 created - WAIT IDLE
+Vuser 5 created - WAIT IDLE
+Vuser 6 created - WAIT IDLE
+Vuser 7 created - WAIT IDLE
+Vuser 8 created - WAIT IDLE
+Vuser 9 created - WAIT IDLE
+Vuser 10 created - WAIT IDLE
+Vuser 11 created - WAIT IDLE
+11 Virtual Users Created with Monitor VU
+1  = WAIT IDLE
+2  = WAIT IDLE
+3  = WAIT IDLE
+4  = WAIT IDLE
+5  = WAIT IDLE
+6  = WAIT IDLE
+7  = WAIT IDLE
+8  = WAIT IDLE
+9  = WAIT IDLE
+10 = WAIT IDLE
+11 = WAIT IDLE
+
+Vuser 1:RUNNING
+Vuser 2:RUNNING
+Vuser 3:RUNNING
+Vuser 4:RUNNING
+Vuser 5:RUNNING
+Vuser 1:the tcp connection to 127.0.0.1:3306 could not be established
+Error in Virtual User 1: mariaconnect/db server: Can't connect to server on '127.0.0.1' (10061)
+Vuser 1:FINISHED FAILED
+Vuser 6:RUNNING
+Vuser 2:the tcp connection to 127.0.0.1:3306 could not be established
+Error in Virtual User 2: mariaconnect/db server: Can't connect to server on '127.0.0.1' (10061)
+Vuser 2:FINISHED FAILED
+Vuser 7:RUNNING
+Vuser 3:the tcp connection to 127.0.0.1:3306 could not be established
+Error in Virtual User 3: mariaconnect/db server: Can't connect to server on '127.0.0.1' (10061)
+Vuser 3:FINISHED FAILED
+Vuser 8:RUNNING
+Vuser 4:the tcp connection to 127.0.0.1:3306 could not be established
+Error in Virtual User 4: mariaconnect/db server: Can't connect to server on '127.0.0.1' (10061)
+Vuser 4:FINISHED FAILED
+Vuser 9:RUNNING
+Vuser 5:the tcp connection to 127.0.0.1:3306 could not be established
+Error in Virtual User 5: mariaconnect/db server: Can't connect to server on '127.0.0.1' (10061)
+Vuser 5:FINISHED FAILED
+Vuser 10:RUNNING
+Vuser 6:the tcp connection to 127.0.0.1:3306 could not be established
+Error in Virtual User 6: mariaconnect/db server: Can't connect to server on '127.0.0.1' (10061)
+Vuser 6:FINISHED FAILED
+Vuser 11:RUNNING
+Vuser 7:the tcp connection to 127.0.0.1:3306 could not be established
+Error in Virtual User 7: mariaconnect/db server: Can't connect to server on '127.0.0.1' (10061)
+Vuser 7:FINISHED FAILED
+Vuser 8:the tcp connection to 127.0.0.1:3306 could not be established
+Error in Virtual User 8: mariaconnect/db server: Can't connect to server on '127.0.0.1' (10061)
+Vuser 8:FINISHED FAILED
+Vuser 9:the tcp connection to 127.0.0.1:3306 could not be established
+Error in Virtual User 9: mariaconnect/db server: Can't connect to server on '127.0.0.1' (10061)
+Vuser 9:FINISHED FAILED
+Vuser 10:the tcp connection to 127.0.0.1:3306 could not be established
+Error in Virtual User 10: mariaconnect/db server: Can't connect to server on '127.0.0.1' (10061)
+Vuser 10:FINISHED FAILED
+Vuser 11:the tcp connection to 127.0.0.1:3306 could not be established
+Error in Virtual User 11: mariaconnect/db server: Can't connect to server on '127.0.0.1' (10061)
+Vuser 11:FINISHED FAILED
+ALL VIRTUAL USERS COMPLETE
+Transaction Counter is not running
+Dictionary Settings for MariaDB
+connection {
+ maria_host               = 127.0.0.1
+ maria_port               = 3306
+ maria_socket             = null
+ maria_ssl                = false
+ maria_ssl_two_way        = false
+ maria_ssl_linux_capath   = /etc/mysql/certs
+ maria_ssl_windows_capath = C:\mysql\certs
+ maria_ssl_ca             = ca-cert.pem
+ maria_ssl_cert           = client-cert.pem
+ maria_ssl_key            = client-key.pem
+ maria_ssl_cipher         = server
+}
+tpcc       {
+ maria_count_ware       = 10
+ maria_num_vu           = 4
+ maria_user             = root
+ maria_pass             = root
+ maria_dbase            = tpcc_vu10_wh10_mc200_bp512M_lb16
+ maria_storage_engine   = innodb
+ maria_partition        = false
+ maria_prepared         = false
+ maria_no_stored_procs  = false
+ maria_history_pk       = false
+ maria_total_iterations = 1000000
+ maria_raiseerror       = false
+ maria_keyandthink      = false
+ maria_driver           = timed
+ maria_rampup           = 2
+ maria_duration         = 3
+ maria_allwarehouse     = true
+ maria_timeprofile      = false
+ maria_async_scale      = false
+ maria_async_client     = 10
+ maria_async_verbose    = false
+ maria_async_delay      = 1000
+ maria_connect_pool     = false
+ maria_purge            = false
+}
+Transaction Counter is not running
+No Metrics Agent detected on id: laptop-cf5747ge:17555
+

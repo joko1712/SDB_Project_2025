@@ -1,35 +1,68 @@
 #!/bin/bash
 
-DOCKER="/usr/local/bin/docker"
-
 MAX_CONNECTIONS=$1
 BUFFER_POOL_SIZE=$2
 LOG_BUFFER_SIZE=$3
+DATABASE_NAME=$4
+
+echo "None" > ./tmp/server-log.txt &
+sleep 1
+while ! grep -m1 "None" < ./tmp/server-log.txt; do
+    sleep 1
+done
 
 echo "🛑 Stopping old MariaDB container..."
-$DOCKER stop mariadb-bench >/dev/null 2>&1
-$DOCKER rm mariadb-bench >/dev/null 2>&1
+# mariadb -uroot -proot -e "SET GLOBAL innodb_fast_shutdown = 0;"
+# net stop mariadb
+./stop_mariadb.sh > ./tmp/server-log.txt &
+sleep 1
+while ! grep -m1 "MariaDB Service stopped." < ./tmp/server-log.txt; do
+    sleep 1
+done
+
+cp "C:/Program Files/MariaDB 11.7/data/ib_logfile0" "D:/Diogo - Universidade/Disciplinas/2024 - 2025/2º Semestre/SBD/Projeto/Logfiles/$DATABASE_NAME"
+
+echo "Continue"
+
+cat >"C:/Program Files/MariaDB 11.7/data/my.ini" <<EOF
+[mysqld]
+datadir=C:/Program Files/MariaDB 11.7/data
+port=3306
+max_connections = $MAX_CONNECTIONS
+innodb_buffer_pool_size = $BUFFER_POOL_SIZE
+innodb_log_buffer_size = $LOG_BUFFER_SIZE
+[client]
+port=3306
+plugin-dir=C:\Program Files\MariaDB 11.7/lib/plugin
+
+EOF
+
+wait -n
 
 echo "🚀 Starting MariaDB with:"
 echo "    max_connections=$MAX_CONNECTIONS"
 echo "    innodb_buffer_pool_size=$BUFFER_POOL_SIZE"
 echo "    innodb_log_buffer_size=$LOG_BUFFER_SIZE"
 
-$DOCKER run -d --name mariadb-bench \
-  -v $(pwd)/my.cnf:/etc/mysql/conf.d/my.cnf \
-  -e MYSQL_ROOT_PASSWORD=root \
-  -e MYSQL_DATABASE=tpcc \
-  -p 3306:3306 \
-  mariadb:latest \
-  --max_connections=$MAX_CONNECTIONS \
-  --innodb_buffer_pool_size=$BUFFER_POOL_SIZE \
-  --innodb_log_buffer_size=$LOG_BUFFER_SIZE
-
-
-# Wait until DB is ready
-until $DOCKER exec mariadb-bench mariadb -u root -proot -e "SELECT 1" &>/dev/null; do
-  sleep 1
+./start_mariadb.sh > /tmp/server-log.txt &
+sleep 1
+while ! grep -m1 "MariaDB Service started." < /tmp/server-log.txt; do
+    sleep 1
 done
+
+# "C:/Program Files/MariaDB 11.7/data/ib_logfile0"
+# "C:/Program Files/MariaDB 11.7/data/my.ini"
+# "D:\Diogo - Universidade\Disciplinas\2024 - 2025\2º Semestre\SBD\Projeto\Logfiles"
 
 echo "✅ MariaDB container ready."
 
+# FILE="C:/SBD/test.cnf"
+
+# # cat >$FILE <<EOF
+# [mysqld]
+# bind-address = 0.0.0.0
+# max_connections = 100
+# innodb_buffer_pool_size = 256M
+# innodb_log_buffer_size = 8M
+
+# EOF

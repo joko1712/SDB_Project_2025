@@ -1,0 +1,311 @@
+HammerDB CLI v5.0
+Copyright © HammerDB Ltd hosted by tpc.org 2019-2025
+Type "help" for a list of commands
+Initialized Jobs on-disk database C:/Users/diogo/AppData/Local/Temp/hammer.DB using existing tables (126,935,040 bytes)
+Metrics agent hostname set to laptop-cf5747ge
+Metrics agent id set to 17555
+Transaction Counter Started
+0 MariaDB tpm
+Starting Local Metrics Agent on laptop-cf5747ge
+CPU Metrics are not running on laptop-cf5747ge
+Starting TPCC benchmark...
+Database set to MariaDB
+Value 127.0.0.1 for connection:maria_host is the same as existing value 127.0.0.1, no change made
+Value 3306 for connection:maria_port is the same as existing value 3306, no change made
+Value root for tpcc:maria_user is the same as existing value root, no change made
+Value root for tpcc:maria_pass is the same as existing value root, no change made
+Value tpcc_vu5_wh5_mc100_bp256M_lb8 for tpcc:maria_dbase is the same as existing value tpcc_vu5_wh5_mc100_bp256M_lb8, no change made
+Value 5 for tpcc:maria_count_ware is the same as existing value 5, no change made
+Value timed for tpcc:maria_driver is the same as existing value timed, no change made
+Value 2 for tpcc:maria_rampup is the same as existing value 2, no change made
+Value 3 for tpcc:maria_duration is the same as existing value 3, no change made
+Value 10 for tpcc:maria_async_client is the same as existing value 10, no change made
+Value true for tpcc:maria_allwarehouse is the same as existing value true, no change made
+Script loaded, Type "print script" to view
+Vuser 1 created MONITOR - WAIT IDLE
+Vuser 2 created - WAIT IDLE
+Vuser 3 created - WAIT IDLE
+Vuser 4 created - WAIT IDLE
+Vuser 5 created - WAIT IDLE
+Vuser 6 created - WAIT IDLE
+6 Virtual Users Created with Monitor VU
+Vuser 1:RUNNING
+Vuser 1:Ssl_cipher 
+Vuser 1:DBVersion:11.7.2
+Initializing HammerDB Metric Agent 5.0
+HammerDB Metric Agent active @ id 17555 hostname laptop-cf5747ge (Ctrl-C to Exit)
+Vuser 1:Beginning rampup time of 2 minutes
+Connecting to Agent to Display CPU Metrics
+Metric receive port open @ 29844 on laptop-cf5747ge
+Connecting to HammerDB Agent @ laptop-cf5747ge:17555
+Testing Agent Connectivity...OK
+Received a new display request from host fe80::f513:8812:e115:e9e6%4
+Metrics Connected
+New display accepted @ 29844 laptop-cf5747ge
+Prepared CPU metrics for Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz
+Started CPU Metrics for Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz:(8 CPUs)
+Sending CPU metrics to 29844 laptop-cf5747ge ...connection established
+Vuser 2:RUNNING
+Vuser 2:Ssl_cipher 
+Vuser 2:Assigned 2 WIDs = 1 6 based on VU count 5, Warehouses = 2 out of 10
+Vuser 2:Processing 1000000 transactions with output suppressed...
+Vuser 3:RUNNING
+Vuser 3:Ssl_cipher 
+Vuser 3:Assigned 2 WIDs = 2 7 based on VU count 5, Warehouses = 2 out of 10
+Vuser 3:Processing 1000000 transactions with output suppressed...
+Vuser 4:RUNNING
+Vuser 4:Ssl_cipher 
+Vuser 4:Assigned 2 WIDs = 3 8 based on VU count 5, Warehouses = 2 out of 10
+Vuser 4:Processing 1000000 transactions with output suppressed...
+Vuser 5:RUNNING
+Vuser 5:Ssl_cipher 
+Vuser 5:Assigned 2 WIDs = 4 9 based on VU count 5, Warehouses = 2 out of 10
+Vuser 5:Processing 1000000 transactions with output suppressed...
+Vuser 6:RUNNING
+Vuser 6:Ssl_cipher 
+Vuser 6:Assigned 2 WIDs = 5 10 based on VU count 5, Warehouses = 2 out of 10
+Vuser 6:Processing 1000000 transactions with output suppressed...
+3522 MariaDB tpm
+CPU all usr%-0.00 sys%-0.00 irq%-0.00 idle%-0.00
+14022 MariaDB tpm
+CPU all usr%-36.28 sys%-31.48 irq%-0.77 idle%-32.04
+16050 MariaDB tpm
+CPU all usr%-36.42 sys%-28.37 irq%-0.71 idle%-35.13
+16566 MariaDB tpm
+CPU all usr%-35.90 sys%-29.76 irq%-0.46 idle%-33.93
+16782 MariaDB tpm
+CPU all usr%-34.87 sys%-30.34 irq%-0.72 idle%-34.58
+15036 MariaDB tpm
+CPU all usr%-36.78 sys%-31.23 irq%-1.11 idle%-31.31
+Vuser 1:Rampup 1 minutes complete ...
+13512 MariaDB tpm
+CPU all usr%-36.87 sys%-31.25 irq%-0.81 idle%-31.15
+16266 MariaDB tpm
+CPU all usr%-35.16 sys%-30.21 irq%-0.54 idle%-34.36
+16128 MariaDB tpm
+CPU all usr%-33.37 sys%-29.54 irq%-0.59 idle%-36.26
+14820 MariaDB tpm
+CPU all usr%-39.29 sys%-31.28 irq%-0.77 idle%-28.96
+15366 MariaDB tpm
+CPU all usr%-34.96 sys%-30.22 irq%-0.85 idle%-33.68
+14946 MariaDB tpm
+CPU all usr%-37.33 sys%-30.09 irq%-0.97 idle%-32.22
+Vuser 1:Rampup 2 minutes complete ...
+Vuser 1:Rampup complete, Taking start Transaction Count.
+Vuser 1:Timing test period of 3 in minutes
+13884 MariaDB tpm
+CPU all usr%-37.12 sys%-29.85 irq%-0.94 idle%-32.59
+17358 MariaDB tpm
+CPU all usr%-34.49 sys%-30.17 irq%-0.61 idle%-35.25
+16458 MariaDB tpm
+CPU all usr%-35.28 sys%-29.14 irq%-0.65 idle%-34.92
+15954 MariaDB tpm
+CPU all usr%-36.06 sys%-28.86 irq%-1.07 idle%-34.09
+15390 MariaDB tpm
+CPU all usr%-36.03 sys%-30.83 irq%-0.89 idle%-32.87
+14910 MariaDB tpm
+Vuser 1:1 ...,
+CPU all usr%-35.55 sys%-29.23 irq%-0.52 idle%-34.69
+14376 MariaDB tpm
+CPU all usr%-38.32 sys%-29.89 irq%-0.86 idle%-30.65
+16350 MariaDB tpm
+CPU all usr%-34.90 sys%-29.84 irq%-0.99 idle%-34.54
+17052 MariaDB tpm
+CPU all usr%-36.87 sys%-29.77 irq%-0.77 idle%-32.99
+15858 MariaDB tpm
+CPU all usr%-37.30 sys%-31.78 irq%-0.75 idle%-30.14
+13944 MariaDB tpm
+CPU all usr%-33.33 sys%-27.94 irq%-0.57 idle%-38.67
+14574 MariaDB tpm
+Vuser 1:2 ...,
+CPU all usr%-33.80 sys%-29.51 irq%-0.81 idle%-36.11
+16890 MariaDB tpm
+CPU all usr%-34.63 sys%-29.91 irq%-0.59 idle%-34.96
+15810 MariaDB tpm
+CPU all usr%-35.79 sys%-29.51 irq%-0.84 idle%-33.24
+15312 MariaDB tpm
+CPU all usr%-36.53 sys%-29.16 irq%-0.87 idle%-33.45
+11754 MariaDB tpm
+CPU all usr%-33.71 sys%-29.18 irq%-0.78 idle%-36.68
+14370 MariaDB tpm
+CPU all usr%-34.65 sys%-28.15 irq%-0.50 idle%-36.71
+16578 MariaDB tpm
+Vuser 1:3 ...,
+Vuser 1:Test complete, Taking end Transaction Count.
+Vuser 1:5 Active Virtual Users configured
+Vuser 1:TEST RESULT : System achieved 6580 NOPM from 15225 MariaDB TPM
+Vuser 1:FINISHED SUCCESS
+Vuser 5:FINISHED SUCCESS
+CPU all usr%-35.96 sys%-29.45 irq%-0.82 idle%-34.23
+Vuser 6:FINISHED SUCCESS
+Vuser 3:FINISHED SUCCESS
+Vuser 4:FINISHED SUCCESS
+Vuser 2:FINISHED SUCCESS
+ALL VIRTUAL USERS COMPLETE
+vudestroy success
+Benchmark run complete.
+No Virtual Users found to destroy
+Vuser 1 created MONITOR - WAIT IDLE
+Vuser 2 created - WAIT IDLE
+Vuser 3 created - WAIT IDLE
+Vuser 4 created - WAIT IDLE
+Vuser 5 created - WAIT IDLE
+Vuser 6 created - WAIT IDLE
+6 Virtual Users Created with Monitor VU
+1 = WAIT IDLE
+2 = WAIT IDLE
+3 = WAIT IDLE
+4 = WAIT IDLE
+5 = WAIT IDLE
+6 = WAIT IDLE
+
+Vuser 1:RUNNING
+Vuser 1:Ssl_cipher 
+Vuser 1:DBVersion:11.7.2
+Vuser 1:Beginning rampup time of 2 minutes
+Vuser 2:RUNNING
+Vuser 2:Ssl_cipher 
+Vuser 2:Assigned 2 WIDs = 1 6 based on VU count 5, Warehouses = 2 out of 10
+Vuser 2:Processing 1000000 transactions with output suppressed...
+Vuser 3:RUNNING
+Vuser 3:Ssl_cipher 
+Vuser 3:Assigned 2 WIDs = 2 7 based on VU count 5, Warehouses = 2 out of 10
+Vuser 3:Processing 1000000 transactions with output suppressed...
+9330 MariaDB tpm
+Vuser 4:RUNNING
+Vuser 4:Ssl_cipher 
+Vuser 4:Assigned 2 WIDs = 3 8 based on VU count 5, Warehouses = 2 out of 10
+Vuser 4:Processing 1000000 transactions with output suppressed...
+Vuser 5:RUNNING
+Vuser 5:Ssl_cipher 
+Vuser 5:Assigned 2 WIDs = 4 9 based on VU count 5, Warehouses = 2 out of 10
+Vuser 5:Processing 1000000 transactions with output suppressed...
+Vuser 6:RUNNING
+Vuser 6:Ssl_cipher 
+Vuser 6:Assigned 2 WIDs = 5 10 based on VU count 5, Warehouses = 2 out of 10
+Vuser 6:Processing 1000000 transactions with output suppressed...
+CPU all usr%-32.33 sys%-28.32 irq%-0.58 idle%-39.11
+11736 MariaDB tpm
+CPU all usr%-34.34 sys%-30.53 irq%-0.63 idle%-34.26
+14964 MariaDB tpm
+CPU all usr%-35.69 sys%-30.56 irq%-0.97 idle%-33.39
+15924 MariaDB tpm
+CPU all usr%-35.68 sys%-29.90 irq%-0.42 idle%-34.26
+14610 MariaDB tpm
+CPU all usr%-35.62 sys%-28.38 irq%-0.46 idle%-35.49
+13614 MariaDB tpm
+CPU all usr%-35.32 sys%-30.39 irq%-0.82 idle%-33.91
+Vuser 4:mariaexec/db server: Record has changed since last read in table 'stock'
+Vuser 1:Rampup 1 minutes complete ...
+15252 MariaDB tpm
+CPU all usr%-35.84 sys%-28.65 irq%-0.61 idle%-35.14
+12702 MariaDB tpm
+CPU all usr%-37.34 sys%-28.93 irq%-0.58 idle%-32.60
+13782 MariaDB tpm
+CPU all usr%-38.89 sys%-29.05 irq%-0.00 idle%-31.18
+15666 MariaDB tpm
+CPU all usr%-35.09 sys%-30.10 irq%-0.78 idle%-34.51
+14220 MariaDB tpm
+CPU all usr%-35.94 sys%-30.63 irq%-0.71 idle%-32.92
+15360 MariaDB tpm
+CPU all usr%-33.74 sys%-28.63 irq%-0.70 idle%-36.75
+Vuser 1:Rampup 2 minutes complete ...
+Vuser 1:Rampup complete, Taking start Transaction Count.
+Vuser 1:Timing test period of 3 in minutes
+13836 MariaDB tpm
+CPU all usr%-34.84 sys%-28.70 irq%-0.54 idle%-36.10
+13470 MariaDB tpm
+CPU all usr%-42.85 sys%-31.16 irq%-0.84 idle%-25.16
+13434 MariaDB tpm
+CPU all usr%-37.20 sys%-28.67 irq%-0.63 idle%-33.47
+11292 MariaDB tpm
+CPU all usr%-33.54 sys%-29.68 irq%-0.68 idle%-36.41
+15228 MariaDB tpm
+CPU all usr%-33.19 sys%-30.37 irq%-0.52 idle%-36.14
+14010 MariaDB tpm
+CPU all usr%-35.90 sys%-28.47 irq%-0.87 idle%-34.85
+Vuser 1:1 ...,
+14688 MariaDB tpm
+CPU all usr%-36.88 sys%-31.65 irq%-1.06 idle%-31.11
+12660 MariaDB tpm
+CPU all usr%-35.82 sys%-31.16 irq%-0.66 idle%-32.47
+17676 MariaDB tpm
+CPU all usr%-35.83 sys%-30.19 irq%-0.62 idle%-33.42
+14442 MariaDB tpm
+CPU all usr%-34.66 sys%-30.42 irq%-0.80 idle%-34.31
+12954 MariaDB tpm
+CPU all usr%-34.99 sys%-28.69 irq%-0.42 idle%-35.85
+14958 MariaDB tpm
+CPU all usr%-36.58 sys%-28.95 irq%-0.75 idle%-33.24
+Vuser 1:2 ...,
+12786 MariaDB tpm
+CPU all usr%-31.47 sys%-27.84 irq%-0.69 idle%-40.38
+13980 MariaDB tpm
+CPU all usr%-37.37 sys%-31.14 irq%-0.89 idle%-31.25
+14382 MariaDB tpm
+CPU all usr%-36.06 sys%-30.31 irq%-0.77 idle%-33.53
+12486 MariaDB tpm
+CPU all usr%-33.72 sys%-29.25 irq%-0.75 idle%-36.64
+13416 MariaDB tpm
+CPU all usr%-35.12 sys%-29.46 irq%-0.86 idle%-34.91
+15486 MariaDB tpm
+CPU all usr%-32.64 sys%-28.85 irq%-0.58 idle%-38.30
+Vuser 1:3 ...,
+Vuser 1:Test complete, Taking end Transaction Count.
+Vuser 1:5 Active Virtual Users configured
+Vuser 1:TEST RESULT : System achieved 6031 NOPM from 13936 MariaDB TPM
+Vuser 1:FINISHED SUCCESS
+Vuser 2:FINISHED SUCCESS
+12972 MariaDB tpm
+Vuser 6:FINISHED SUCCESS
+CPU all usr%-34.07 sys%-29.26 irq%-0.57 idle%-36.52
+Vuser 5:FINISHED SUCCESS
+Vuser 3:FINISHED SUCCESS
+Vuser 4:FINISHED SUCCESS
+ALL VIRTUAL USERS COMPLETE
+Transaction Counter thread running with threadid:tid000000000000328C
+Dictionary Settings for MariaDB
+connection {
+ maria_host               = 127.0.0.1
+ maria_port               = 3306
+ maria_socket             = null
+ maria_ssl                = false
+ maria_ssl_two_way        = false
+ maria_ssl_linux_capath   = /etc/mysql/certs
+ maria_ssl_windows_capath = C:\mysql\certs
+ maria_ssl_ca             = ca-cert.pem
+ maria_ssl_cert           = client-cert.pem
+ maria_ssl_key            = client-key.pem
+ maria_ssl_cipher         = server
+}
+tpcc       {
+ maria_count_ware       = 5
+ maria_num_vu           = 4
+ maria_user             = root
+ maria_pass             = root
+ maria_dbase            = tpcc_vu5_wh5_mc100_bp256M_lb8
+ maria_storage_engine   = innodb
+ maria_partition        = false
+ maria_prepared         = false
+ maria_no_stored_procs  = false
+ maria_history_pk       = false
+ maria_total_iterations = 1000000
+ maria_raiseerror       = false
+ maria_keyandthink      = false
+ maria_driver           = timed
+ maria_rampup           = 2
+ maria_duration         = 3
+ maria_allwarehouse     = true
+ maria_timeprofile      = false
+ maria_async_scale      = false
+ maria_async_client     = 10
+ maria_async_verbose    = false
+ maria_async_delay      = 1000
+ maria_connect_pool     = false
+ maria_purge            = false
+}
+Transaction Counter thread running with threadid:tid000000000000328C
+Stopping Transaction Counter
+Stopping Metrics Agent and Display on laptop-cf5747ge:17555
+Connection to display 29844 laptop-cf5747ge lost: target application died or connection lost
+Closing HammerDB Metric Agent
