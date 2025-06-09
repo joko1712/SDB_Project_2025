@@ -17,12 +17,16 @@ diset tpcc pg_rampup 2
 diset tpcc pg_duration 3
 diset tpcc pg_async_client 10
 # Test true and false
-diset tpcc pg_allwarehouse true
+diset tpcc pg_allwarehouse false
 
+tcstart
 vuset vu $env(VU)
 loadscript
 vucreate
 vurun
 vudestroy
+print dict
+tcstatus
+tcstop
 
 puts "PostgreSQL benchmark run complete."

@@ -1,10 +1,9 @@
 #!/bin/bash
 
 net stop postgresql-x64-17
-if [ $? -ne 0 ]; then
-  echo "❌ Failed to stop Postgres service"
-  # mysqladmin shutdown
-  exit
-fi
+
+while sc query postgresql-x64-17 |grep -qo STOP_PENDING; do
+    sleep 1
+done
 
 echo "Postgres Service stopped."

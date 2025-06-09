@@ -1,7 +1,0 @@
-[mysqld]
-datadir=C:/Program Files/MariaDB 11.7/data
-port=3306
-innodb_buffer_pool_size=999M
-[client]
-port=3306
-plugin-dir=C:\Program Files\MariaDB 11.7/lib/plugin

@@ -12,8 +12,6 @@ while ! grep -m1 "None" < ./tmp/server-log.txt; do
 done
 
 echo "🛑 Stopping old MariaDB container..."
-# mariadb -uroot -proot -e "SET GLOBAL innodb_fast_shutdown = 0;"
-# net stop mariadb
 ./stop_mariadb.sh > ./tmp/server-log.txt &
 sleep 1
 while ! grep -m1 "MariaDB Service stopped." < ./tmp/server-log.txt; do
@@ -50,19 +48,4 @@ while ! grep -m1 "MariaDB Service started." < /tmp/server-log.txt; do
     sleep 1
 done
 
-# "C:/Program Files/MariaDB 11.7/data/ib_logfile0"
-# "C:/Program Files/MariaDB 11.7/data/my.ini"
-# "D:\Diogo - Universidade\Disciplinas\2024 - 2025\2º Semestre\SBD\Projeto\Logfiles"
-
 echo "✅ MariaDB container ready."
-
-# FILE="C:/SBD/test.cnf"
-
-# # cat >$FILE <<EOF
-# [mysqld]
-# bind-address = 0.0.0.0
-# max_connections = 100
-# innodb_buffer_pool_size = 256M
-# innodb_log_buffer_size = 8M
-
-# EOF

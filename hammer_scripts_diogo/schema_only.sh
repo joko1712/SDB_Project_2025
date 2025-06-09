@@ -1,10 +1,5 @@
 # echo "📦 Creating TPCC schema for MariaDB..."
 
-
-# if {[catch {...your...code...here...} err]} {
-   # puts "Error info $err\nFull info: $::errorInfo"
-# }
-
 dbset db maria
 dbset bm TPC-C
 
@@ -24,6 +19,8 @@ diset tpcc maria_storage_engine innodb
 diset tpcc maria_partition false
 diset tpcc maria_no_stored_procs false
 diset tpcc maria_allwarehouse true
+
+deleteschema
 
 buildschema
 

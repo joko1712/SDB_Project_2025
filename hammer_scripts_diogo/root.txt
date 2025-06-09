@@ -1,3 +1,0 @@
-Fazer metstop depois de correr todos os testes
-
-Correr programa com $RESULTS_CSV sem testes adicionais só para gerar os ficheiros .csv

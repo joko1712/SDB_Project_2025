@@ -42,9 +42,9 @@ _failure() {
 
 
 # HammerDB TCL scripts
-SCHEMA_TCL=~/hammer_scripts/schema_only_postgres.tcl
-BENCHMARK_TCL=~/hammer_scripts/benchmark_run_postgres.tcl
-LOGDIR=~/hammer_scripts/logs_postgres
+SCHEMA_TCL=C:/SBD/schema_only_postgres.tcl
+BENCHMARK_TCL=C:/SBD/benchmark_run_postgres.tcl
+LOGDIR=C:/SBD/logs_postgres
 mkdir -p "$LOGDIR"
 
 # Your SSH info for the host machine
@@ -55,17 +55,16 @@ HOST_IP=127.0.0.1
 # VU = Virtual Users, WH = Warehouses
 # MC = max_connections, SB = shared_buffers, WB = wal_buffers
 CONFIGS=(
-  "5,5,100,256MB,8MB"
   "10,10,200,512MB,16MB"
   "20,20,500,1GB,32MB"
   "50,20,500,2GB,64MB"
   "20,5,200,256MB,8MB"
   "10,10,200,2GB,64MB"
   "5,20,100,128MB,8MB"
-  "100,50,1000,4GB,128MB"
+  # "100,50,1000,4GB,128MB"
 )
 
-REPEATS=5
+REPEATS=2
 
 for config in "${CONFIGS[@]}"; do
   IFS=',' read -r VU WH MC SB WB <<< "$config"
@@ -75,30 +74,19 @@ for config in "${CONFIGS[@]}"; do
   set -v -x -e
 
   echo "🔧 [$LOGID] Restarting PostgreSQL container on host..."
-  # ssh $HOST_USER@$HOST_IP "~/restart_postgres.sh $MC $SB $WB"
-  C:/SBD/restart_postgres.sh ${MC} ${BP} ${LB}
+  C:/SBD/restart_postgres.sh ${MC} ${SB} ${WB}
   if [ $? -ne 0 ]; then
     echo "❌ Failed to restart PostgreSQL container — skipping config $config"
     continue
   fi
- 
+
+  export PGPASSWORD='postgres';
+  psql -h localhost -U postgres -c "DROP DATABASE IF EXISTS $DBNAME;"
+  psql -h localhost -U postgres -c "CREATE DATABASE $DBNAME;"
+  
+  sleep 90
+  
   set +v +x +e
-  
-# set -v -x -e
-
-  # echo "🔧 [$DBNAME] Restarting MariaDB on host with MC=$MC, BP=$BP, LB=$LB"
-  # # ssh $HOST_USER@$HOST_IP
-  # # MC="$MC" BP="$BP" LB="$LB" DBNAME="$DBNAME" "C:/SBD/restart_mariadb.sh"
-  # # "C:/SBD/restart_mariadb.sh \"${MC}\" \"${BP}\" \"${LB}\" \"${DBNAME}\""
-  # C:/SBD/restart_mariadb.sh ${MC} ${BP} ${LB} ${DBNAME}
-  # if [ $? -ne 0 ]; then
-    # echo "❌ Failed to restart MariaDB container — skipping config $config"
-    # continue
-  # fi
-  
-  # # Get-Service -ComputerName computername -Name servicename | Stop-Service -Force
-
-# set +v +x +e
 
   echo "📦 [$LOGID] Building schema"
   WH="$WH" "C:/Program Files/HammerDB-5.0/hammerdbcli" auto "$SCHEMA_TCL"

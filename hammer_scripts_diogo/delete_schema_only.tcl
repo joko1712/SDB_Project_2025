@@ -1,4 +1,4 @@
-puts "Creating TPCC schema for MariaDB..."
+puts "Deleting TPCC schemas for MariaDB..."
 
 dbset db maria
 dbset bm TPC-C
@@ -14,12 +14,6 @@ diset tpcc maria_pass root
 set dbname $env(DBNAME)
 diset tpcc maria_dbase $dbname
 
-diset tpcc maria_count_ware 10
-diset tpcc maria_storage_engine innodb
-diset tpcc maria_partition false
-diset tpcc maria_no_stored_procs false
-diset tpcc maria_allwarehouse true
-
 deleteschema
 
-puts "Schema build issued — check for success."
+puts "deleteschema issued — check for success."

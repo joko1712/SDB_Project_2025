@@ -1,5 +1,0 @@
-runas /user:Administrator "cmdName parameters"
-
-runas /user:Administrator "./run_benchmarks.sh"
-
-Start-Process powershell -ArgumentList "-File `"$env:USERPROFILE\path\to\yourscript.ps1`"" -Verb runAs

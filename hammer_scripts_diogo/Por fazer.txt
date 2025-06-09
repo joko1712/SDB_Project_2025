@@ -1,1 +1,0 @@
-Testar MariaDB e PostgreSQL COM e SEM ALLWAREHOUSES.
